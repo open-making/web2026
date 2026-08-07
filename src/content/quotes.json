@@ -1,0 +1,453 @@
+{
+  "quotes": [
+    {
+      "day": 0,
+      "text": "My laptop has excellent wifi, it disconnects exactly when I need it",
+      "author": "Darshan",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/1#issuecomment-5021318151"
+    },
+    {
+      "day": 1,
+      "text": "so immersive that it took us back to the days when they made this website..with poor bandwidth",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/2#issuecomment-5022935875"
+    },
+    {
+      "day": 1,
+      "text": "I think this was the first time I didn't feel sleepy during a presentation. Considering there was AC, too, I think that says it all.",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/2#issuecomment-5024244086"
+    },
+    {
+      "day": 2,
+      "text": "**What broke?** My confidece, **SEVERAL TIMES :(**",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5035344416"
+    },
+    {
+      "day": 2,
+      "text": "I'd search for a random CSS property, try it out, refresh the page, laugh at whatever happened, and repeat.",
+      "author": "Darshan",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5036458789"
+    },
+    {
+      "day": 3,
+      "text": "Lost my mind, control, brain cells, the will to live, energy, social battery, appetite,  social skills, my **EVERYTHING**",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/4#issuecomment-5048796955"
+    },
+    {
+      "day": 3,
+      "text": "switching between CSS and HTML was like watching Interstellar and Inception together",
+      "author": "Prakhar",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/4#issuecomment-5049185536"
+    },
+    {
+      "day": 3,
+      "text": "I can't sleep for next 2 days thinking about how the complex, CRM softwares are coded and what their developers are eating.",
+      "author": "Rushiat",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/4#issuecomment-5048667791"
+    },
+    {
+      "day": 4,
+      "text": "And to be honest I am not that afraid about the coding part, just there is some pain in my Superior Vena Cava which is bearable btw.",
+      "author": "Rushiat",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/6#issuecomment-5062278930"
+    },
+    {
+      "day": 4,
+      "text": "funny story I went home in hope that I will get good Wi-Fi and speed at home, but guess what hours later there's a power cut in my society",
+      "author": "Prakhar",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/6#issuecomment-5066630597"
+    },
+    {
+      "day": 5,
+      "text": "I showed him a screenshot of me adding a simple background to the website and I WAS SO THRILLED! I called it magic.",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/7#issuecomment-5080193159"
+    },
+    {
+      "day": 5,
+      "text": "I think this was the first time I opened VS Code and didn't get a headache.",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/7#issuecomment-5071248547"
+    },
+    {
+      "day": 5,
+      "text": "border-imager: cool to see, hard to get it done.",
+      "author": "Sanskar",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/7#issuecomment-5075540268"
+    },
+    {
+      "day": 6,
+      "text": "it was like learning to ride a bicycle...except every five minutes someone was secretly removing one of the wheels",
+      "author": "Darshan",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/8#issuecomment-5093572097"
+    },
+    {
+      "day": 6,
+      "text": "asking llms to cover too many areas can completely mess up the entire code, it's like you rush the recipe while cooking and what you get is a disaster",
+      "author": "Prakhar",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/8#issuecomment-5096014197"
+    },
+    {
+      "day": 7,
+      "text": "Today I feel like a dog who has lost in his consciousness :<",
+      "author": "Rushiat",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/9#issuecomment-5108754983"
+    },
+    {
+      "day": 7,
+      "text": "Every time someone asks, \"So what's your niche?\" my brain quietly replies, \"...yes.\"",
+      "author": "Darshan",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/9#issuecomment-5110399356"
+    },
+    {
+      "day": 8,
+      "text": "How to give a dead page a life?",
+      "author": "Sanskar",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/10#issuecomment-5123677419"
+    },
+    {
+      "day": 8,
+      "text": "what I'm having right now inside my brain is too ambitious but if that gets fully there online l'll give treat to everyone in class",
+      "author": "Rushiat",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/10#issuecomment-5126034290"
+    },
+    {
+      "day": 8,
+      "text": "I could divide my website into different realms like swarg lok, dharti lok, Paatal Lok cause a person too has layers like realms",
+      "author": "Prakhar",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/10#issuecomment-5134701693"
+    },
+    {
+      "day": 9,
+      "text": "It's difficult to believe that I can do all of this!",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/11#issuecomment-5134713792"
+    },
+    {
+      "day": 9,
+      "text": "Nothing that is confusing for me yet.",
+      "author": "Ashish",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/11#issuecomment-5134269719"
+    },
+    {
+      "day": 10,
+      "text": "By bugging the people around me for HELP and using Mr.AI to its fullest extent.",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/12#issuecomment-5146027704"
+    },
+    {
+      "day": 10,
+      "text": "Bheja is kinda a half fry today.",
+      "author": "Sanskar",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/12#issuecomment-5147708377"
+    },
+    {
+      "day": 12,
+      "text": "this feeling of uncertainty is something I always look for rather than the perfect end output",
+      "author": "Darshan",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/13#issuecomment-5184171235"
+    },
+    {
+      "day": 13,
+      "text": "its all coming together and its such a cool mom moment to see my baby come to life",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/14#issuecomment-5208298260"
+    },
+    {
+      "day": 14,
+      "text": "yo girl got committment issues cuz I forgot to press committ the entire day today. Uh...hehe...oops :(",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208347185"
+    },
+    {
+      "day": 14,
+      "text": "silly me ended up adding a birth chart generator to my astrology page yeah ik there is something wrong with me atp",
+      "author": "Prakhar",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208931590"
+    }
+  ],
+  "films": [
+    {
+      "day": 2,
+      "film": "Kiki's Delivery Service",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5036458789"
+    },
+    {
+      "day": 3,
+      "film": "Knives Out",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/4#issuecomment-5048872532"
+    },
+    {
+      "day": 4,
+      "film": "Singin' in the Rain (1952)",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/6#issuecomment-5064694808"
+    },
+    {
+      "day": 5,
+      "film": "The Red Shoes (1948)",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/7#issuecomment-5071966123"
+    },
+    {
+      "day": 6,
+      "film": "The Social Network (2010)",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/8#issuecomment-5093572097"
+    },
+    {
+      "day": 8,
+      "film": "Jaane Bhi Do Yaaro (1983)",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/10#issuecomment-5122548204"
+    },
+    {
+      "day": 9,
+      "film": "Project Hail Mary",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/11#issuecomment-5134892307"
+    },
+    {
+      "day": 10,
+      "film": "Tamas (1987)",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/12#issuecomment-5147852693"
+    },
+    {
+      "day": 12,
+      "film": "Run Lola Run (1998)",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/13#issuecomment-5184171235"
+    },
+    {
+      "day": 14,
+      "film": "The Wind Will Carry Us (1999)",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208515567"
+    }
+  ],
+  "signoffs": [
+    {
+      "day": 1,
+      "text": "Thanks! Byeeeeeee",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/2#issuecomment-5022935875"
+    },
+    {
+      "day": 1,
+      "text": "I'm off to go out for a walk. Good night, folks!",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/2#issuecomment-5024244086"
+    },
+    {
+      "day": 2,
+      "text": "okayy thanks byiiiieeeee",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5035387827"
+    },
+    {
+      "day": 2,
+      "text": "Adios",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5035344416"
+    },
+    {
+      "day": 3,
+      "text": "RIP-Me",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/4#issuecomment-5048796955"
+    },
+    {
+      "day": 3,
+      "text": "Chao",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/4#issuecomment-5047698222"
+    },
+    {
+      "day": 4,
+      "text": "Okieeee thanksss byieeee",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/6#issuecomment-5061765489"
+    },
+    {
+      "day": 4,
+      "text": "Good night!",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/6#issuecomment-5062334664"
+    },
+    {
+      "day": 5,
+      "text": "Thanks byiiieeeeee",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/7#issuecomment-5080193159"
+    },
+    {
+      "day": 6,
+      "text": "Good night!",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/8#issuecomment-5095383448"
+    },
+    {
+      "day": 7,
+      "text": "Okieee thanks byieeee",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/9#issuecomment-5109631990"
+    },
+    {
+      "day": 8,
+      "text": "Okie thanks byeee goodnight",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/10#issuecomment-5123020814"
+    },
+    {
+      "day": 9,
+      "text": "Good night!",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/11#issuecomment-5134713792"
+    },
+    {
+      "day": 10,
+      "text": "Okiieeee thanks byieeeeee",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/12#issuecomment-5146557568"
+    },
+    {
+      "day": 10,
+      "text": "Good Night!",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/12#issuecomment-5146027704"
+    },
+    {
+      "day": 12,
+      "text": "Okieee thanksss byiiieeeee",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/13#issuecomment-5182628817"
+    },
+    {
+      "day": 13,
+      "text": "Okieeeee thanksss byieeeeee",
+      "author": "Anchita",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/14#issuecomment-5208298260"
+    },
+    {
+      "day": 14,
+      "text": "Good Night!",
+      "author": "Aaditi",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208127572"
+    }
+  ],
+  "songs": [
+    {
+      "day": 2,
+      "song": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "author": "Anchita",
+      "via": "Is this the real life? Is this just fantasy?",
+      "spotifyUrl": "https://open.spotify.com/track/7tFiyTwD0nx5a1eklYtX2J",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5035387827"
+    },
+    {
+      "day": 2,
+      "song": "Kholo Kholo",
+      "artist": "Taare Zameen Par",
+      "author": "Anchita",
+      "via": "tu dhoop hai, cham se bikhar...tu hai nadi, tu hai bekhabar",
+      "spotifyUrl": "https://open.spotify.com/track/1IfhPnZpm0IZOoAM1PDjtw",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5035387827"
+    },
+    {
+      "day": 2,
+      "song": "The Climb",
+      "artist": "Miley Cyrus",
+      "author": "Prakhar",
+      "via": "Day 2 - The climb",
+      "spotifyUrl": "https://open.spotify.com/track/4lY1aUZ6VaApDv7p7lUtuE",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5036520502"
+    },
+    {
+      "day": 3,
+      "song": "Starlight",
+      "artist": "Muse",
+      "author": "Prakhar",
+      "via": "DAY 3- STARLIGHT",
+      "spotifyUrl": "https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/4#issuecomment-5049185536"
+    },
+    {
+      "day": 4,
+      "song": "Don't Stop Me Now",
+      "artist": "Queen",
+      "author": "Prakhar",
+      "via": "DAY-4 DON\"T STOP ME NOW",
+      "spotifyUrl": "https://open.spotify.com/track/7hQJA50XrCWABAu5v6QZ4i",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/6#issuecomment-5066630597"
+    },
+    {
+      "day": 5,
+      "song": "Clouds",
+      "artist": "NF",
+      "author": "Prakhar",
+      "via": "DAY 5 - CLOUDS",
+      "spotifyUrl": "https://open.spotify.com/track/1mvI5pGoh84IiFSbWxEkGH",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/7#issuecomment-5077491087"
+    },
+    {
+      "day": 6,
+      "song": "Snowdin Town",
+      "artist": "Toby Fox, Undertale OST",
+      "author": "Prakhar",
+      "via": "DAY 6 - SNOWDIN",
+      "spotifyUrl": "https://open.spotify.com/track/0ILwVc88cfxvjcOE4QsMar",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/8#issuecomment-5096014197"
+    },
+    {
+      "day": 8,
+      "song": "Ruins",
+      "artist": "Toby Fox, Undertale OST",
+      "author": "Prakhar",
+      "via": "DAY-8 RUINS",
+      "spotifyUrl": "https://open.spotify.com/track/36zoAT4JkjP3u42isW9HWk",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/10#issuecomment-5134701693"
+    },
+    {
+      "day": 10,
+      "song": "Space Diaries",
+      "artist": "Polaris",
+      "author": "Prakhar",
+      "via": "Day 10 SPACE DIARIES",
+      "spotifyUrl": "https://open.spotify.com/album/7k0K5VPMO0uBpBwqed2PKc",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/12#issuecomment-5147461170"
+    },
+    {
+      "day": 12,
+      "song": "Something Just Like This",
+      "artist": "The Chainsmokers & Coldplay",
+      "author": "Prakhar",
+      "via": "DAY 12 I WANT SOMETHING JUST LIKE THIS",
+      "spotifyUrl": "https://open.spotify.com/track/6RUKPb4LETWmmr3iAEQktW",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/13#issuecomment-5187801239"
+    },
+    {
+      "day": 12,
+      "song": "I'm Going Slightly Mad",
+      "artist": "Queen",
+      "author": "Darshan",
+      "via": "'I'm Going Slightly Mad' by Queen is playing inside my mind hahaha",
+      "spotifyUrl": "https://open.spotify.com/track/4dSZWHJm4CM6Wln5xE8jHm",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/13#issuecomment-5184171235"
+    },
+    {
+      "day": 14,
+      "song": "Undertale",
+      "artist": "Toby Fox, Undertale OST",
+      "author": "Prakhar",
+      "via": "Day 14 UNDERTALE",
+      "spotifyUrl": "https://open.spotify.com/track/02lsfhthNFGv3zt9XpfKEd",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208931590"
+    },
+    {
+      "day": 14,
+      "song": "Bhaag D.K. Bose, Aandhi Aayi",
+      "artist": "Delhi Belly",
+      "author": "Darshan",
+      "via": "'PORK'BUN ~ 'Bhaag DK Bose' Song ~ Same Scene",
+      "spotifyUrl": "https://open.spotify.com/track/1sxh0eqIb8ulYypPuq6ZRu",
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208515567"
+    }
+  ]
+}

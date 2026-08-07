@@ -1,35 +1,65 @@
 <script lang="ts">
-	// When the notes got written: 24 IST hour bins, one pink bar each.
+	// When the notes got written: one dot per note, stacked over its IST hour like
+	// tally marks. The axis runs 6am → 6am so the late-night cluster sits together
+	// on the right instead of wrapping around midnight.
+	// D3 for the math (scales), Svelte for the DOM.
+	import { scaleBand, scaleLinear } from 'd3';
+
 	let { hours, annotation = '' }: { hours: number[]; annotation?: string } = $props();
 
-	const W = 640;
-	const H = 220;
-	const PAD = { top: 28, right: 12, bottom: 34, left: 12 };
-	const max = Math.max(...hours);
-	const bw = (W - PAD.left - PAD.right) / 24;
-	const y = (v: number) => PAD.top + (1 - v / max) * (H - PAD.top - PAD.bottom);
-	const ticks = [0, 6, 12, 18];
-	const tickLabel = (h: number) => (h === 0 ? '12am' : h === 12 ? '12pm' : h < 12 ? `${h}am` : `${h - 12}pm`);
+	// display order: 6am through 5am the next morning
+	const order = Array.from({ length: 24 }, (_, i) => (i + 6) % 24);
+
+	let width = $state(640);
+	const H = 230;
+	const PAD = { top: 20, right: 12, bottom: 34, left: 12 };
+
+	const x = $derived(
+		scaleBand<number>().domain(order).range([PAD.left, width - PAD.right]).paddingInner(0.25)
+	);
+	const y = $derived(
+		scaleLinear()
+			.domain([0, Math.max(...hours)])
+			.range([H - PAD.bottom, PAD.top])
+	);
+	const dotR = $derived(Math.min(4.5, x.bandwidth() * 0.38));
+	// vertical gap between stacked dots, capped so tall stacks fit the frame
+	const step = $derived(Math.min(dotR * 2 + 3, (H - PAD.top - PAD.bottom) / Math.max(...hours)));
+
+	// the after-midnight stretch, 12am–5am, sits at the right end of the axis
+	const midnightX = $derived(x(0)! - (x.step() * x.paddingInner()) / 2);
+
+	const ticks = [6, 12, 18, 0];
+	const tickLabel = (h: number) =>
+		h === 0 ? '12am' : h === 12 ? '12pm' : h < 12 ? `${h}am` : `${h - 12}pm`;
 </script>
 
-<figure>
-	<svg viewBox="0 0 {W} {H}" role="img" aria-label="Notes posted by hour of day (IST)">
-		{#each hours as count, h}
-			{#if count > 0}
-				<rect
-					x={PAD.left + h * bw + 2}
-					y={y(count)}
-					width={bw - 4}
-					height={H - PAD.bottom - y(count)}
-					class="bar"
+<figure bind:clientWidth={width}>
+	<svg viewBox="0 0 {width} {H}" role="img" aria-label="Notes posted by hour of day (IST), one dot per note">
+		<rect
+			x={midnightX}
+			y={PAD.top - 8}
+			width={width - PAD.right - midnightX}
+			height={H - PAD.bottom - PAD.top + 8}
+			class="midnight"
+		/>
+		{#each order as h}
+			{#each { length: hours[h] } as _, i}
+				<circle
+					cx={x(h)! + x.bandwidth() / 2}
+					cy={H - PAD.bottom - dotR - 1 - i * step}
+					r={dotR}
+					class="dot"
 				/>
-				<text x={PAD.left + h * bw + bw / 2} y={y(count) - 6} class="count">{count}</text>
-			{/if}
+			{/each}
 		{/each}
-		<line x1={PAD.left} y1={H - PAD.bottom} x2={W - PAD.right} y2={H - PAD.bottom} class="axis" />
+		<line x1={PAD.left} y1={H - PAD.bottom} x2={width - PAD.right} y2={H - PAD.bottom} class="axis" />
 		{#each ticks as t}
-			<text x={PAD.left + t * bw + bw / 2} y={H - PAD.bottom + 22} class="tick">{tickLabel(t)}</text>
+			<text x={x(t)! + x.bandwidth() / 2} y={H - PAD.bottom + 22} class="tick">{tickLabel(t)}</text>
 		{/each}
+		{#if width >= 420}
+			<text x={(midnightX + width - PAD.right) / 2} y={PAD.top} class="note">after midnight</text>
+		{/if}
 	</svg>
 	{#if annotation}
 		<figcaption class="font-hand">{annotation}</figcaption>
@@ -37,13 +67,21 @@
 </figure>
 
 <style>
+	figure {
+		width: 100%;
+	}
 	svg {
 		width: 100%;
 		height: auto;
 		overflow: visible;
 	}
-	.bar {
+	.dot {
 		fill: var(--color-pink);
+		mix-blend-mode: multiply;
+	}
+	.midnight {
+		fill: var(--color-violet);
+		opacity: 0.1;
 		mix-blend-mode: multiply;
 	}
 	.axis {
@@ -51,16 +89,16 @@
 		stroke-width: 2;
 		stroke-dasharray: 6 4;
 	}
-	.count {
-		font-family: var(--font-hand);
-		font-size: 12px;
-		fill: var(--color-blue);
-		text-anchor: middle;
-	}
 	.tick {
 		font-family: var(--font-hand);
 		font-size: 13px;
 		fill: var(--color-blue);
+		text-anchor: middle;
+	}
+	.note {
+		font-family: var(--font-hand);
+		font-size: 13px;
+		fill: var(--color-violet);
 		text-anchor: middle;
 	}
 	figcaption {

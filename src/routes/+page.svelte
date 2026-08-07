@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>the web2026 bulletin</title>
+	<title>the web2026 zine</title>
 	<meta
 		name="description"
 		content="Seven students, 25 days, one small web. The showcase issue of Introduction to Making for the Web, 2026."
@@ -22,9 +22,9 @@
 <PageBreak page="2" />
 <Toc />
 <PageBreak page="3" />
-<Season />
-<PageBreak page="4" />
 <SevenSites />
+<PageBreak page="4" />
+<Season />
 <PageBreak page="5" />
 <Archive />
 <PageBreak page="6" />

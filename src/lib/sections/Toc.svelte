@@ -1,19 +1,24 @@
 <script lang="ts">
+	import { sections } from '$lib/data/section-titles';
+
 	const entries = [
-		{ href: '#season', page: '3', label: 'the season' },
-		{ href: '#sites', page: '4', label: 'the seven sites' },
-		{ href: '#archive', page: '5', label: 'from the archive' },
-		{ href: '#columns', page: '6', label: 'the columns' },
-		{ href: '#contributors', page: '7', label: 'contributors' }
+		{ href: '#sites', page: '3', ...sections.sites },
+		{ href: '#season', page: '4', ...sections.season },
+		{ href: '#archive', page: '5', ...sections.archive },
+		{ href: '#columns', page: '6', ...sections.columns },
+		{ href: '#contributors', page: '7', ...sections.contributors }
 	];
 </script>
 
 <section id="toc" class="toc">
-	<h2 class="font-display text-2xl font-bold">in this issue</h2>
+	<h2 class="font-display text-2xl font-bold">
+		{sections.toc.title} <span class="h2tag font-hand">{sections.toc.tag}</span>
+	</h2>
 	<ol>
 		{#each entries as e}
 			<li>
-				<a href={e.href}>{e.label}</a>
+				<a href={e.href}>{e.title}</a>
+				<span class="entrytag font-hand">{e.tag}</span>
 				<span class="dots" aria-hidden="true"></span>
 				<span class="pg font-hand">p. {e.page}</span>
 			</li>
@@ -52,5 +57,9 @@
 	}
 	.pg {
 		font-size: 0.85rem;
+	}
+	.entrytag {
+		font-size: 0.8rem;
+		color: var(--color-pink);
 	}
 </style>

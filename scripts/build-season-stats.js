@@ -69,15 +69,26 @@ const afterMidnight = allNotes.filter((n) => {
 
 // merge sentiment cache if a previous sentiment pass produced one
 let sentimentByDay = {};
+let sentimentByStudentDay = {};
 try {
 	const cache = JSON.parse(await fs.readFile('src/lib/data/sentiment-cache.json', 'utf8'));
 	sentimentByDay = cache.byDay ?? {};
+	sentimentByStudentDay = cache.byStudentDay ?? {};
 } catch {
 	console.log('ℹ️  no sentiment cache yet — sentiment fields stay null');
 }
 for (const d of Object.values(days)) {
 	if (sentimentByDay[d.day] !== undefined) d.sentiment = sentimentByDay[d.day];
 }
+
+// per-student day/sentiment series for the contributor pages
+const perStudent = {};
+for (const [key, score] of Object.entries(sentimentByStudentDay)) {
+	const [username, day] = key.split(':');
+	if (!perStudent[username]) perStudent[username] = [];
+	perStudent[username].push({ day: parseInt(day, 10), sentiment: score });
+}
+for (const series of Object.values(perStudent)) series.sort((a, b) => a.day - b.day);
 
 const stats = {
 	generatedAt: db.generatedAt,
@@ -97,7 +108,8 @@ const stats = {
 	},
 	days: Object.values(days).sort((a, b) => a.day - b.day),
 	hoursIST: hours,
-	lengthBuckets: lengthBuckets.map(({ label, count }) => ({ label, count }))
+	lengthBuckets: lengthBuckets.map(({ label, count }) => ({ label, count })),
+	perStudent
 };
 
 await fs.writeFile('src/lib/data/season-stats.json', JSON.stringify(stats, null, 2));

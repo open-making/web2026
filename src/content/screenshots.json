@@ -1,0 +1,32 @@
+{
+	"final": [
+		{ "slug": "aaditi", "name": "Aaditi", "url": "https://unrivaled-naiad-69eda6.netlify.app/" },
+		{ "slug": "anchita", "name": "Anchita", "url": "https://anchitascorner.netlify.app/" },
+		{ "slug": "sanskar", "name": "Sanskar", "url": "https://sanskarportfolio2026.netlify.app/" },
+		{ "slug": "ashish", "name": "Ashish", "url": "https://ashishgajjar-portfolio.netlify.app/" }
+	],
+	"clocks": [
+		{ "slug": "anchita", "name": "Anchita", "url": "https://hydrationclock.netlify.app/" },
+		{ "slug": "rushiat", "name": "Rushiat", "url": "https://rushikeshclock.netlify.app/" },
+		{ "slug": "darshan", "name": "Darshan", "url": "https://cinematictime.netlify.app/" },
+		{ "slug": "sanskar", "name": "Sanskar", "url": "https://coffeebreakclock.netlify.app/" },
+		{ "slug": "prakhar", "name": "Prakhar", "url": "https://solar-system-prakhar.netlify.app/" }
+	],
+	"bohemian": [
+		{ "slug": "darshan", "name": "Darshan", "url": "https://darshanaqueenfan.netlify.app/" },
+		{ "slug": "prakhar", "name": "Prakhar", "url": "https://praakhar-ugly-bohemian-rhapsody.netlify.app/" },
+		{ "slug": "sanskar", "name": "Sanskar", "url": "https://uglyweb02.netlify.app/" },
+		{ "slug": "ashish", "name": "Ashish", "url": "https://uglywebsite002.netlify.app/" },
+		{ "slug": "rushiat", "name": "Rushiat", "url": "https://sparkly-sopapillas-d43959.netlify.app/" },
+		{ "slug": "aaditi", "name": "Aaditi", "url": "https://lambent-lamington-db8179.netlify.app" },
+		{ "slug": "anchita", "name": "Anchita", "url": "https://anchita-bohemianrhapsody.netlify.app/" }
+	],
+	"print": [
+		{ "slug": "sanskar", "name": "Sanskar", "url": "https://thekhalsatimesbysanskar.netlify.app/" },
+		{ "slug": "prakhar", "name": "Prakhar", "url": "https://prakhar-storysubmission.netlify.app/" },
+		{ "slug": "aaditi", "name": "Aaditi", "url": "https://thedailyimperialexcuse.netlify.app" },
+		{ "slug": "anchita", "name": "Anchita", "url": "https://anchitasnewspaper.netlify.app/" },
+		{ "slug": "rushiat", "name": "Rushiat", "url": "https://animaltimes.netlify.app/" },
+		{ "slug": "darshan", "name": "Darshan", "url": "https://darshanthelastdreamofoldoakfairytale.netlify.app/" }
+	]
+}

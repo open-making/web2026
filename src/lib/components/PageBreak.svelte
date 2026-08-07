@@ -1,6 +1,6 @@
 <script lang="ts">
 	// A cut line between zine pages: crop marks at the corners, the folio in the middle.
-	let { page, title = 'the web2026 bulletin' }: { page: string; title?: string } = $props();
+	let { page, title = 'the web2026 zine' }: { page: string; title?: string } = $props();
 </script>
 
 <div class="cut" role="separator">

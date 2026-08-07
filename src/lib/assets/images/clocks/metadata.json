@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://hydrationclock.netlify.app/",
+    "filename": "hydrationclock.netlify.app.webp",
+    "originalPath": "src/lib/assets/images/clocks/original/hydrationclock.netlify.app.png",
+    "processedPath": "src/lib/assets/images/clocks/processed/hydrationclock.netlify.app.webp",
+    "fileSize": 13386,
+    "reduction": 94
+  },
+  {
+    "url": "https://rushikeshclock.netlify.app/",
+    "filename": "rushikeshclock.netlify.app.webp",
+    "originalPath": "src/lib/assets/images/clocks/original/rushikeshclock.netlify.app.png",
+    "processedPath": "src/lib/assets/images/clocks/processed/rushikeshclock.netlify.app.webp",
+    "fileSize": 14614,
+    "reduction": 72
+  },
+  {
+    "url": "https://cinematictime.netlify.app/",
+    "filename": "cinematictime.netlify.app.webp",
+    "originalPath": "src/lib/assets/images/clocks/original/cinematictime.netlify.app.png",
+    "processedPath": "src/lib/assets/images/clocks/processed/cinematictime.netlify.app.webp",
+    "fileSize": 43230,
+    "reduction": 85
+  },
+  {
+    "url": "https://coffeebreakclock.netlify.app/",
+    "filename": "coffeebreakclock.netlify.app.webp",
+    "originalPath": "src/lib/assets/images/clocks/original/coffeebreakclock.netlify.app.png",
+    "processedPath": "src/lib/assets/images/clocks/processed/coffeebreakclock.netlify.app.webp",
+    "fileSize": 9688,
+    "reduction": 68
+  },
+  {
+    "url": "https://solar-system-prakhar.netlify.app/",
+    "filename": "solar-system-prakhar.netlify.app.webp",
+    "originalPath": "src/lib/assets/images/clocks/original/solar-system-prakhar.netlify.app.png",
+    "processedPath": "src/lib/assets/images/clocks/processed/solar-system-prakhar.netlify.app.webp",
+    "fileSize": 34882,
+    "reduction": 94
+  }
+]

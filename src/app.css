@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-/* ── the web2026 bulletin: two riso inks on paper ─────────────────────────────
+/* ── the web2026 zine: two riso inks on paper ─────────────────────────────
    Everything on the site is printed with these. Pink and blue overlap to
    violet (real overlaps use mix-blend-mode: multiply; --color-violet is the
    precomputed flat value for text and fills that sit on plain paper). */
@@ -11,42 +11,49 @@
 	font-weight: 400;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: 'Cartridge';
 	src: url('./lib/assets/fonts/Cartridge-BoldSoft.woff2') format('woff2');
 	font-weight: 700;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: 'Cartridge';
 	src: url('./lib/assets/fonts/Cartridge-BlackSoft.woff2') format('woff2');
 	font-weight: 900;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: 'Scorekard';
 	src: url('./lib/assets/fonts/Scorekard-Regular.woff2') format('woff2');
 	font-weight: 400;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: 'Scorekard';
 	src: url('./lib/assets/fonts/Scorekard-Semibold.woff2') format('woff2');
 	font-weight: 600;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: 'Scorekard';
 	src: url('./lib/assets/fonts/Scorekard-Bold.woff2') format('woff2');
 	font-weight: 700;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: 'Spagetty';
 	src: url('./lib/assets/fonts/Spagetty-Regular.woff2') format('woff2');
 	font-weight: 400;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: 'Spagetty Rough';
 	src: url('./lib/assets/fonts/Spagetty-Rough.woff2') format('woff2');
@@ -59,8 +66,10 @@
 	--color-paper: #faf7ef;
 	--color-pink: #ff48b0;
 	--color-blue: #3255a4;
-	--color-violet: #321871; /* pink × blue, multiplied */
-	--color-pink-tint: #ffd4ea; /* 25% pink screen on paper, for fills under text */
+	--color-violet: #321871;
+	/* pink × blue, multiplied */
+	--color-pink-tint: #ffd4ea;
+	/* 25% pink screen on paper, for fills under text */
 	--color-blue-tint: #d3dcef;
 
 	--font-display: 'Cartridge', sans-serif;
@@ -73,7 +82,7 @@
 	/* vertical rhythm: body 17px/28px, blocks land back on the leading */
 	--leading: 1.75rem;
 	--measure: 42rem;
-	--page-max: 64rem;
+	--page-max: 56rem;
 }
 
 html {
@@ -103,11 +112,34 @@ html {
 @utility misreg {
 	text-shadow: 0.045em 0.045em 0 var(--color-pink);
 }
+
 @utility misreg-blue {
 	text-shadow: 0.045em 0.045em 0 var(--color-blue);
+}
+
+/* the functional section name, pencilled next to its song-title headline */
+@utility h2tag {
+	font-size: 1.05rem;
+	font-weight: 400;
+	color: var(--color-pink);
+	margin-left: 0.4rem;
+	text-shadow: none;
+	white-space: nowrap;
 }
 
 /* an ink block that multiplies into whatever it overlaps, like a real pass */
 @utility overprint {
 	mix-blend-mode: multiply;
+}
+
+/* a paper scrap pasted onto the page: white stock with a faint grain, a soft
+   contact shadow, a slight tilt set per-element via --tilt */
+@utility scrap {
+	background-color: #fffcf4;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.32 0 0 0 0 0.25 0 0 0 0 0.2 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+	box-shadow:
+		0 1px 2px rgba(50, 24, 113, 0.14),
+		0 4px 10px rgba(50, 24, 113, 0.12),
+		0 10px 24px rgba(50, 24, 113, 0.07);
+	transform: rotate(var(--tilt, -1deg));
 }

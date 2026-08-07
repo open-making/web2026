@@ -22,7 +22,7 @@
       "date": "2026-07-20",
       "noteCount": 8,
       "totalWords": 43,
-      "sentiment": null
+      "sentiment": 0.9544
     },
     {
       "day": 1,
@@ -31,7 +31,7 @@
       "date": "2026-07-20",
       "noteCount": 7,
       "totalWords": 886,
-      "sentiment": null
+      "sentiment": 0.6444
     },
     {
       "day": 2,
@@ -40,7 +40,7 @@
       "date": "2026-07-21",
       "noteCount": 7,
       "totalWords": 1886,
-      "sentiment": null
+      "sentiment": 0.6373
     },
     {
       "day": 3,
@@ -49,7 +49,7 @@
       "date": "2026-07-22",
       "noteCount": 6,
       "totalWords": 1313,
-      "sentiment": null
+      "sentiment": 0.4899
     },
     {
       "day": 4,
@@ -58,7 +58,7 @@
       "date": "2026-07-23",
       "noteCount": 6,
       "totalWords": 1581,
-      "sentiment": null
+      "sentiment": 0.5108
     },
     {
       "day": 5,
@@ -67,7 +67,7 @@
       "date": "2026-07-24",
       "noteCount": 7,
       "totalWords": 1195,
-      "sentiment": null
+      "sentiment": 0.6721
     },
     {
       "day": 6,
@@ -76,7 +76,7 @@
       "date": "2026-07-27",
       "noteCount": 6,
       "totalWords": 2066,
-      "sentiment": null
+      "sentiment": 0.5885
     },
     {
       "day": 7,
@@ -85,7 +85,7 @@
       "date": "2026-07-28",
       "noteCount": 7,
       "totalWords": 2393,
-      "sentiment": null
+      "sentiment": 0.2237
     },
     {
       "day": 8,
@@ -94,7 +94,7 @@
       "date": "2026-07-29",
       "noteCount": 7,
       "totalWords": 1236,
-      "sentiment": null
+      "sentiment": 0.5561
     },
     {
       "day": 9,
@@ -103,7 +103,7 @@
       "date": "2026-07-30",
       "noteCount": 6,
       "totalWords": 1266,
-      "sentiment": null
+      "sentiment": 0.801
     },
     {
       "day": 10,
@@ -112,7 +112,7 @@
       "date": "2026-07-31",
       "noteCount": 6,
       "totalWords": 1110,
-      "sentiment": null
+      "sentiment": 0.2848
     },
     {
       "day": 12,
@@ -121,7 +121,7 @@
       "date": "2026-08-04",
       "noteCount": 7,
       "totalWords": 1185,
-      "sentiment": null
+      "sentiment": 0.5477
     },
     {
       "day": 13,
@@ -130,7 +130,7 @@
       "date": "2026-08-05",
       "noteCount": 5,
       "totalWords": 878,
-      "sentiment": null
+      "sentiment": 0.8476
     },
     {
       "day": 14,
@@ -139,7 +139,7 @@
       "date": "2026-08-06",
       "noteCount": 7,
       "totalWords": 1133,
-      "sentiment": null
+      "sentiment": 0.1138
     }
   ],
   "hoursIST": [
@@ -189,5 +189,381 @@
       "label": "500+",
       "count": 7
     }
-  ]
+  ],
+  "perStudent": {
+    "aaditisharmaa29-web": [
+      {
+        "day": 0,
+        "sentiment": 0.8193
+      },
+      {
+        "day": 1,
+        "sentiment": 0.958
+      },
+      {
+        "day": 2,
+        "sentiment": 0.6631
+      },
+      {
+        "day": 3,
+        "sentiment": 0.8848
+      },
+      {
+        "day": 4,
+        "sentiment": 0.8363
+      },
+      {
+        "day": 5,
+        "sentiment": 0.9295
+      },
+      {
+        "day": 6,
+        "sentiment": 0.5894
+      },
+      {
+        "day": 7,
+        "sentiment": 0.5716
+      },
+      {
+        "day": 8,
+        "sentiment": 0.5438
+      },
+      {
+        "day": 9,
+        "sentiment": 0.7464
+      },
+      {
+        "day": 10,
+        "sentiment": 0.9103
+      },
+      {
+        "day": 12,
+        "sentiment": 0.9775
+      },
+      {
+        "day": 14,
+        "sentiment": 0.856
+      }
+    ],
+    "anchita101": [
+      {
+        "day": 0,
+        "sentiment": 0
+      },
+      {
+        "day": 1,
+        "sentiment": 0.9375
+      },
+      {
+        "day": 2,
+        "sentiment": 0.0762
+      },
+      {
+        "day": 3,
+        "sentiment": -0.8088
+      },
+      {
+        "day": 4,
+        "sentiment": 0.7773
+      },
+      {
+        "day": 5,
+        "sentiment": 0.9537
+      },
+      {
+        "day": 6,
+        "sentiment": 0.8185
+      },
+      {
+        "day": 7,
+        "sentiment": 0.2309
+      },
+      {
+        "day": 8,
+        "sentiment": 0.7513
+      },
+      {
+        "day": 9,
+        "sentiment": 0.7666
+      },
+      {
+        "day": 10,
+        "sentiment": 0.9632
+      },
+      {
+        "day": 12,
+        "sentiment": 0.9716
+      },
+      {
+        "day": 13,
+        "sentiment": 0.8598
+      },
+      {
+        "day": 14,
+        "sentiment": -0.4432
+      }
+    ],
+    "rushiatdesign-cmyk": [
+      {
+        "day": 0,
+        "sentiment": 0
+      },
+      {
+        "day": 1,
+        "sentiment": 0.2237
+      },
+      {
+        "day": 2,
+        "sentiment": 0.6453
+      },
+      {
+        "day": 3,
+        "sentiment": 0.6343
+      },
+      {
+        "day": 4,
+        "sentiment": 0.9673
+      },
+      {
+        "day": 5,
+        "sentiment": 0.9075
+      },
+      {
+        "day": 6,
+        "sentiment": 0.8954
+      },
+      {
+        "day": 7,
+        "sentiment": -0.0249
+      },
+      {
+        "day": 8,
+        "sentiment": 0.9698
+      },
+      {
+        "day": 9,
+        "sentiment": 0.8507
+      },
+      {
+        "day": 10,
+        "sentiment": 0
+      },
+      {
+        "day": 12,
+        "sentiment": -0.5859
+      },
+      {
+        "day": 13,
+        "sentiment": 0.8185
+      },
+      {
+        "day": 14,
+        "sentiment": -0.2267
+      }
+    ],
+    "pathakdarshan2705-creator": [
+      {
+        "day": 0,
+        "sentiment": 0.8809
+      },
+      {
+        "day": 1,
+        "sentiment": 0.1817
+      },
+      {
+        "day": 2,
+        "sentiment": 0.7207
+      },
+      {
+        "day": 3,
+        "sentiment": 0.9459
+      },
+      {
+        "day": 4,
+        "sentiment": 0.5545
+      },
+      {
+        "day": 5,
+        "sentiment": 0.2077
+      },
+      {
+        "day": 6,
+        "sentiment": 0.3295
+      },
+      {
+        "day": 7,
+        "sentiment": 0.4297
+      },
+      {
+        "day": 8,
+        "sentiment": 0.8744
+      },
+      {
+        "day": 9,
+        "sentiment": 0.9482
+      },
+      {
+        "day": 10,
+        "sentiment": -0.0911
+      },
+      {
+        "day": 12,
+        "sentiment": -0.1377
+      },
+      {
+        "day": 13,
+        "sentiment": 0.2002
+      },
+      {
+        "day": 14,
+        "sentiment": 0.9145
+      }
+    ],
+    "sanskarshendge": [
+      {
+        "day": 0,
+        "sentiment": 0
+      },
+      {
+        "day": 1,
+        "sentiment": 0.3136
+      },
+      {
+        "day": 2,
+        "sentiment": 0.7958
+      },
+      {
+        "day": 3,
+        "sentiment": 0.9653
+      },
+      {
+        "day": 4,
+        "sentiment": 0.709
+      },
+      {
+        "day": 5,
+        "sentiment": 0.9763
+      },
+      {
+        "day": 6,
+        "sentiment": 0.9709
+      },
+      {
+        "day": 7,
+        "sentiment": 0.941
+      },
+      {
+        "day": 8,
+        "sentiment": -0.1531
+      },
+      {
+        "day": 9,
+        "sentiment": 0.7333
+      },
+      {
+        "day": 10,
+        "sentiment": 0.2082
+      },
+      {
+        "day": 12,
+        "sentiment": 0.3492
+      },
+      {
+        "day": 13,
+        "sentiment": 0.2832
+      },
+      {
+        "day": 14,
+        "sentiment": 0.0654
+      }
+    ],
+    "prakhardzn": [
+      {
+        "day": 1,
+        "sentiment": 0.401
+      },
+      {
+        "day": 2,
+        "sentiment": 0.8428
+      },
+      {
+        "day": 3,
+        "sentiment": 0.8125
+      },
+      {
+        "day": 4,
+        "sentiment": -0.3628
+      },
+      {
+        "day": 5,
+        "sentiment": 0.8671
+      },
+      {
+        "day": 6,
+        "sentiment": 0.228
+      },
+      {
+        "day": 7,
+        "sentiment": 0.2819
+      },
+      {
+        "day": 8,
+        "sentiment": 0.9014
+      },
+      {
+        "day": 10,
+        "sentiment": 0.8228
+      },
+      {
+        "day": 12,
+        "sentiment": 0.2939
+      },
+      {
+        "day": 14,
+        "sentiment": 0.4006
+      }
+    ],
+    "ashishgajjar360-source": [
+      {
+        "day": 0,
+        "sentiment": 0
+      },
+      {
+        "day": 1,
+        "sentiment": 0.9393
+      },
+      {
+        "day": 2,
+        "sentiment": 0.9813
+      },
+      {
+        "day": 5,
+        "sentiment": -0.0652
+      },
+      {
+        "day": 7,
+        "sentiment": -0.2365
+      },
+      {
+        "day": 8,
+        "sentiment": 0.1923
+      },
+      {
+        "day": 9,
+        "sentiment": 0.9543
+      },
+      {
+        "day": 12,
+        "sentiment": 0.0418
+      },
+      {
+        "day": 13,
+        "sentiment": -0.5883
+      },
+      {
+        "day": 14,
+        "sentiment": 0.294
+      }
+    ]
+  }
 }
