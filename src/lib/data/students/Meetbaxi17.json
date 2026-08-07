@@ -1,0 +1,446 @@
+{
+  "username": "Meetbaxi17",
+  "name": "Meet Baxi",
+  "website": "https://meetbaxi-test.netlify.app/",
+  "socialLinks": [
+    "https://www.instagram.com/meetbaxi/",
+    "https://www.linkedin.com/in/meetbaxi/",
+    "https://www.youtube.com/@MeetBaxi"
+  ],
+  "devNotes": [
+    {
+      "id": "dev-notes-2-comment-3095972842",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Hello World",
+      "commentId": 3095972842,
+      "content": "## Internet Archive Redirecting Page\nI was really impatient and\nI saw this and found it funny the tag **Impatient?**\n\n<img width=\"1242\" height=\"671\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e8231d71-2a3c-4fbc-ac44-e63e793f14aa\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/e8231d71-2a3c-4fbc-ac44-e63e793f14aa"
+      ],
+      "wordCount": 26,
+      "date": {
+        "iso": "2025-07-21T09:53:14.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 21, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/2#issuecomment-3095972842"
+    },
+    {
+      "id": "dev-notes-1-comment-3098047757",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Day 1: The Small Web",
+      "commentId": 3098047757,
+      "content": "# Think outside the Grids (Box) | Meet Baxi\n\n**AI should help you learn and build, not think and create for you.** — As this line stuck with me since I read the AI policy, here I am making full use of my keyboard and mind.\n\nBeing a Computer Engineer and having a hate-kind of relationship with coding, and always having a midnight urge to pick up coding again and master it, and keeping that feather as well as I mentioned, I don’t want to give a short end on any of my skills and use my full potential, and this module is working just like a catalyst for me.\n\n## A Half Story Sold - Modern Day Websites\n\nWhile seeing Gen Z on campus, I always feel why they all look like the same kid as some out of a Netflix series, but today while getting different perspectives on websites, I realized we are doing the same thing with websites as well, killing the unique voice and making all the same round-edge boxes and putting them into the templates of society, like wearing the same oversized t-shirt and the same sneakers that everybody knows.\n\n## Website Museum\n\n- A time travel that we never thought we needed, but sometimes looking backward can give inspiration to code your next canvas.\n- We are making everything so template-based that in the name of aesthetics, the old websites feel like modern aesthetics crime, but just like art, they are bold and have unique voices and personalities rather than muted voices of crowds.\n\n## 6 Pages - Oh, that I can read!\n\n- A website, or anything interactive, is inherently unfinished. It’s imperfect, maybe sometimes it even has a few bugs. - This made me feel less bad for my unfinished portfolio website.\n- Metaphors are powerful for understanding and explaining something.\n\nTo sum up today’s class, it definitely gave me a unique perspective towards websites and somewhere made me rethink my relationship with coding.\n\n \n\n[Class Assignment | Figma](https://www.figma.com/design/AuA4d8gcFeyKxwFK90mZrb/Web-Assignment-01?node-id=1-8&t=TVNyKHNyxdF3T74m-1)\n\n[WWW-MeetBaxi.pdf](https://github.com/user-attachments/files/21352727/WWW-MeetBaxi.pdf)\n\n![Image](https://github.com/user-attachments/assets/896d9d58-bd8c-44e2-b4ad-ed40298ade9b)\n\n\n\n",
+      "urls": [
+        "https://github.com/user-attachments/files/21352727/WWW-MeetBaxi.pdf",
+        "https://github.com/user-attachments/assets/896d9d58-bd8c-44e2-b4ad-ed40298ade9b"
+      ],
+      "wordCount": 339,
+      "date": {
+        "iso": "2025-07-21T19:12:01.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098047757"
+    },
+    {
+      "id": "dev-notes-3-comment-3104159859",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 3,
+      "issueTitle": "Day 2: HTML, CSS, and You",
+      "commentId": 3104159859,
+      "content": "## Muscle Memory Kicks In | Meet Baxi\n\n< html >\n\nI realized it's not that I hate coding; it was the teaching method in engineering that I didn't like.\n\nFor someone who keeps checking every tiny space to the pixel, getting an assignment to make every ugly thing possible opened my mind to infinite possibilities of exploring and trying without worrying about the outcome. So, I did exactly what I would never do if I had to follow the rules of visual aesthetics.\n\n- Dopamine reward — The game with 32 levels 🏆\n\n< /html > ",
+      "urls": [],
+      "wordCount": 98,
+      "date": {
+        "iso": "2025-07-22T18:06:08.000Z",
+        "date": "2025-07-22",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/3#issuecomment-3104159859"
+    },
+    {
+      "id": "dev-notes-4-comment-3109882248",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 4,
+      "issueTitle": "Day 3: Seeing and Searching",
+      "commentId": 3109882248,
+      "content": "## Inspect, Learn, Apply - Repeat | Meet Baxi\n\n<h3> Liked this buzzer's CSS in the yesterday’s PPT so dropping it here </h3>\n.buzzer-button.svelte-1v869er:hover {\n   transform: scale(1.05);\n   box-shadow: 0 12px 0 0 var(--color-neutral, #2B2B2B), 0 0 0 8px #f8d7da, 0 0 40px 10px #b56666cc;\n\n- Feels like I’m finally breaking down my coding knowledge and creating new mental libraries with a more structured and proper flow.\n\n- By following the process, we can say we are gradually moving towards our lily pads, one flex at a time.\n\n- Clean, minimal slides are a great example of how, when we present things well on screen, they communicate effectively and solve the problem. \n\n\n<h3>Story - The Phoenix Bird </h3>\n\nhttps://www.figma.com/design/VZlbgMbz0g5Yj7Y3V7O70s/THE-PHOENIX-BIRD?node-id=0-1&t=327UZkGqrHSfSAFn-1\n\n<img width=\"1920\" height=\"4134\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c74044ba-6392-48ef-88a3-e4efdfdb549a\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/c74044ba-6392-48ef-88a3-e4efdfdb549a"
+      ],
+      "wordCount": 124,
+      "date": {
+        "iso": "2025-07-23T19:30:30.000Z",
+        "date": "2025-07-23",
+        "formatted": "July 24, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/4#issuecomment-3109882248"
+    },
+    {
+      "id": "dev-notes-5-comment-3114480424",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 5,
+      "issueTitle": "Day 4: Typesetting a page",
+      "commentId": 3114480424,
+      "content": "## Day 04 - Shutting the tags and laptop by midnight 🦇 | Meet Baxi\n\n- I’m enjoying the process of trial and error to get closer to the Figma design and feel clearer in my mind.\n- Fixing HTML and CSS feels like a game—solving problems and actually enjoying it.\n- I liked how, around 4 in the evening, after spending time on VS Code, I became more confident and quicker at solving things and understanding the logic behind the code or properties.\n- I learned how to communicate differently with GPT to get better and accurate coding solutions.\n\n<img width=\"1422\" height=\"796\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e7a8fa80-a6f4-4860-b48a-74229f1c7fe5\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/e7a8fa80-a6f4-4860-b48a-74229f1c7fe5"
+      ],
+      "wordCount": 106,
+      "date": {
+        "iso": "2025-07-24T18:42:26.000Z",
+        "date": "2025-07-24",
+        "formatted": "July 25, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/5#issuecomment-3114480424"
+    },
+    {
+      "id": "dev-notes-6-comment-3128193363",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 6,
+      "issueTitle": "Day 6: Making Grids",
+      "commentId": 3128193363,
+      "content": "## The Idea of Custom Grid | Meet Baxi\n\n- From Jen Simmons’ video, I got clarity on the definition of Art Direction.\n- Layout – it shouldn’t feel like a multiple-choice question.\n- Do justice to the story you want to tell, rather than blindly following fixed grid layouts.\n- Grid = 2D, Flexbox = 1D\n- Only 5% of people use Internet Explorer, but they’re still important.\n\n**Dopamine hit was real while playing the game – CSS Grid 🚀**\n\nThoughts on Today’s Class\n- Liked the idea of writing syntax rather than copying it. I found it difficult,  or maybe I’m just lazy, to remember each one.\n- < p2 > Bad: Vague and inconsistent tag names < /p2 >\n- < !DOCTYPE html > – Please don’t forget to write this.\n\nAs tomorrow is a NO CODE DAY, I’m definitely looking forward to it. 🫠\n\n<img width=\"543\" height=\"667\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a6bedbf8-94f0-44eb-9d15-37947a6579f6\" />\n\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/a6bedbf8-94f0-44eb-9d15-37947a6579f6"
+      ],
+      "wordCount": 155,
+      "date": {
+        "iso": "2025-07-28T17:09:33.000Z",
+        "date": "2025-07-28",
+        "formatted": "July 28, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/6#issuecomment-3128193363"
+    },
+    {
+      "id": "dev-notes-7-comment-3132908355",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 7,
+      "issueTitle": "Day 7: The Indie Web",
+      "commentId": 3132908355,
+      "content": "## Why rent when we can own our place on the web? | Meet Baxi\n\n- It's better to have a messy but personal space than to depend on digital giants.\n\n- meetbaxi.com | It's okay to post on LinkedIn, IG, or Medium, but always guide people to your own space, your address, your identity.\n\n- Thinking of the web as a garden gives the mind more freedom to wander, reflect, and, most importantly, think outside the box.\n\n<h1> Manifesto </h1>\nI want my website to reflect my personality, not just my work portfolio. I want visitors to feel my vibe, a space designed to give a sense of my universe.\n\nI'm planning to include the many layers of myself:\nMy short writings\n\nConcept art\n\nThis week's mood—through a playlist\n\nPodcasts I'm currently listening to\n\nA quote or insight that inspires me this week\n\nMy daily morning coffee thought, with a photo (because I live on caffeine)\n\nFilms I love and rewatch\n\nA weekly to-do list\n\nA skill bar that updates as I grow and master things\n\nYes, my work will be there too, but the core is me, not just my work.\n\n// Bonus\n\nThis whole practice helped me unlearn and relearn the creative process. It made me fall in love with the act of creating, not with polished, industrialized outcomes or sellable products. It reignited the joy of making, not just finishing, and I think that’s a big win for me. 🏆 \n\n<img width=\"842\" height=\"595\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3ba65e6c-bd98-426e-b1ff-4026813076b1\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/3ba65e6c-bd98-426e-b1ff-4026813076b1"
+      ],
+      "wordCount": 250,
+      "date": {
+        "iso": "2025-07-29T14:51:16.000Z",
+        "date": "2025-07-29",
+        "formatted": "July 29, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/7#issuecomment-3132908355"
+    },
+    {
+      "id": "dev-notes-8-comment-3137615480",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 8,
+      "issueTitle": "Day 8: Visual Hierarchies",
+      "commentId": 3137615480,
+      "content": "## Coming soon to the nearest ~~Netflix~~  netlify.com! 🍿 | Meet Baxi \n\n- Explored Miro today for wireframing.\n- Fragmented yesterday's moodboard clusters into my website.\n- Will seek more inspiration from the web tomorrow to expand the range of possibilities.\n- I like both Astro and Obsidian, even if we can't fully see their usefulness in version 1.0, they will be very helpful for future versions.\n- Focusing on adding personality to each element.\n- Learning which parts of my cluster deserve how much importance or priority.\n- Discussion with others gives perspective on how unique they are, and how their website will reflect that.\n\n\n<img width=\"575\" height=\"475\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a3006209-11ff-4d93-bfa4-56e285b5dc4c\" />\n<img width=\"1048\" height=\"567\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4dad9ed8-9bad-4671-ba3c-79bb5596bc7f\" />\n<img width=\"825\" height=\"468\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1b6541a1-b1ab-4ceb-a230-cc325340d416\" />\n\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/a3006209-11ff-4d93-bfa4-56e285b5dc4c",
+        "https://github.com/user-attachments/assets/4dad9ed8-9bad-4671-ba3c-79bb5596bc7f",
+        "https://github.com/user-attachments/assets/1b6541a1-b1ab-4ceb-a230-cc325340d416"
+      ],
+      "wordCount": 125,
+      "date": {
+        "iso": "2025-07-30T19:45:54.000Z",
+        "date": "2025-07-30",
+        "formatted": "July 31, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/8#issuecomment-3137615480"
+    },
+    {
+      "id": "dev-notes-9-comment-3141162332",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 9: Thinking in Frameworks",
+      "commentId": 3141162332,
+      "content": "## High fidelity Figma magic! ✨  | Meet Baxi\n\n## Moodboard\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b864469f-402a-4be9-bfc6-e05e1bb12ce9\" />\n\ncode:\n\n```\n:root {\n  --color-primary: #FEDF08;  \n  --color-button: #00E40F;      \n  --color-card: #000E47;       \n  --color-background: #008AEA;      \n  \n  --text-header: 30px;      \n  --text-title: 20px; \n  --text-paragraph: 16px;        \n  \n  /* Fonts */\n  --font-pixel: 'Pixelify Sans', sans-serif;  font-weight: 600; /* SemiBold weight */\n --font-title: 'American Typewriter', serif;  font-weight: 600; /* SemiBold weight */\n--font-paragraph: 'Montserrat', sans-serif;  font-weight: 600; /* SemiBold weight */\n\n```\n\n## Loading Screen\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1710aaa0-4656-40e0-88bd-9dd4ce2eb2fe\" />\n\n## Homepage\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7c2eeaa3-fcd8-42dc-a780-8ae0ffd7d8d2\" />\n\n\n## Dashboard\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c98d2f2a-b2fe-4f79-97dd-1c19561d99af\" />\n\n## Portfolio \n\n<img width=\"1920\" height=\"2530\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fd55429f-b7a5-43f2-a785-c04c06983a75\" />\n\n## About Me\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e3871399-e159-4558-810c-5d74275d9fe0\" />\n\n\n\nWe humans are weird; we literally create our own issues 🫠 :  https://github.com/Meetbaxi17/web2025-meet-site/issues\n\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/b864469f-402a-4be9-bfc6-e05e1bb12ce9",
+        "https://github.com/user-attachments/assets/1710aaa0-4656-40e0-88bd-9dd4ce2eb2fe",
+        "https://github.com/user-attachments/assets/7c2eeaa3-fcd8-42dc-a780-8ae0ffd7d8d2",
+        "https://github.com/user-attachments/assets/c98d2f2a-b2fe-4f79-97dd-1c19561d99af",
+        "https://github.com/user-attachments/assets/fd55429f-b7a5-43f2-a785-c04c06983a75",
+        "https://github.com/user-attachments/assets/e3871399-e159-4558-810c-5d74275d9fe0",
+        "https://github.com/Meetbaxi17/web2025-meet-site/issues"
+      ],
+      "wordCount": 124,
+      "date": {
+        "iso": "2025-07-31T19:50:24.000Z",
+        "date": "2025-07-31",
+        "formatted": "August 1, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/9#issuecomment-3141162332"
+    },
+    {
+      "id": "dev-notes-11-comment-3151127411",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 11,
+      "issueTitle": "Day 11: [Project Day 1] Here comes the sun",
+      "commentId": 3151127411,
+      "content": "## Dev Mode – Enabled 👨🏻‍💻 | HTML – CSS – Debug - Repeat\n\n- [x] Loading screen with a specific duration (1.5 sec)\n- [x] Home page\n- [x] Header with moving text\n- [x] 3 cards with hover effect\n- [x] A side ticket with pull-out animation\n- [x] Text and image at the bottom of that ticket\n- [x] Created all .html pages and linked them to clickable elements\n\nChallenges of the Day\n- A small yellow block in the header,  how to place it at the exact location\n- Hide main content while the loading screen is active\n- Hover effect border, has to keep transparent first.\n- Placing text and arrow exactly below the ticket\n\nTomorrow's Goal\n- [ ] Aim to work on and try to finish the dashboard.\n\nAdding an Image of the dashboard here.\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/840b6a38-7e94-41e2-b503-87f9c133a03f\" />\n\n## Netlify  \nhttps://meetbaxi17.netlify.app/",
+      "urls": [
+        "https://github.com/user-attachments/assets/840b6a38-7e94-41e2-b503-87f9c133a03f",
+        "https://meetbaxi17.netlify.app/"
+      ],
+      "wordCount": 151,
+      "date": {
+        "iso": "2025-08-04T14:55:21.000Z",
+        "date": "2025-08-04",
+        "formatted": "August 4, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3151127411"
+    },
+    {
+      "id": "dev-notes-12-comment-3158121378",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "commentId": 3158121378,
+      "content": "\n## Dashboard Grids | Meet Baxi\nProgess \n- [x] Added the EXIT button beside the topbar\n- [x] Setup Grid for Dashboard\n- [x] Make an active To Do list with Checkboxes\n- [x] Added Horizontal invisible scrollbar \n- [x] Side ticket to Dashboard\n- [x] added Glow hover effect to the EXIT button\n\nBlockers \n- [x] was overwhelmed before setting up the grid, but figured it out\n- [x] was confused about how to create real-time checklist \n\nexcited about\n- how I shifted my default template(Figma) aesthetics to my core original aesthetics.\n\nfeeling good, how things are taking shape slowly, and how I am creating a mental model of solving coding problems.\n\ntrouble?\n- [ ] Can't keep the code clean and execute, like writing proper tags and classes, so will overwatch it and make it clean.\n\n## Netlify and Repo\nhttps://meetbaxi17.netlify.app/\n\nhttps://github.com/Meetbaxi17/https---github.com-Meetbaxi17-tryerror\n\n<img width=\"1440\" height=\"900\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/61e3efc5-b54c-4228-b3f6-f66cc579fc04\" />",
+      "urls": [
+        "https://meetbaxi17.netlify.app/",
+        "https://github.com/Meetbaxi17/https---github.com-Meetbaxi17-tryerror",
+        "https://github.com/user-attachments/assets/61e3efc5-b54c-4228-b3f6-f66cc579fc04"
+      ],
+      "wordCount": 151,
+      "date": {
+        "iso": "2025-08-06T08:19:01.000Z",
+        "date": "2025-08-06",
+        "formatted": "August 6, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3158121378"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "submissions-3-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 3,
+      "issueTitle": "Meet Baxi",
+      "content": "### Student Name\n\nMeet Baxi\n\n### Website URL\n\nhttps://meetbaxi-test.netlify.app/\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/meetbaxi/\n\n### Social Link 2 (Optional)\n\nhttps://www.linkedin.com/in/meetbaxi/\n\n### Social Link 3 (Optional)\n\nhttps://www.youtube.com/@MeetBaxi",
+      "urls": [
+        "https://meetbaxi-test.netlify.app/"
+      ],
+      "wordCount": 27,
+      "date": {
+        "iso": "2025-08-12T10:17:07.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 12, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/3"
+    }
+  ],
+  "statistics": {
+    "totalNotes": 11,
+    "totalSubmissions": 1,
+    "totalCommits": 20,
+    "firstActivity": "2025-07-21T09:53:14.000Z",
+    "lastActivity": "2025-08-13T05:47:49.000Z",
+    "mostActiveDay": "2025-08-12",
+    "totalEntries": 12,
+    "averageWordCount": 140
+  },
+  "commitsByDate": {
+    "2025-08-13": [
+      {
+        "message": "making it responsive",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 13, 2025"
+      }
+    ],
+    "2025-08-12": [
+      {
+        "message": "added resume",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "complete personal projects",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "personalprojects done",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "updated portfolio",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "portfolio page",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "ticket-fixed",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-08": [
+      {
+        "message": "added ticket in about page",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 9, 2025"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "message": "about page setup-half",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "fix topbar html",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "updated the dashboard",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "5aug",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "MainWebsite",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 5, 2025"
+      }
+    ],
+    "2025-08-03": [
+      {
+        "message": "Added two new pages - about and blog",
+        "repository": "MeetBaxi",
+        "time": "August 4, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "initial commit",
+        "repository": "MeetBaxi",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "Added About BigCard",
+        "repository": "meet-baxi-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "Add BigCard Component",
+        "repository": "meet-baxi-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "One small change",
+        "repository": "meet-baxi-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "Added Image Card Component",
+        "repository": "meet-baxi-site",
+        "time": "August 1, 2025"
+      }
+    ],
+    "2025-07-28": [
+      {
+        "message": "adds index.html",
+        "repository": "meet-grid",
+        "time": "July 28, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-13T06:48:10.576Z",
+  "repositories": [
+    {
+      "name": "web2025-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2025",
+      "type": "submissions",
+      "description": "Project submissions and student work"
+    }
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://web2025-hey-jude-meet.netlify.app/",
+        "author": "Meetbaxi17",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102172457",
+        "createdAt": "2025-07-22T10:39:07Z",
+        "imageName": "web2025-hey-jude-meet.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://the-phoenixbird.netlify.app/",
+        "author": "Meetbaxi17",
+        "authorType": "issue_author",
+        "issueNumber": 6,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/6",
+        "createdAt": "2025-07-25T09:58:04Z",
+        "imageName": "the-phoenixbird.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://meetbaxi17.netlify.app/",
+        "author": "Meetbaxi17",
+        "authorType": "commenter",
+        "issueNumber": 12,
+        "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3158121378",
+        "createdAt": "2025-08-06T08:19:01Z",
+        "imageName": "meetbaxi17.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://meetbaxi-test.netlify.app/",
+        "author": "Meetbaxi17",
+        "authorType": "issue_author",
+        "issueNumber": 3,
+        "issueTitle": "Meet Baxi",
+        "issueUrl": "https://github.com/open-making/web2025/issues/3",
+        "createdAt": "2025-08-12T10:17:07Z",
+        "imageName": "meetbaxi-test.netlify.app.webp"
+      }
+    ]
+  }
+}

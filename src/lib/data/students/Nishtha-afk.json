@@ -1,0 +1,579 @@
+{
+  "username": "Nishtha-afk",
+  "name": "Nishtha Modi",
+  "website": "https://finalproject-nishtha.netlify.app/",
+  "socialLinks": [],
+  "devNotes": [
+    {
+      "id": "dev-notes-2-comment-3095975217",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Hello World",
+      "commentId": 3095975217,
+      "content": "## Arts Experiments\nhttps://artsexperiments.withgoogle.com/what-we-eat/?zoom=1.10&x=-757.03&y=-768.00&highlight=0&sorting=0\n\n<img width=\"485\" height=\"347\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3bacc07b-6429-46f0-b7ac-e23424697429\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/3bacc07b-6429-46f0-b7ac-e23424697429"
+      ],
+      "wordCount": 10,
+      "date": {
+        "iso": "2025-07-21T09:54:07.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 21, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/2#issuecomment-3095975217"
+    },
+    {
+      "id": "dev-notes-1-comment-3101981535",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Day 1: The Small Web",
+      "commentId": 3101981535,
+      "content": "**Day-01 Learnings**\n**Nishtha Modi**\n\ni feel like every website we see now is somehow built on the reference of some other site that already exists. nothing is fully new-new, but more like a remix. websites are something we look at, but also something we shape...\n\n like they reflect who we are or what we wanna say. they’re not just visuals, they carry intention. also realised how even those old-school webpages with basic fonts and weird buttons still catch our eye. maybe coz they were made with that raw curiosity? like they weren’t trying too hard. just being. back then, people were just **exploring the web** like a playground figuring stuff out, testing things, not worrying too much about being perfect. now it’s more polished, sure, but sometimes less soulful. also the whole idea of a webpage being a stack of boxes really stuck with me. like under all that design, makes me think how we as designers need to go deep into one thing but also know a bit of everything  like that t-shape thing. this is just the start, but i can already feel like it’s gonna change how i look at the internet.\n\nHere's my attempt of looking and understanding websites\nhttps://www.figma.com/board/nzMo0jThEleJh32nQXMb3D/Web-Design-Archive?node-id=0-1&t=M16YWcAb1ptcJ6xn-1\n\n<img width=\"1137\" height=\"824\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9571a0b8-8f97-4042-9197-5ebd2dde9024\" />\n\n\n\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/9571a0b8-8f97-4042-9197-5ebd2dde9024"
+      ],
+      "wordCount": 211,
+      "date": {
+        "iso": "2025-07-22T10:01:10.000Z",
+        "date": "2025-07-22",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101981535"
+    },
+    {
+      "id": "dev-notes-3-comment-3102426878",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 3,
+      "issueTitle": "Day 2: HTML, CSS, and You",
+      "commentId": 3102426878,
+      "content": "Pretty much happy about the day, specifically how i tackled it without feeling too heavy and overwhelmed, while looking at todays presentation it took me back to the memory lane where in school we were taught basics of HTML & JAVA :))))\n\nlooking forward to see where the basics take me ahead!\nbut yeah, today was an easy float \nand a big part of that credit goes to the way of teaching\nthanks :)",
+      "urls": [],
+      "wordCount": 74,
+      "date": {
+        "iso": "2025-07-22T12:05:11.000Z",
+        "date": "2025-07-22",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/3#issuecomment-3102426878"
+    },
+    {
+      "id": "dev-notes-4-comment-3112060820",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 4,
+      "issueTitle": "Day 3: Seeing and Searching",
+      "commentId": 3112060820,
+      "content": "**Learnings**\n\nLearned about the divisions specially how to play with image sizing its placement, how do linking works. also learned about some of the basic attributes like flex end, center, how positioning works how do you wrap something how alignment and paragraph spacing and padding works. \n\nthe game was a fun part though just clearing the basic concepts, for me it got much much easier  \n\nhttps://www.figma.com/design/o5g4Bh8gNX6H7m4LCay11u/My-First-Demo?node-id=0-1&t=vGDh8ieeCwTdS97z-1\n\n\n<img width=\"342\" height=\"442\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/5aba2a52-6d98-4998-a5cc-4f7fc61dba39\" />\n\n\n\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/5aba2a52-6d98-4998-a5cc-4f7fc61dba39"
+      ],
+      "wordCount": 73,
+      "date": {
+        "iso": "2025-07-24T05:47:50.000Z",
+        "date": "2025-07-24",
+        "formatted": "July 24, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/4#issuecomment-3112060820"
+    },
+    {
+      "id": "dev-notes-5-comment-3116360096",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 5,
+      "issueTitle": "Day 4: Typesetting a page",
+      "commentId": 3116360096,
+      "content": "Today was all about figuring things out on our own coding without any given dummy code. At first, it was a struggle, especially understanding how position: absolute and position: relative actually work together. I spent time trying, failing, and fixing things bit by bit. Slowly, it started making sense how positioning changes depending on the parent and how elements behave. It was tough though, but satisfying.\n\n<img width=\"1863\" height=\"922\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2b497669-2d9b-4593-89fc-722d22ad8d2c\" />\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/2b497669-2d9b-4593-89fc-722d22ad8d2c"
+      ],
+      "wordCount": 73,
+      "date": {
+        "iso": "2025-07-25T04:36:15.000Z",
+        "date": "2025-07-25",
+        "formatted": "July 25, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/5#issuecomment-3116360096"
+    },
+    {
+      "id": "dev-notes-6-comment-3130705769",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 6,
+      "issueTitle": "Day 6: Making Grids",
+      "commentId": 3130705769,
+      "content": "My Understandings from Day 06\n\nfrom the jen simmons video i loved the notion of \"the idea of communicating the idea of a story\", specially what do you want to narrate is the arrangement of the organization and the presentation of the visuals and words\ni love the example of google docs where the webpage narrates come we will write quickly and the other webpage serving the same purpose at the same time but narrating a whole of a different story \nand saying hello writer. \n\nalso for me personally the notion of everything is choices you make visually playing with grids works the best, even we talk about todays example of gmail and outlook, gmail narrates i want clean and fast communication kinda thing, where outlook gives more of productive suite to manage complex things kinda feeling.\nalso from the lectures learning i loved the game of grid but still while working on one was kind of getting difficult for me  ",
+      "urls": [],
+      "wordCount": 162,
+      "date": {
+        "iso": "2025-07-29T05:03:48.000Z",
+        "date": "2025-07-29",
+        "formatted": "July 29, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/6#issuecomment-3130705769"
+    },
+    {
+      "id": "dev-notes-7-comment-3133570063",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 7,
+      "issueTitle": "Day 7: The Indie Web",
+      "commentId": 3133570063,
+      "content": "**Nishtha Modi** \n\nIn order to connect the dots, first you need to have the dots!!\n\n**Defining a manifesto**\nso this website would not be a portfolio, it would be a space that reflects me in the digital world. \nEverything in the website would stem from connection, some threads tied to who I am, where I come from, what has been my journey. The research that I do, the mediums that I choose, the stories that I tell, they’re not just outcomes, but process or the path followed to accomplish them.\none would find stories here. and for the detailed case studies it would navigate them to my personal behance profile\nI want it something kinda like small small windows like a sketch, a quote or an design article that people can explore on. My website would definitely be a reflection of me- real, and pure.\n\n<img width=\"514\" height=\"369\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b37f03a7-c9b0-4abc-a3e1-9d2b5a7af1cf\" />\n\n<img width=\"1166\" height=\"624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/14f4d7cd-2882-4601-b08e-580d4ed9f05d\" />\n\n \n",
+      "urls": [
+        "https://github.com/user-attachments/assets/b37f03a7-c9b0-4abc-a3e1-9d2b5a7af1cf",
+        "https://github.com/user-attachments/assets/14f4d7cd-2882-4601-b08e-580d4ed9f05d"
+      ],
+      "wordCount": 158,
+      "date": {
+        "iso": "2025-07-29T18:18:25.000Z",
+        "date": "2025-07-29",
+        "formatted": "July 29, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/7#issuecomment-3133570063"
+    },
+    {
+      "id": "dev-notes-8-comment-3138429266",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 8,
+      "issueTitle": "Day 8: Visual Hierarchies",
+      "commentId": 3138429266,
+      "content": "**Day 09**\n\nSo for the layouts and for the wireframing ideas i had two option one was making a home page pan with the illustration of constellation that metaphorically depicts me  and to communicate the idea of let the things unfold by its own and the stars when you hover on it would show my life or say my design journey.\n\nthe second (current) idea was grid in all the webpages which looks connected to each other, this idea was to depict the interconnectedness everything has, how things have evolved over time and the notion of connecting the dots.\n\nhere is my attempt for making sketchy rough layouts for the second idea, and playing with the grids.\n\nhttps://www.figma.com/design/IulRyY6Ozsrgjyt0Zujos1/Wireframing-My-Digital-Space?node-id=0-1&t=u4DD7M32bfwK5Gf4-1\n\n\n\n<img width=\"1253\" height=\"652\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fc149d0e-a5df-451e-afa8-341dac7b221b\" />\n\n ",
+      "urls": [
+        "https://github.com/user-attachments/assets/fc149d0e-a5df-451e-afa8-341dac7b221b"
+      ],
+      "wordCount": 125,
+      "date": {
+        "iso": "2025-07-31T03:19:53.000Z",
+        "date": "2025-07-31",
+        "formatted": "July 31, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/8#issuecomment-3138429266"
+    },
+    {
+      "id": "dev-notes-9-comment-3141018926",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 9: Thinking in Frameworks",
+      "commentId": 3141018926,
+      "content": "**Variables**\n\n:root {  \n /* Colors */  \n--color-primary: ##F0E301;     /* Yellow for highlights */  \n--text-dark: #000000;        /* Main text color */   \n--text-light: ##9AA0A6;       /* Secondary text */   \n--background: #ffffff;       /* Page background */   \n\n /* Typography */   \n--text-normal: 1rem;         /* 16px - body text */   \n--text-large: 1.5rem;        /* 24px - section headings */   \n--text-huge: 2.5rem;         /* 40px - page title */   \n\n /* Fonts */   \n--font-main: 'Inter', sans-serif;   \n--font-heading: 'GFS Didot, serif; }\n\n<br>\n<br>\n\n\n\n\n**High Fidelity Prototype**\n\n\n<img width=\"684\" height=\"485\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/56113d8f-baf0-41b3-9655-a6769d20caea\" />\n<br>\n\n<img width=\"674\" height=\"481\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/047eed14-d31e-4137-a522-a3ce7d2d33b6\" />\n\n\n<br>\n<br>\n<br>\n<br>\n\n**MoodBoard**\n\n\n\n\n<img width=\"501\" height=\"376\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0e82d9ba-7ac6-477f-9ebd-37945f6b231a\" />\n\n\n<br>\n<br>\n<br>\n**My To Do List**\n\n\n\nhttps://github.com/Nishtha-afk/web2025-Nishtha-site/issues/2\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/56113d8f-baf0-41b3-9655-a6769d20caea",
+        "https://github.com/user-attachments/assets/047eed14-d31e-4137-a522-a3ce7d2d33b6",
+        "https://github.com/user-attachments/assets/0e82d9ba-7ac6-477f-9ebd-37945f6b231a",
+        "https://github.com/Nishtha-afk/web2025-Nishtha-site/issues/2"
+      ],
+      "wordCount": 108,
+      "date": {
+        "iso": "2025-07-31T18:53:57.000Z",
+        "date": "2025-07-31",
+        "formatted": "August 1, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/9#issuecomment-3141018926"
+    },
+    {
+      "id": "dev-notes-12-comment-3160391210",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "commentId": 3160391210,
+      "content": "**PROGRESS SO FAR**\nHere's my link to the repository github \n\nhttps://github.com/Nishtha-afk/final-project\n\ni have a doubt regarding deploying website in netlify, will clear it in class tomorrow\nHere's how my homepage looks\n\n\n<img width=\"1914\" height=\"903\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/063bf07e-94d0-497f-a5c7-b5b12621652c\" />\n",
+      "urls": [
+        "https://github.com/Nishtha-afk/final-project",
+        "https://github.com/user-attachments/assets/063bf07e-94d0-497f-a5c7-b5b12621652c"
+      ],
+      "wordCount": 38,
+      "date": {
+        "iso": "2025-08-06T14:21:53.000Z",
+        "date": "2025-08-06",
+        "formatted": "August 6, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160391210"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "submissions-2-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 2,
+      "issueTitle": "NISHTHA MODI",
+      "content": "### Student Name\n\nNishtha Modi\n\n### Website URL\n\nhttps://finalproject-nishtha.netlify.app/\n\n### Social Link 1 (Optional)\n\n_No response_\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://finalproject-nishtha.netlify.app/"
+      ],
+      "wordCount": 30,
+      "date": {
+        "iso": "2025-08-12T10:15:36.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 12, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/2"
+    }
+  ],
+  "statistics": {
+    "totalNotes": 10,
+    "totalSubmissions": 1,
+    "totalCommits": 56,
+    "firstActivity": "2025-07-21T09:54:07.000Z",
+    "lastActivity": "2025-08-13T06:06:26.000Z",
+    "mostActiveDay": "2025-08-07",
+    "totalEntries": 11,
+    "averageWordCount": 97
+  },
+  "commitsByDate": {
+    "2025-08-13": [
+      {
+        "message": "fixed two images more",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "fixed one image",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "ok so now just images left",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "something moreee",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "fixed typo in thukpa page",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "added gridlines",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "added one more page",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "added an arrow",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "did the csss",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "added a page",
+        "repository": "final-project",
+        "time": "August 13, 2025"
+      }
+    ],
+    "2025-08-12": [
+      {
+        "message": "final change",
+        "repository": "Buckwheat-poem",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "hmmmm",
+        "repository": "final-project",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "for now 3rd page done",
+        "repository": "final-project",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "this page done so far",
+        "repository": "final-project",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "changed the grid",
+        "repository": "final-project",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "fixed right panel",
+        "repository": "final-project",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "added a 3rd page",
+        "repository": "final-project",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "message": "phewww!",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "setup almost done wohoo",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "staged image",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "arranged 1text box",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "added header section",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "good to go for now",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "final editz",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "forth part coming on its way",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "here comes 3rd part",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "second part",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "fixed 1st parth phewww",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "managing stuff here and there",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "finally reached here damn",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "new menu",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "testing my branch",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changed file locations",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "create about page",
+        "repository": "final-project",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-06": [
+      {
+        "message": "final edit doneeee",
+        "repository": "final-project",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "final edit done",
+        "repository": "final-project",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "added 2 gifs",
+        "repository": "final-project",
+        "time": "August 6, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "added gif",
+        "repository": "final-project",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "final",
+        "repository": "final-project",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "final done",
+        "repository": "final-project",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "fixed two words",
+        "repository": "final-project",
+        "time": "August 5, 2025"
+      }
+    ],
+    "2025-08-04": [
+      {
+        "message": "more",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "andd more changes",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "few changes",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "did the styling a little bit",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "added images",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "one moree",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "setup page 1 done",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "change 1.3",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "change 1.2",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "change 1",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "adds index.html",
+        "repository": "final-project",
+        "time": "August 4, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "adds site",
+        "repository": "Dummy-Blog",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "andd one more change",
+        "repository": "Nishtha-Site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "made one small change",
+        "repository": "Nishtha-Site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "Added ImageCard component",
+        "repository": "Nishtha-Site",
+        "time": "August 1, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-13T06:48:10.576Z",
+  "repositories": [
+    {
+      "name": "web2025-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2025",
+      "type": "submissions",
+      "description": "Project submissions and student work"
+    }
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://nishtha1.netlify.app/",
+        "author": "Nishtha-afk",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102321124",
+        "createdAt": "2025-07-22T11:29:20Z",
+        "imageName": "nishtha1.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://nishtha-poem.netlify.app/",
+        "author": "Nishtha-afk",
+        "authorType": "issue_author",
+        "issueNumber": 7,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/7",
+        "createdAt": "2025-07-25T09:59:04Z",
+        "imageName": "nishtha-poem.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://finalproject-nishtha.netlify.app/",
+        "author": "Nishtha-afk",
+        "authorType": "issue_author",
+        "issueNumber": 2,
+        "issueTitle": "NISHTHA MODI",
+        "issueUrl": "https://github.com/open-making/web2025/issues/2",
+        "createdAt": "2025-08-12T10:15:36Z",
+        "imageName": "finalproject-nishtha.netlify.app.webp"
+      }
+    ]
+  }
+}

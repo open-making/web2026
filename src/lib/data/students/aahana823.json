@@ -1,0 +1,356 @@
+{
+  "username": "aahana823",
+  "name": "Aahana",
+  "website": "https://aahana-website.netlify.app/",
+  "socialLinks": [],
+  "devNotes": [
+    {
+      "id": "dev-notes-2-comment-3095960712",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Hello World",
+      "commentId": 3095960712,
+      "content": "hello world",
+      "urls": [],
+      "wordCount": 2,
+      "date": {
+        "iso": "2025-07-21T09:48:55.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 21, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/2#issuecomment-3095960712"
+    },
+    {
+      "id": "dev-notes-2-comment-3095974297",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Hello World",
+      "commentId": 3095974297,
+      "content": "## NETGEO\nhttps://web.archive.org/web/19961221063958/https://www.nationalgeographic.com/\n\n<img width=\"1351\" height=\"607\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0b3e1f60-9461-4c8b-ac0b-78e371d3b491\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/0b3e1f60-9461-4c8b-ac0b-78e371d3b491"
+      ],
+      "wordCount": 9,
+      "date": {
+        "iso": "2025-07-21T09:53:46.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 21, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/2#issuecomment-3095974297"
+    },
+    {
+      "id": "dev-notes-1-comment-3100853994",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Day 1: The Small Web",
+      "commentId": 3100853994,
+      "content": "Day 1\n\nhttps://www.figma.com/design/v3pQTpg9EiEMUKgUcPC3nq/Untitled?node-id=0-1&t=XCfvsISaHwyPfyd4-1\n\nUnlearning is about breaking free from the sameness that dominates today’s web design. Everywhere you look, websites feel like copies of each other—same grids, same layouts, same interactions. But it wasn’t always like this. Today we saw some old websites—the ones that were weird, wild, and wonderfully unpredictable. They weren’t perfect, but they were bold.\n\n<img width=\"802\" height=\"913\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c508b0a5-c992-4b2e-8cff-f4ef24d06fdb\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/c508b0a5-c992-4b2e-8cff-f4ef24d06fdb"
+      ],
+      "wordCount": 64,
+      "date": {
+        "iso": "2025-07-22T04:22:04.000Z",
+        "date": "2025-07-22",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3100853994"
+    },
+    {
+      "id": "dev-notes-4-comment-3109777523",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 4,
+      "issueTitle": "Day 3: Seeing and Searching",
+      "commentId": 3109777523,
+      "content": "Day 3\n\nTrial and error in HTML and CSS was something I genuinely enjoyed—it made the learning process feel more hands-on and less intimidating. Along the way, I discovered a few new websites that helped me explore different styles and structures. What really stood out, though, was the concept of learning through games—it turned abstract tags and attributes into fun, memorable experiences, making everything click so much faster.\n\nhttps://www.figma.com/design/v3pQTpg9EiEMUKgUcPC3nq/Untitled?node-id=20-24&t=zi0d87F52xMtWtob-1\n\n![Image](https://github.com/user-attachments/assets/1fbbfc9a-8c69-4818-ad47-e89da55a9663)",
+      "urls": [
+        "https://github.com/user-attachments/assets/1fbbfc9a-8c69-4818-ad47-e89da55a9663"
+      ],
+      "wordCount": 70,
+      "date": {
+        "iso": "2025-07-23T18:55:01.000Z",
+        "date": "2025-07-23",
+        "formatted": "July 24, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/4#issuecomment-3109777523"
+    },
+    {
+      "id": "dev-notes-5-comment-3114305124",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 5,
+      "issueTitle": "Day 4: Typesetting a page",
+      "commentId": 3114305124,
+      "content": "<h1> Day 4 </h1>\n\nIn today’s class, we began working on our website layout using HTML. At first, it was a bit confusing to figure out where to start and how to structure the content. However, once I took the first step and began writing some basic code, things slowly started to make sense. As I continued experimenting and building, I figured out what to do next and gradually gained more confidence. By the end of the session, I was able to make meaningful progress and felt that I had done something productive.\n\n<img width=\"1887\" height=\"787\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bf64ffe7-c4be-4b88-8fe4-e5be19b30190\" />\n\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/bf64ffe7-c4be-4b88-8fe4-e5be19b30190"
+      ],
+      "wordCount": 100,
+      "date": {
+        "iso": "2025-07-24T17:40:39.000Z",
+        "date": "2025-07-24",
+        "formatted": "July 24, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/5#issuecomment-3114305124"
+    },
+    {
+      "id": "dev-notes-8-comment-3137396380",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 8,
+      "issueTitle": "Day 8: Visual Hierarchies",
+      "commentId": 3137396380,
+      "content": "<h1>Day 8</h1\n\nToday, we focused entirely on reading and gathering references, which helped us brainstorm ideas and design layouts for our personal websites.\n\n<img width=\"1028\" height=\"964\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e36f4838-b97c-4974-ae05-10a9629a1e62\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/e36f4838-b97c-4974-ae05-10a9629a1e62"
+      ],
+      "wordCount": 29,
+      "date": {
+        "iso": "2025-07-30T18:22:20.000Z",
+        "date": "2025-07-30",
+        "formatted": "July 30, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/8#issuecomment-3137396380"
+    },
+    {
+      "id": "dev-notes-9-comment-3140432957",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 9: Thinking in Frameworks",
+      "commentId": 3140432957,
+      "content": "<h1>DAY 9</h1>\n\nToday, we focused on refining our website step by step, making steady improvements. We also made progress on the website’s mood board. Overall, the day went more smoothly compared to yesterday.\n\n<h3>High-fidelity</h3>\n<img width=\"1791\" height=\"862\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e2e521e0-9913-47b1-99d0-33602bc6690c\" />\n\n<h3>Variables</h3>\n<strong>\n:root {   \n<br>\n/* Colors */   <br>\n--color-primary: #D23D57;     /* Home page background */   <br>\n--color-secondary: #AB83FF;     /* bottom block gallery bg */ <br>\n--color-secondary: #FFC943;   /* Menu bar*/  <br>  \n--text-heading: #FFFFFF;        /* Heading text color */  <br> \n--text-menu: #1E1E1E;       /* menu text */   <br>\n<br><br>\n /* Typography */   <br>\n--text-title: 40px;      /* heading */   <br>\n--text-title1: 72px;         /* headline part 1 */   <br>\n--text-title2: 52px;        /* headline part 2 */   <br>\n--text-aboutme: 18px;         /* about me */   <br> \n<br><br>\n/* Fonts */   <br>\n--font-main: ‘KG Wildways’ ; <br> \n--font-aahana: 'Ashley Southine' ;<br>\n--font-menu: ‘KG simple the best’ ; <br>\n}\n</strong><br>\n\n<img width=\"1184\" height=\"877\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d407e5dd-8e54-44e7-a4bd-8dcdfd20fc2b\" />\n\n<h3>Issue link: </h3>\n\n\nhttps://github.com/aahana823/web2025-aahana-site/issues",
+      "urls": [
+        "https://github.com/user-attachments/assets/e2e521e0-9913-47b1-99d0-33602bc6690c",
+        "https://github.com/user-attachments/assets/d407e5dd-8e54-44e7-a4bd-8dcdfd20fc2b",
+        "https://github.com/aahana823/web2025-aahana-site/issues"
+      ],
+      "wordCount": 154,
+      "date": {
+        "iso": "2025-07-31T15:35:59.000Z",
+        "date": "2025-07-31",
+        "formatted": "July 31, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/9#issuecomment-3140432957"
+    },
+    {
+      "id": "dev-notes-12-comment-3160545866",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "commentId": 3160545866,
+      "content": "<h3>Update so far !</h3>\nChallenge that I faced - The Grid layout in my home page and still figuring out.\n<br>\n\n<img width=\"1892\" height=\"961\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7e75d218-b977-4b42-842d-696a4ef9872b\" />\n<img width=\"1909\" height=\"1001\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1e0aa18a-47b8-4747-bdd5-33476df5eace\" />\n\nNetlify \nhttps://aahanapatel.netlify.app/\n\n(A little struggling for github repo) ",
+      "urls": [
+        "https://github.com/user-attachments/assets/7e75d218-b977-4b42-842d-696a4ef9872b",
+        "https://github.com/user-attachments/assets/1e0aa18a-47b8-4747-bdd5-33476df5eace",
+        "https://aahanapatel.netlify.app/"
+      ],
+      "wordCount": 42,
+      "date": {
+        "iso": "2025-08-06T15:02:53.000Z",
+        "date": "2025-08-06",
+        "formatted": "August 6, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160545866"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "submissions-10-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 10,
+      "issueTitle": "Aahana",
+      "content": "### Student Name\n\nAahana\n\n### Website URL\n\nhttps://aahana-website.netlify.app/\n\n### Social Link 1 (Optional)\n\n_No response_\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://aahana-website.netlify.app/"
+      ],
+      "wordCount": 29,
+      "date": {
+        "iso": "2025-08-12T10:28:24.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 12, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/10"
+    }
+  ],
+  "statistics": {
+    "totalNotes": 8,
+    "totalSubmissions": 1,
+    "totalCommits": 17,
+    "firstActivity": "2025-07-21T09:48:55.000Z",
+    "lastActivity": "2025-08-12T14:23:37.000Z",
+    "mostActiveDay": "2025-08-12",
+    "totalEntries": 9,
+    "averageWordCount": 55
+  },
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "up to now",
+        "repository": "web2025-aahana-site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "up to now",
+        "repository": "web2025-aahana-site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "up to now",
+        "repository": "web2025-aahana-site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "up to now",
+        "repository": "web2025-aahana-site",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "up to now",
+        "repository": "web2025-aahana-site",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "message": "up to now",
+        "repository": "web2025-aahana-site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "up to now",
+        "repository": "web2025-aahana-site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "up to now",
+        "repository": "web2025-aahana-site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "adds git",
+        "repository": "web2025-aahana-site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "adds git",
+        "repository": "https---github.com-aahana823-web2025-aahana-site",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-06": [
+      {
+        "message": "up to now",
+        "repository": "first-repo",
+        "time": "August 6, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "initial commit",
+        "repository": "aahana-astro-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "about change",
+        "repository": "aahana-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "border",
+        "repository": "aahana-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "mera naam",
+        "repository": "aahana-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "added Image Card component",
+        "repository": "aahana-site",
+        "time": "August 1, 2025"
+      }
+    ],
+    "2025-07-31": [
+      {
+        "message": "initial",
+        "repository": "first-repo",
+        "time": "July 31, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-13T06:48:10.576Z",
+  "repositories": [
+    {
+      "name": "web2025-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2025",
+      "type": "submissions",
+      "description": "Project submissions and student work"
+    }
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://we2025-hey-jude-aahana.netlify.app/",
+        "author": "aahana823",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102211830",
+        "createdAt": "2025-07-22T10:52:54Z",
+        "imageName": "we2025-hey-jude-aahana.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://thebutterflystory.netlify.app/",
+        "author": "aahana823",
+        "authorType": "issue_author",
+        "issueNumber": 13,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/13",
+        "createdAt": "2025-07-25T10:06:51Z",
+        "imageName": "thebutterflystory.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://aahanapatel.netlify.app/",
+        "author": "aahana823",
+        "authorType": "commenter",
+        "issueNumber": 12,
+        "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160545866",
+        "createdAt": "2025-08-06T15:02:53Z",
+        "imageName": "aahanapatel.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://aahana-website.netlify.app/",
+        "author": "aahana823",
+        "authorType": "issue_author",
+        "issueNumber": 10,
+        "issueTitle": "Aahana",
+        "issueUrl": "https://github.com/open-making/web2025/issues/10",
+        "createdAt": "2025-08-12T10:28:24Z",
+        "imageName": "aahana-website.netlify.app.webp"
+      }
+    ]
+  }
+}

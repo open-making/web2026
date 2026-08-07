@@ -1,0 +1,185 @@
+{
+  "repository": {
+    "name": "open-making/web2025",
+    "url": "https://github.com/open-making/web2025",
+    "issueCount": 17
+  },
+  "entries": [
+    {
+      "url": "https://thispooshallpass.netlify.app/",
+      "author": "digianna",
+      "authorType": "issue_author",
+      "issueNumber": 18,
+      "issueTitle": "DigiRestroom",
+      "issueUrl": "https://github.com/open-making/web2025/issues/18",
+      "createdAt": "2025-08-13T06:01:36Z",
+      "imageName": "thispooshallpass.netlify.app.webp"
+    },
+    {
+      "url": "https://anoushka-personal-webpage.netlify.app",
+      "author": "Anoushka-d",
+      "authorType": "issue_author",
+      "issueNumber": 17,
+      "issueTitle": "[STUDENT] Anoushka Dcosta",
+      "issueUrl": "https://github.com/open-making/web2025/issues/17",
+      "createdAt": "2025-08-12T18:35:09Z",
+      "imageName": "anoushka-personal-webpage.netlify.app.webp"
+    },
+    {
+      "url": "https://vanshika-site.netlify.app/",
+      "author": "vanshi021",
+      "authorType": "issue_author",
+      "issueNumber": 16,
+      "issueTitle": "[STUDENT] Vanshika-Singal",
+      "issueUrl": "https://github.com/open-making/web2025/issues/16",
+      "createdAt": "2025-08-12T14:38:33Z",
+      "imageName": "vanshika-site.netlify.app.webp"
+    },
+    {
+      "url": "https://nirvikalpa-dishitajain.netlify.app/",
+      "author": "Dishita195",
+      "authorType": "issue_author",
+      "issueNumber": 15,
+      "issueTitle": "Dishita Jain",
+      "issueUrl": "https://github.com/open-making/web2025/issues/15",
+      "createdAt": "2025-08-12T13:28:04Z",
+      "imageName": "nirvikalpa-dishitajain.netlify.app.webp"
+    },
+    {
+      "url": "https://dikshajain-portfolio.netlify.app/",
+      "author": "Diksha0702",
+      "authorType": "issue_author",
+      "issueNumber": 14,
+      "issueTitle": "Diksha Jain",
+      "issueUrl": "https://github.com/open-making/web2025/issues/14",
+      "createdAt": "2025-08-12T12:09:26Z",
+      "imageName": "dikshajain-portfolio.netlify.app.webp"
+    },
+    {
+      "url": "https://manasiarchive.netlify.app/",
+      "author": "Manasi1114",
+      "authorType": "issue_author",
+      "issueNumber": 13,
+      "issueTitle": "Manasi Shrivastava",
+      "issueUrl": "https://github.com/open-making/web2025/issues/13",
+      "createdAt": "2025-08-12T11:02:29Z",
+      "imageName": "manasiarchive.netlify.app.webp"
+    },
+    {
+      "url": "https://iksha-site.netlify.app/",
+      "author": "Iksha918",
+      "authorType": "issue_author",
+      "issueNumber": 12,
+      "issueTitle": "Iksha Shah_Website",
+      "issueUrl": "https://github.com/open-making/web2025/issues/12",
+      "createdAt": "2025-08-12T10:34:15Z",
+      "imageName": "iksha-site.netlify.app.webp"
+    },
+    {
+      "url": "https://tanyamehra-website2025.netlify.app/",
+      "author": "Tanyamehra14",
+      "authorType": "issue_author",
+      "issueNumber": 11,
+      "issueTitle": "Tanya Mehra",
+      "issueUrl": "https://github.com/open-making/web2025/issues/11",
+      "createdAt": "2025-08-12T10:28:51Z",
+      "imageName": "tanyamehra-website2025.netlify.app.webp"
+    },
+    {
+      "url": "https://aahana-website.netlify.app/",
+      "author": "aahana823",
+      "authorType": "issue_author",
+      "issueNumber": 10,
+      "issueTitle": "Aahana",
+      "issueUrl": "https://github.com/open-making/web2025/issues/10",
+      "createdAt": "2025-08-12T10:28:24Z",
+      "imageName": "aahana-website.netlify.app.webp"
+    },
+    {
+      "url": "https://monika-singh-space.netlify.app/",
+      "author": "Monika7singh",
+      "authorType": "issue_author",
+      "issueNumber": 9,
+      "issueTitle": "Monika Singh",
+      "issueUrl": "https://github.com/open-making/web2025/issues/9",
+      "createdAt": "2025-08-12T10:25:09Z",
+      "imageName": "monika-singh-space.netlify.app.webp"
+    },
+    {
+      "url": "https://portfolio-harshit-rajoria.netlify.app/",
+      "author": "HarshitRajoria",
+      "authorType": "issue_author",
+      "issueNumber": 8,
+      "issueTitle": "Harshit Rajoria",
+      "issueUrl": "https://github.com/open-making/web2025/issues/8",
+      "createdAt": "2025-08-12T10:24:44Z",
+      "imageName": "portfolio-harshit-rajoria.netlify.app.webp"
+    },
+    {
+      "url": "https://jaypeeweb.netlify.app/",
+      "author": "jaipalsingh11",
+      "authorType": "issue_author",
+      "issueNumber": 7,
+      "issueTitle": "Jaipal Sonigara",
+      "issueUrl": "https://github.com/open-making/web2025/issues/7",
+      "createdAt": "2025-08-12T10:22:47Z",
+      "imageName": "jaypeeweb.netlify.app.webp"
+    },
+    {
+      "url": "https://web-portfolio-aimansayeed.netlify.app",
+      "author": "aimansayeed02",
+      "authorType": "issue_author",
+      "issueNumber": 6,
+      "issueTitle": "Aiman sayeed",
+      "issueUrl": "https://github.com/open-making/web2025/issues/6",
+      "createdAt": "2025-08-12T10:22:14Z",
+      "imageName": "web-portfolio-aimansayeed.netlify.app.webp"
+    },
+    {
+      "url": "https://amruta-portfolio-website.netlify.app/",
+      "author": "amruta712b",
+      "authorType": "issue_author",
+      "issueNumber": 5,
+      "issueTitle": "AMRUTA BHATT",
+      "issueUrl": "https://github.com/open-making/web2025/issues/5",
+      "createdAt": "2025-08-12T10:20:47Z",
+      "imageName": "amruta-portfolio-website.netlify.app.webp"
+    },
+    {
+      "url": "https://rajakrport.netlify.app/",
+      "author": "rajakr1256",
+      "authorType": "issue_author",
+      "issueNumber": 4,
+      "issueTitle": "Raja Kumar",
+      "issueUrl": "https://github.com/open-making/web2025/issues/4",
+      "createdAt": "2025-08-12T10:19:19Z",
+      "imageName": "rajakrport.netlify.app.webp"
+    },
+    {
+      "url": "https://meetbaxi-test.netlify.app/",
+      "author": "Meetbaxi17",
+      "authorType": "issue_author",
+      "issueNumber": 3,
+      "issueTitle": "Meet Baxi",
+      "issueUrl": "https://github.com/open-making/web2025/issues/3",
+      "createdAt": "2025-08-12T10:17:07Z",
+      "imageName": "meetbaxi-test.netlify.app.webp"
+    },
+    {
+      "url": "https://finalproject-nishtha.netlify.app/",
+      "author": "Nishtha-afk",
+      "authorType": "issue_author",
+      "issueNumber": 2,
+      "issueTitle": "NISHTHA MODI",
+      "issueUrl": "https://github.com/open-making/web2025/issues/2",
+      "createdAt": "2025-08-12T10:15:36Z",
+      "imageName": "finalproject-nishtha.netlify.app.webp"
+    }
+  ],
+  "stats": {
+    "totalUrls": 44,
+    "uniqueUrls": 17,
+    "filteredUrls": 17,
+    "issuesProcessed": 17
+  }
+}

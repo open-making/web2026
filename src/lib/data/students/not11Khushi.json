@@ -1,0 +1,278 @@
+{
+  "username": "not11Khushi",
+  "name": null,
+  "website": null,
+  "socialLinks": [],
+  "devNotes": [
+    {
+      "id": "dev-notes-2-comment-3096029734",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Hello World",
+      "commentId": 3096029734,
+      "content": "# THE GOTHIC GOURD\n## Pumpkins are moving with their eyes for finding photos\n[click here](https://www.gothicgourd.com/)\n<img width=\"1872\" height=\"885\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7346c06e-5c11-47c0-a7d8-94f4a6c02ad0\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/7346c06e-5c11-47c0-a7d8-94f4a6c02ad0"
+      ],
+      "wordCount": 22,
+      "date": {
+        "iso": "2025-07-21T10:09:34.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 21, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/2#issuecomment-3096029734"
+    },
+    {
+      "id": "dev-notes-1-comment-3098089494",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Day 1: The Small Web",
+      "commentId": 3098089494,
+      "content": "# Interesting Assignment \n\n**About the Class:**\n\n-The introduction to this module was really exciting, and I was eager to learn new hacks and explore fresh ideas.\n-One of the first things our sir taught us was about GeoCities, which I had never heard of before. It was fascinating to see those     \n  old websites—watching them was both fun and creatively inspiring.\n-We all signed up for GitHub in class. At first, I found it a bit boring, but once I started exploring, it turned out to be pretty \n  interesting.\n-I also learned new things like how to comment properly on GitHub and other useful features.\n-Right now, I’ve completed my assignment, and it was such a fun experience. It felt so creative going through different websites \n  and seeing the amazing things people have built online.\n-The most important thing I learned was observing the evolution of websites from 1996 to 2024. It’s truly unimaginable how\n  much web design and development have improved over time.\n\n## Class Assignment \nhttps://www.canva.com/design/DAGt0UF84D0/THzs-obMyxcxJHJ32_hYxg/view?utm_content=DAGt0UF84D0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h021f6dcaca\n\n<img width=\"719\" height=\"757\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e919bdb9-9af6-4a46-a4a2-64d7c0f9b212\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/e919bdb9-9af6-4a46-a4a2-64d7c0f9b212"
+      ],
+      "wordCount": 173,
+      "date": {
+        "iso": "2025-07-21T19:24:58.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098089494"
+    },
+    {
+      "id": "dev-notes-4-comment-3110191253",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 4,
+      "issueTitle": "Day 3: Seeing and Searching",
+      "commentId": 3110191253,
+      "content": "# Today's Learning \n*To add space, we use <margin> and <padding> → not tags, these are CSS properties.*\n\nmargin = outside space\npadding = inside space\n\n##  Visited Sites for Learning\n   -CN Website\n   -SpaceJam\n   -Windows93\nOne more retro site (forgot name )\nFrom these, I learned basic old-school HTML vibes. It was actually fun to see how creative those sites were!\n\n## Tags I Practiced\nhtml\nCopy\nEdit\n<img src=\" \" alt=\" \" loading=\"lazy\">\nsrc = image path\nalt = image text if it doesn’t load\nloading=\"lazy\" = image loads only when needed (faster website)\nviewBox = sets the frame size\n\nRemember:\nIf declaring <tag> → no dot\nIf class=\" \" → in CSS write with . like .classname {}\n\n##  Unique Tags I Noticed\n    <marquee> → moving text\n    <blink> → blinking text (LOL so old-school)\n   <bgsound> → background music\n   <frameset> and <center> → used in old layouts\n\n## CSS Zen Garden\nOne HTML page, but so many different CSS designs.\nLearnt how powerful CSS is. Just styling changes = complete new feel!\nMain lesson: Write clean HTML → design can be anything later.\n\n##  CSS Properties I Explored\ndisplay: → flex, block, grid, etc.\njustify-content: → space-between, center, etc.\nalign-items: → top/middle/bottom alignment\nmax-width: → sets the max limit of size\nfloat: → old way to move stuff left/right\nspace-between / space-around → used with display: flex for spacing\n\nlearning is going good but sometimes it feels overwhelming and speedy but it's fine I will end up with very nice creation of websitw \n\n# The Drop Of Water \nhttps://www.figma.com/proto/OBNOBFlItMze13BMVTJtQn/Untitled?node-id=0-1&t=f5vzp0iKvDvKnMUr-1\n\n*Rough Illustration*\n![Image](https://github.com/user-attachments/assets/ce8251b8-898a-4828-917b-7211668fd4c2)\n\n<img width=\"639\" height=\"798\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bacad0e4-efa1-4d82-b1cd-db225ee5a8c8\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/ce8251b8-898a-4828-917b-7211668fd4c2",
+        "https://github.com/user-attachments/assets/bacad0e4-efa1-4d82-b1cd-db225ee5a8c8"
+      ],
+      "wordCount": 269,
+      "date": {
+        "iso": "2025-07-23T21:13:20.000Z",
+        "date": "2025-07-23",
+        "formatted": "July 24, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/4#issuecomment-3110191253"
+    },
+    {
+      "id": "dev-notes-5-comment-3114772067",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 5,
+      "issueTitle": "Day 4: Typesetting a page",
+      "commentId": 3114772067,
+      "content": "# Today's Learning \n\nCreated 2 new design iterations in Figma — the final one feels workable and closest to the goal. \n\n Learned new Figma tools and techniques for layout, image layering, and object manipulation. Though it was challenging today, I pushed through and did my best.\n\n Started exploring HTML & CSS to replicate the same design structure. Key elements I understood: \n\n### HTML Tags\n• div – for main layout sections and wrappers  \n• span– for inline text stylings  \n• section– to organize narrative parts  \n\n### CSS properties I learned:\n• background: linear-gradient() – for soft gradient backgrounds  \n• position: absolute / relative – for precise image placement  \n• transform: rotate() / scale() – to shape and tilt elements  \n• z-index – to manage layering of images  \n• box-shadow / filter: drop-shadow() – for realistic depth effects  \n• font-family – to match storytelling font style\n\n## Design for -  'THE DROP OF WATER'\nhttps://www.figma.com/design/J5FgL2BjIDIUYz7mZrn7xg/Static?node-id=0-1&t=3MSygFpYH2q8ODsJ-1\n\n<img width=\"551\" height=\"814\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d4366e1e-dec2-4fda-b95d-2022c18bff04\" />\n\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/d4366e1e-dec2-4fda-b95d-2022c18bff04"
+      ],
+      "wordCount": 161,
+      "date": {
+        "iso": "2025-07-24T20:07:30.000Z",
+        "date": "2025-07-24",
+        "formatted": "July 25, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/5#issuecomment-3114772067"
+    },
+    {
+      "id": "dev-notes-6-comment-3130533308",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 6,
+      "issueTitle": "Day 6: Making Grids",
+      "commentId": 3130533308,
+      "content": "# Grid Example\n\n\n## Where I faced difficulties:\n\nIt was a little tough to figure out how to create proper columns and give them appropriate spacing.\nAfter many trials, I finally learned how to set the correct padding and gaps.\nIn the second example, I still haven’t figured out how to place the six day names above their respective images — this is something I need to fix.\nIt was fun decoding such layouts, but at the same time, it was also a test of patience.\n\n\nLink : https://grid-examples-d7d25b.netlify.app/\n\n\n<img width=\"1623\" height=\"891\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/848fe8c9-8ef5-4e60-a2d3-3611ddebed47\" />\n<img width=\"1762\" height=\"880\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a2afc652-9531-4d5c-8046-fb3bb4534d92\" />",
+      "urls": [
+        "https://grid-examples-d7d25b.netlify.app/",
+        "https://github.com/user-attachments/assets/848fe8c9-8ef5-4e60-a2d3-3611ddebed47",
+        "https://github.com/user-attachments/assets/a2afc652-9531-4d5c-8046-fb3bb4534d92"
+      ],
+      "wordCount": 101,
+      "date": {
+        "iso": "2025-07-29T03:39:50.000Z",
+        "date": "2025-07-29",
+        "formatted": "July 29, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/6#issuecomment-3130533308"
+    },
+    {
+      "id": "dev-notes-9-comment-3141361217",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 9: Thinking in Frameworks",
+      "commentId": 3141361217,
+      "content": "# Website Layout \n\n## NOtes:\n-Need some time to figure out proper colors \n-Not able to finalize layout so i need to work on that\n-Refining content to show in website\n\n\n:root {\n     --color-background: #C8D9E6;\n     --color-primary: #2F4156;\n     --color-secondary: #567C8Dt;\n     --color-TitleBox: #F5EFEB;\n     --text-dark: #1f2937;\n    /* Adding typography too */\n     --text-small: 20px;\n     --text-normal: 36px;\n     --text-large: 48px;\n     --text-huge: 64px;\n}\n h1 {\n     font-size: var(--text-huge);\n}\n h2 {\n     font-size: var(--text-large);\n}\n h3 {\n     font-size: var(--text-normal);\n}\np {\n     font-size: var(--text-small);\n}\n \n\n## Moodboard\n\n<img width=\"940\" height=\"674\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/841980fe-147a-4354-998c-12da70d54995\" />\n\n  \n ## Homepage \n\n<img width=\"994\" height=\"699\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ec07900d-87fc-431d-9454-e2d212e68126\" />\n\n## Page 2\n\n<img width=\"884\" height=\"626\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/70cfabae-bbef-41ea-9061-b554591fb9c2\" />\n\n## Page 3\n\n<img width=\"908\" height=\"651\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b052b91c-e1e2-450a-845a-c58c2a409b0c\" />\n\n## Page 4\n\n<img width=\"451\" height=\"699\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4a0ffd37-5c45-457a-8428-4c109bbe857d\" />\n\n\nhttps://github.com/[not11Khushi/web2025-Khhushi-site](https://github.com/not11Khushi/web2025-Khhushi-site)",
+      "urls": [
+        "https://github.com/user-attachments/assets/841980fe-147a-4354-998c-12da70d54995",
+        "https://github.com/user-attachments/assets/ec07900d-87fc-431d-9454-e2d212e68126",
+        "https://github.com/user-attachments/assets/70cfabae-bbef-41ea-9061-b554591fb9c2",
+        "https://github.com/user-attachments/assets/b052b91c-e1e2-450a-845a-c58c2a409b0c",
+        "https://github.com/user-attachments/assets/4a0ffd37-5c45-457a-8428-4c109bbe857d",
+        "https://github.com/[not11Khushi/web2025-Khhushi-site",
+        "https://github.com/not11Khushi/web2025-Khhushi-site"
+      ],
+      "wordCount": 121,
+      "date": {
+        "iso": "2025-07-31T21:16:09.000Z",
+        "date": "2025-07-31",
+        "formatted": "August 1, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/9#issuecomment-3141361217"
+    }
+  ],
+  "submissions": [],
+  "statistics": {
+    "totalNotes": 6,
+    "totalSubmissions": 0,
+    "totalCommits": 15,
+    "firstActivity": "2025-07-21T10:09:34.000Z",
+    "lastActivity": "2025-08-13T06:02:06.000Z",
+    "mostActiveDay": "2025-08-01",
+    "totalEntries": 6,
+    "averageWordCount": 141
+  },
+  "commitsByDate": {
+    "2025-08-13": [
+      {
+        "message": "css change",
+        "repository": "final_website",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "edit photos",
+        "repository": "final_website",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "change in css",
+        "repository": "final_website",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "change in layout",
+        "repository": "final_website",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "initial commit",
+        "repository": "final_website",
+        "time": "August 13, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "changes foe images links 1 and 2",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "change height of second img",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "change the name of link",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "change second image css",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "add image in about page",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "add one more image",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "done some small changes",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "made one small changes",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "addeed image  card component",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      }
+    ],
+    "2025-07-31": [
+      {
+        "message": "intial",
+        "repository": "hello",
+        "time": "July 31, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-13T06:48:10.576Z",
+  "repositories": [
+    {
+      "name": "web2025-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2025",
+      "type": "submissions",
+      "description": "Project submissions and student work"
+    }
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://myeyesareonyou.netlify.app/",
+        "author": "not11Khushi",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102769713",
+        "createdAt": "2025-07-22T13:38:56Z",
+        "imageName": "myeyesareonyou.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://the-drop-pfwater-6bd9ee.netlify.app/",
+        "author": "not11Khushi",
+        "authorType": "issue_author",
+        "issueNumber": 19,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/19",
+        "createdAt": "2025-07-27T21:51:01Z",
+        "imageName": "the-drop-pfwater-6bd9ee.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://grid-examples-d7d25b.netlify.app/",
+        "author": "not11Khushi",
+        "authorType": "commenter",
+        "issueNumber": 6,
+        "issueTitle": "Day 6: Making Grids",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/6",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/6#issuecomment-3130533308",
+        "createdAt": "2025-07-29T03:39:50Z",
+        "imageName": "grid-examples-d7d25b.netlify.app.webp"
+      }
+    ]
+  }
+}

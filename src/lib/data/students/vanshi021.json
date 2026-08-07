@@ -1,0 +1,355 @@
+{
+  "username": "vanshi021",
+  "name": "Vanshika Singal",
+  "website": "https://vanshika-site.netlify.app/",
+  "socialLinks": [],
+  "devNotes": [
+    {
+      "id": "dev-notes-2-comment-3095993003",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Hello World",
+      "commentId": 3095993003,
+      "content": "## Pinterest\nhttps://www.pinterest.com\n\n![Image](https://github.com/user-attachments/assets/cb7a8f09-95b2-4cd9-847e-1f8083d87e20)",
+      "urls": [
+        "https://github.com/user-attachments/assets/cb7a8f09-95b2-4cd9-847e-1f8083d87e20"
+      ],
+      "wordCount": 4,
+      "date": {
+        "iso": "2025-07-21T10:00:10.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 21, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/2#issuecomment-3095993003"
+    },
+    {
+      "id": "dev-notes-1-comment-3101859157",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Day 1: The Small Web",
+      "commentId": 3101859157,
+      "content": "### **Immersive Web Design - Assignment 1**\n\n#### **1. Class Learning’s:**\n\nThe first question we were asked was what do we imagine a website looks like…\n**Website as a Tree**\nI’ve come to see a website much like a tree. The homepage acts as the trunk — the central structure, the face of it all. From there, links and buttons branch out like limbs and leaves, guiding visitors to different areas and experiences. Just as a tree needs daily care and nurturing to grow from a sapling into something strong and full of life, a website too requires consistent attention, updates, and creativity to thrive. This metaphor helps me connect with the process more personally and organically.\n\n**Class Notes – Day 1 Reflection**\nThe first class gave me a new sense of confidence — helping me view the web and websites not as intimidating networks of code, but as creative, personal spaces. Coming from a commerce background and now venturing into design, the idea of working with code felt daunting at first. But the way the class unfolded made it approachable, step by step, one day at a time.\n\nWhat surprised me most was discovering that the internet can be a platform for self-expression. Until now, I always saw websites as formal, impersonal entities. That perspective shifted entirely. Now, I see them as living canvases — spaces that can reflect individuality, creativity, and personal voice.\n\nThis was truly a “learning by unlearning” experience — letting go of preconceived notions and opening up to new ways of seeing and creating. It was exciting, and I’m looking forward to what comes next.\n\n#### **2. Screenshot:**\n\n<img width=\"2360\" height=\"1640\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8d0d724d-3f3c-463b-be2c-391c2b4152fc\" />\n\n#### **3. Link:**\n\nhttps://drive.google.com/drive/folders/1V67coSYMVKB6DoQaSTKxQ8TpYYrbqU-Y",
+      "urls": [
+        "https://github.com/user-attachments/assets/8d0d724d-3f3c-463b-be2c-391c2b4152fc"
+      ],
+      "wordCount": 283,
+      "date": {
+        "iso": "2025-07-22T09:28:22.000Z",
+        "date": "2025-07-22",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101859157"
+    },
+    {
+      "id": "dev-notes-3-comment-3111872512",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 3,
+      "issueTitle": "Day 2: HTML, CSS, and You",
+      "commentId": 3111872512,
+      "content": "### **Day 2 - Me with the Codes**\n\nBeing new to these concepts, games like these really help me understand the topics in a more enjoyable and engaging way. Today felt satisfying because I was actually able to grasp the language. I also explored new websites that could support my learning and make understanding code easier. However, I do feel that I still have a long way to go before I become fully comfortable with this aspect of design.",
+      "urls": [],
+      "wordCount": 79,
+      "date": {
+        "iso": "2025-07-24T03:58:05.000Z",
+        "date": "2025-07-24",
+        "formatted": "July 24, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/3#issuecomment-3111872512"
+    },
+    {
+      "id": "dev-notes-4-comment-3114207335",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 4,
+      "issueTitle": "Day 3: Seeing and Searching",
+      "commentId": 3114207335,
+      "content": "**Day 3** \n\nClass Notes:\nLearned a lot of new terms:\n1. Flex\n2. Justified-Content\n3. Alignment \nAnd these learnings happened in a very subtle and a fun way. I always appreciate learning through doing. Reading helps a lot but when we actually sit to do things ourselves it gives an opportunity to try new things, these trials might fail but every trail is a lesson in itself. The part of the class where we styled a web page along with the professor gave a different kind of excitement towards coding and actually seeing results on the screen. Looking forward to more such activities. \n\nBasic Design Layout:\nThe following is a basic step by step process i have done to get a layout for the story web page:\n1. The first rough idea-\n \n![image](https://github.com/user-attachments/assets/68690828-beb1-438a-84f6-cb001fe87c63)\n\n2. Second development-\n\n![image](https://github.com/user-attachments/assets/5c6bd7cc-792e-4caa-8699-8159bdba44ab)\n\n3. Third idea development-\n\n![image](https://github.com/user-attachments/assets/3c4c27a3-05b3-4100-a0ac-849effad412a)\n\nFurther to this I will try to develop a code that gives the best possible execution to this design. ",
+      "urls": [
+        "https://github.com/user-attachments/assets/68690828-beb1-438a-84f6-cb001fe87c63",
+        "https://github.com/user-attachments/assets/5c6bd7cc-792e-4caa-8699-8159bdba44ab",
+        "https://github.com/user-attachments/assets/3c4c27a3-05b3-4100-a0ac-849effad412a"
+      ],
+      "wordCount": 162,
+      "date": {
+        "iso": "2025-07-24T17:03:13.000Z",
+        "date": "2025-07-24",
+        "formatted": "July 24, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/4#issuecomment-3114207335"
+    },
+    {
+      "id": "dev-notes-5-comment-3114222026",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 5,
+      "issueTitle": "Day 4: Typesetting a page",
+      "commentId": 3114222026,
+      "content": "**Day 4**\n\nAnother day of learning something new. With constant urge to experiment the class is becoming more exciting for me. I have started to write codes, the understanding is better than what i started with. I am trying to code at my best potential to execute the design. I really hope i end up with a good code log and a satisfying design output.  ",
+      "urls": [],
+      "wordCount": 66,
+      "date": {
+        "iso": "2025-07-24T17:08:25.000Z",
+        "date": "2025-07-24",
+        "formatted": "July 24, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/5#issuecomment-3114222026"
+    },
+    {
+      "id": "dev-notes-7-comment-3133810011",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 7,
+      "issueTitle": "Day 7: The Indie Web",
+      "commentId": 3133810011,
+      "content": "### Day 7\nNotes:\nTo have your own space where you represent yourself. It can be for yourself or for others to see. The idea of connecting the metaphor of a garden and a website, where both of the things are to be watered regularly. And these sites can be about a particular topic of interest or a bunch of things mix and matched for showing the entire eco-system of yourself as a person.\nEntering different phases of this process which includes:\nCollecting data\nDefining that\nDefining the audience\nExecution\n\nManifesto:\nAs a first timer who is trying to represent herself on a bigger space, i want this website to reflect my personality through words as well as the complete outlook. But before the words or the content could speak i want the layout to speak to the audience. I am aiming to make this for others to see me as a person, maybe enjoy and join my interest areas, get some ideas for themselves or maybe to know what they should not be. The website will have two sides of me which will be first completely personal and second which is my professional side.\nThings this website might include:\n![image](https://github.com/user-attachments/assets/7108128d-b2cc-4f34-9705-60eafb211262)\nBonus:\nI am making this with an aim to represent myself with a whole new setup and doing this through something which I created (the website). This website might speak about my learnings and give everyone a summary of my learning curve as a whole. Out of professional uses i want to website to speak for me. Because if I achieve this goal of mine of executing my idea then it will be my way to telling that i can be more than a designer.",
+      "urls": [
+        "https://github.com/user-attachments/assets/7108128d-b2cc-4f34-9705-60eafb211262"
+      ],
+      "wordCount": 286,
+      "date": {
+        "iso": "2025-07-29T19:42:23.000Z",
+        "date": "2025-07-29",
+        "formatted": "July 30, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/7#issuecomment-3133810011"
+    },
+    {
+      "id": "dev-notes-9-comment-3141248931",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 9: Thinking in Frameworks",
+      "commentId": 3141248931,
+      "content": "# Day 9\n## Notes:\n1. Arranging elements in the layout \n2. finalising on the specifications like font size, colour palettes.\n\n## Repo Issue link:\n\nhttps://github.com/vanshi021/web2025-vanshika-site/issues\n\n## Variables:\n\n:root { \n/* Colors */ \n--color-primary: #F6F8F3; /* Home page background */ \n--color-secondary: #DBC5B2; /* image bg colour */\n--color-secondary: #FFFEFF; /* button text colour */\n--color-secondary: #D8A39A; /* button Bg colour */\n--color-secondary: #718DAE; /* Menu bar text*/ \n--text-heading: #787878; /* Heading text color */ \n--text-menu: #787878; /* menu-footer text */  \n\n\n/* Typography */ \n--text-title: 60px; /* heading */ \n--text-title2: 35px; /* heading 2 */ \n--text-content: 18px; /* content */ \n--text-aboutme: 20px; /* menu-footer */  \n\n\n/* Fonts */ \n--font-heading: ‘playfair display’ ; \n--font-content: 'nunito regular' ;\n--font-menu: ‘nunito regular’ ;\n--font-footer: ‘nunito regular’ ; \n}\n\n### Example\n\n<img width=\"836\" height=\"1188\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f60b69cd-ade7-42b0-8a55-a79ab2308417\" />\n\n## Layout Draft \n\n<img width=\"836\" height=\"1188\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/18cb2f9e-f744-44a1-8a87-fdeb217e5fe8\" />\n<img width=\"836\" height=\"1188\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d580a23d-9e28-441a-9fe4-35e20f1c9863\" />\n<img width=\"836\" height=\"1188\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b23b52c3-7928-40bd-a390-71c575d99e5b\" />\n<img width=\"836\" height=\"1188\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3417cc08-2a46-42aa-97bb-8fa752001ed0\" />",
+      "urls": [
+        "https://github.com/vanshi021/web2025-vanshika-site/issues",
+        "https://github.com/user-attachments/assets/f60b69cd-ade7-42b0-8a55-a79ab2308417",
+        "https://github.com/user-attachments/assets/18cb2f9e-f744-44a1-8a87-fdeb217e5fe8",
+        "https://github.com/user-attachments/assets/d580a23d-9e28-441a-9fe4-35e20f1c9863",
+        "https://github.com/user-attachments/assets/b23b52c3-7928-40bd-a390-71c575d99e5b",
+        "https://github.com/user-attachments/assets/3417cc08-2a46-42aa-97bb-8fa752001ed0"
+      ],
+      "wordCount": 159,
+      "date": {
+        "iso": "2025-07-31T20:28:12.000Z",
+        "date": "2025-07-31",
+        "formatted": "August 1, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/9#issuecomment-3141248931"
+    },
+    {
+      "id": "dev-notes-11-comment-3153295967",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 11,
+      "issueTitle": "Day 11: [Project Day 1] Here comes the sun",
+      "commentId": 3153295967,
+      "content": "# Day-11 The journey of making something of my own (Day 1-coding begins)\nLink to my website:\nhttps://vanshikasite.netlify.app/\n\nThe list of tasks for me today were:\n1. Looking at the color palate if what I decided was actually good. Taking others' feedback on it.\n2. writing the basic content for the website that could actually get me going. I choose to do this first as one I wanted to make my basic structure with the actually information and not Lorem Ipsum, second with the actual content i will be able to set the spacing right along with other elements. \n3. I am going ahead with vanilla HTML CSS as with all the learnings until now it will be easier for me to understand and navigate through the codes. \n(Day-1 went well. I was able to execute my design a bit. With time I guess I am able to understand the terminologies - Touch wood. I really hope I continue this process with equal enthusiasm.)\n\n<img width=\"480\" height=\"270\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f709c029-389e-448f-910b-6c5fef476127\" />\n\nThe list of tasks for me for day-2 are:\n1. add all other elements on the homepage.\n2. place and space them properly just like my design layout\n3. style this page properly in way that I don't have to visit again (I will try)\n\n",
+      "urls": [
+        "https://vanshikasite.netlify.app/",
+        "https://github.com/user-attachments/assets/f709c029-389e-448f-910b-6c5fef476127"
+      ],
+      "wordCount": 216,
+      "date": {
+        "iso": "2025-08-05T04:59:20.000Z",
+        "date": "2025-08-05",
+        "formatted": "August 5, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3153295967"
+    },
+    {
+      "id": "dev-notes-12-comment-3160264053",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "commentId": 3160264053,
+      "content": "# day 12- this the day 2 of making something of my own\nToday I almost completed the homepage setup. The buttons are working and I linked the AboutMe page to the homepage. my yesterday's to-do list is complete. Now after this I will work on the AboutMe page which also I have started. Earlier I did not link my codes to the github hence I wasn't able to keep a record of all the changes I made. But thanks to Aman sir I did that as well. \n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4916d34e-4297-496f-a7bb-66b4b9844512\" />\n\n### link to my website:\nhttps://vanshika-site.netlify.app/\n\n### link to github repo:\nhttps://github.com/vanshi021/vanshika-site\n\nAs day 3 I am trying to setup the AboutMe page. Bring my design to the internet.   ",
+      "urls": [
+        "https://github.com/user-attachments/assets/4916d34e-4297-496f-a7bb-66b4b9844512",
+        "https://vanshika-site.netlify.app/",
+        "https://github.com/vanshi021/vanshika-site"
+      ],
+      "wordCount": 124,
+      "date": {
+        "iso": "2025-08-06T13:50:11.000Z",
+        "date": "2025-08-06",
+        "formatted": "August 6, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160264053"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "submissions-16-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 16,
+      "issueTitle": "[STUDENT] Vanshika-Singal",
+      "content": "### Student Name\n\nVanshika Singal\n\n### Website URL\n\nhttps://vanshika-site.netlify.app/\n\n### Social Link 1 (Optional)\n\n_No response_\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://vanshika-site.netlify.app/"
+      ],
+      "wordCount": 30,
+      "date": {
+        "iso": "2025-08-12T14:38:33.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 12, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/16"
+    }
+  ],
+  "statistics": {
+    "totalNotes": 9,
+    "totalSubmissions": 1,
+    "totalCommits": 10,
+    "firstActivity": "2025-07-21T10:00:10.000Z",
+    "lastActivity": "2025-08-12T10:14:34.000Z",
+    "mostActiveDay": "2025-07-24",
+    "totalEntries": 10,
+    "averageWordCount": 141
+  },
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "cursor changed",
+        "repository": "vanshika-site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "addition to manifesto page and some elements",
+        "repository": "vanshika-site",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "attention to details part 2 (11th aug)",
+        "repository": "vanshika-site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "attention to the details",
+        "repository": "vanshika-site",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-08": [
+      {
+        "message": "changes in manifesto page (the basics)",
+        "repository": "vanshika-site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "Added manifesto page, made changes in aboutme page",
+        "repository": "vanshika-site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "About link updated",
+        "repository": "vanshika-site",
+        "time": "August 8, 2025"
+      }
+    ],
+    "2025-08-06": [
+      {
+        "message": "about me changes",
+        "repository": "vanshika-site",
+        "time": "August 6, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "added homepage",
+        "repository": "vanshika-site",
+        "time": "August 5, 2025"
+      }
+    ],
+    "2025-07-28": [
+      {
+        "message": "adds index.html",
+        "repository": "vanshika-grid",
+        "time": "July 28, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-13T06:48:10.576Z",
+  "repositories": [
+    {
+      "name": "web2025-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2025",
+      "type": "submissions",
+      "description": "Project submissions and student work"
+    }
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://its-very-sad.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3109222000",
+        "createdAt": "2025-07-23T15:55:27Z",
+        "imageName": "its-very-sad.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://the-darning-needle-vs.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "issue_author",
+        "issueNumber": 8,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/8",
+        "createdAt": "2025-07-25T09:59:21Z",
+        "imageName": "the-darning-needle-vs.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://vanshika-site.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "commenter",
+        "issueNumber": 12,
+        "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160264053",
+        "createdAt": "2025-08-06T13:50:11Z",
+        "imageName": "vanshika-site.netlify.app.webp"
+      },
+      {
+        "url": "https://vanshikasite.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "commenter",
+        "issueNumber": 11,
+        "issueTitle": "Day 11: [Project Day 1] Here comes the sun",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/11",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3153295967",
+        "createdAt": "2025-08-05T04:59:20Z",
+        "imageName": "vanshikasite.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://vanshika-site.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "issue_author",
+        "issueNumber": 16,
+        "issueTitle": "[STUDENT] Vanshika-Singal",
+        "issueUrl": "https://github.com/open-making/web2025/issues/16",
+        "createdAt": "2025-08-12T14:38:33Z",
+        "imageName": "vanshika-site.netlify.app.webp"
+      }
+    ]
+  }
+}

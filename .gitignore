@@ -1,0 +1,31 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# licensed fonts (SimpleBits) — extracted woff2 kept out of git until license decision
+secretclub/
+secretclub.zip
+src/lib/assets/fonts/*.woff2
+
+# screenshot originals
+src/lib/assets/images/**/original/

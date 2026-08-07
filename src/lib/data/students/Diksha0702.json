@@ -1,0 +1,356 @@
+{
+  "username": "Diksha0702",
+  "name": "Diksha Jain",
+  "website": "https://dikshajain-portfolio.netlify.app/",
+  "socialLinks": [
+    "https://www.instagram.com/chinki_jain_",
+    "https://www.linkedin.com/in/diksha-jain-"
+  ],
+  "devNotes": [
+    {
+      "id": "dev-notes-2-comment-3095972512",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Hello World",
+      "commentId": 3095972512,
+      "content": "## Neon Riser\nhttps://neonriser.neocities.org/\n\n<img width=\"1252\" height=\"966\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e4fb1126-9151-416a-8fee-34e0789ff3ff\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/e4fb1126-9151-416a-8fee-34e0789ff3ff"
+      ],
+      "wordCount": 10,
+      "date": {
+        "iso": "2025-07-21T09:53:08.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 21, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/2#issuecomment-3095972512"
+    },
+    {
+      "id": "dev-notes-1-comment-3101274690",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Day 1: The Small Web",
+      "commentId": 3101274690,
+      "content": "## Immersive Web Design\n\n### Today's learning\nits really great to go back to where i started 4 years ago but with complete new format and perspective, never really like html and CSS from my bachelors years itself but surfing through all webpages and sites people's personal profile really make me think through what all the things this two can help you build.. \n \n**looking forward to like them bit by bit...**\n\nMood Board link : https://www.figma.com/design/9dr5sQwyzTxhs44a8yxIE6/Internet-archive?node-id=0-1&p=f&t=Bq2B4SUj4yn5d0uQ-0\n\n<img width=\"1033\" height=\"702\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e300e27b-e04b-432d-b752-0368cc2a2757\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/e300e27b-e04b-432d-b752-0368cc2a2757"
+      ],
+      "wordCount": 82,
+      "date": {
+        "iso": "2025-07-22T06:35:22.000Z",
+        "date": "2025-07-22",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101274690"
+    },
+    {
+      "id": "dev-notes-3-comment-3103003938",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 3,
+      "issueTitle": "Day 2: HTML, CSS, and You",
+      "commentId": 3103003938,
+      "content": "## 2nd day at Immersive web design module \nit was a good fun day, had a reunion meeting with HTML and CSS after a long time but in a fun and interesting way..\nthe game we played today made me test not just my CSS skill but also it gave the dopamine hit of completing it  which kind of motivate to know more..\nlearned a wonderful thing about deploying our own website without paying money like seriously where was it for so long... thank you for lighting us with that...\nlooking forward to make more ugly but useful website with you in the coming days, ",
+      "urls": [],
+      "wordCount": 106,
+      "date": {
+        "iso": "2025-07-22T14:26:41.000Z",
+        "date": "2025-07-22",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/3#issuecomment-3103003938"
+    },
+    {
+      "id": "dev-notes-4-comment-3110827200",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 4,
+      "issueTitle": "Day 3: Seeing and Searching",
+      "commentId": 3110827200,
+      "content": "## Day 3 at Immersive Web design \nflex and things related to flex has always been complicated for me but its good to always unlearn and learn it again so today's session helped me in that loved how the game helped me....\ntoday's assignment is more of task for me rather than tomorrow as layout design is complicated but converting that into coded webpage will be a fun part tomorrow....\nbut its always important to atleast try so tried something which recently i am attracted towards...\nfigma link : https://www.figma.com/design/ZJ91Y9KWNbhHG5kVHemGqA/tinder-story-layout?node-id=1-20&t=mT8uNXQu7YBHYWqU-01\n\n<img width=\"544\" height=\"2281\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2cb9265d-8dc3-49ab-a7ad-31c3e5fa8609\" />\n\n ",
+      "urls": [
+        "https://github.com/user-attachments/assets/2cb9265d-8dc3-49ab-a7ad-31c3e5fa8609"
+      ],
+      "wordCount": 97,
+      "date": {
+        "iso": "2025-07-23T22:48:01.000Z",
+        "date": "2025-07-23",
+        "formatted": "July 24, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/4#issuecomment-3110827200"
+    },
+    {
+      "id": "dev-notes-5-comment-3116419732",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 5,
+      "issueTitle": "Day 4: Typesetting a page",
+      "commentId": 3116419732,
+      "content": "## Day 4 Immersive web design \ntoday it feels like a complete relieving of my bachelors time but in a more fun way as i have design something of my own an bringing it to live and i am actually kind of started also enjoy the process but sometimes kind it feel i seriously need to take it a little less on mind like as you said  **\"it's just a html document .. \"**\n\nthings i learned today is a reminder you need to be very patience for things to all put together nicely in both design and layout or coding so yess one thing at a time... \n\n<img width=\"1869\" height=\"912\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/44a38cb5-9f70-42a3-ad9c-93c420c6fb84\" />\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/44a38cb5-9f70-42a3-ad9c-93c420c6fb84"
+      ],
+      "wordCount": 115,
+      "date": {
+        "iso": "2025-07-25T05:14:09.000Z",
+        "date": "2025-07-25",
+        "formatted": "July 25, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/5#issuecomment-3116419732"
+    },
+    {
+      "id": "dev-notes-7-comment-3133614959",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 7,
+      "issueTitle": "Day 7: The Indie Web",
+      "commentId": 3133614959,
+      "content": "## Digital Gardening \n**\"The Garden is the web as topology. The web as space. It’s the integrative web, the iterative web, the web as an arrangement and rearrangement of things to one another\"**\n\nsince so long wanted to work on the personal portfolio but was always procrastinating it because of the typical boring template concept but the digital garden makes me want to grow and sow my own ..\n\n## Manifesto\nI want to build my portfolio like a garden where i show case my work like premium but important vegies, but also want to have a theme around it, add some sprinkles of aesthetic . show case the loved flowers and beautiful artwork like memories section , TBR list , my thoughts collection and the see what i got know section ... \nits like building a place which i can call mine, and i need and want to use it everyday and all my day, my work, projects, things i love and things i don't love everything over there\n\nwanna know about hey do visit this site type of one .... it has titles, pictures and small captions      \n\n![Image](https://github.com/user-attachments/assets/03a8337a-355a-490c-96c7-7f53213f0f7f)\n\n## Bonus\nMaking a website especially a portfolio one which not one of the typical template looking so it already a win-win situation here ,  Is there a larger point beyond this class? yes because got an exposure to a lot of different things that's gonna be needed all the time and was gate kept to me but better late than never \nDo you see this helping you professionally? did i mention portfolio garden journal duhhh its a favorite dessert to me  ",
+      "urls": [
+        "https://github.com/user-attachments/assets/03a8337a-355a-490c-96c7-7f53213f0f7f"
+      ],
+      "wordCount": 273,
+      "date": {
+        "iso": "2025-07-29T18:33:08.000Z",
+        "date": "2025-07-29",
+        "formatted": "July 30, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/7#issuecomment-3133614959"
+    },
+    {
+      "id": "dev-notes-8-comment-3141010136",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 8,
+      "issueTitle": "Day 8: Visual Hierarchies",
+      "commentId": 3141010136,
+      "content": "## Day 8 Brainstorming portfolio Day \n\nfigma link : https://www.figma.com/design/Pslbp2bZ8pi8VAb1FrDPDd/Diksha-s-Portfolio?node-id=0-1&p=f&t=JFKAmUIfc1pXpkGp-0\n<img width=\"983\" height=\"549\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4b8f36fa-8160-4ef7-94fc-26abd27458bb\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/4b8f36fa-8160-4ef7-94fc-26abd27458bb"
+      ],
+      "wordCount": 16,
+      "date": {
+        "iso": "2025-07-31T18:50:36.000Z",
+        "date": "2025-07-31",
+        "formatted": "August 1, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/8#issuecomment-3141010136"
+    },
+    {
+      "id": "dev-notes-9-comment-3141032958",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 9: Thinking in Frameworks",
+      "commentId": 3141032958,
+      "content": "## Day 9 \n<img width=\"632\" height=\"524\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/5bfdb4a8-45e6-4e25-bc06-de50aa6da35a\" />\n\ncode :\n```css\n\t:root {\n\t  /* Colors */\n\t  --color-primary: #D89A7E;    /* for links, buttons */\n\t  --color-accent: #DCCEF9;     /* for highlights */\n\t  --text-dark: #3C2A4D;\n\t /* Main text color */\n\t  --background: #F9F6F0;       /* Page background */\n\t\n\t  /* Typography */\n\t  --text-small: 0.875rem;      /* 14px - captions */\n\t  --text-normal: 1rem;         /* 16px - body text */\n\t  --text-large: 1.5rem;        /* 24px - section headings */\n\t  --text-huge: 2.5rem;         /* 40px - page title */\n\t\n\t  /* Fonts */\n\t  --font-main: 'IBM Plex Sans', sans-serif;\n\t  --font-heading: 'Wremena', serif;\n\t}\n\t\n\t/* Now use them */\n\tbody {\n\t  font-family: var(--font-main);\n\t  font-size: var(--text-normal);\n\t  color: var(--text-dark);\n\t  background: var(--background);\n\t}\n\t\n\th1 {\n\t  font-family: var(--font-heading);\n\t  font-size: var(--text-huge);\n\t  color: var(--color-primary);\n\t}\n\t\n\t.button {\n\t  font-family: var(--font-main);\n\t  background: var(--color-primary);\n\t  font-size: var(--text-normal);\n\t}\n\t\n\nGit repo link : https://github.com/Diksha0702/web2025-diksha-site",
+      "urls": [
+        "https://github.com/user-attachments/assets/5bfdb4a8-45e6-4e25-bc06-de50aa6da35a",
+        "https://github.com/Diksha0702/web2025-diksha-site"
+      ],
+      "wordCount": 128,
+      "date": {
+        "iso": "2025-07-31T18:58:37.000Z",
+        "date": "2025-07-31",
+        "formatted": "August 1, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/9#issuecomment-3141032958"
+    },
+    {
+      "id": "dev-notes-12-comment-3156099549",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "commentId": 3156099549,
+      "content": "## Day 12 Immersive web design \nGoals for today (5 aug)\n\n- [x] code and complete home page \n- [x] Design for thought collection list page \n\nGoals for tomorrow\n\n- [ ] complete thought collection list page design with code \n- [ ] complete the single thought note page design\n- [ ] start basic code for thought note page\n- [ ] code for about page\n\n### Feelings today\ncompleted the home page , its looking beautiful got a little confident i can finally pull this of kind....\n\nrepo link : https://github.com/Diksha0702/diksha-portfolio\nnetlify link : the website just have 1 page , wont look nice if deployed so tomorrow but screen shot for today..\n\n<img width=\"1919\" height=\"882\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ebabf3f7-75e9-4656-84f8-f074deaa7172\" />\n\n ",
+      "urls": [
+        "https://github.com/Diksha0702/diksha-portfolio",
+        "https://github.com/user-attachments/assets/ebabf3f7-75e9-4656-84f8-f074deaa7172"
+      ],
+      "wordCount": 122,
+      "date": {
+        "iso": "2025-08-05T18:03:48.000Z",
+        "date": "2025-08-05",
+        "formatted": "August 5, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156099549"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "submissions-14-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 14,
+      "issueTitle": "Diksha Jain",
+      "content": "### Student Name\n\nDiksha Jain\n\n### Website URL\n\nhttps://dikshajain-portfolio.netlify.app/\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/chinki_jain_\n\n### Social Link 2 (Optional)\n\nhttps://www.linkedin.com/in/diksha-jain-\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://dikshajain-portfolio.netlify.app/"
+      ],
+      "wordCount": 28,
+      "date": {
+        "iso": "2025-08-12T12:09:26.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 12, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/14"
+    }
+  ],
+  "statistics": {
+    "totalNotes": 9,
+    "totalSubmissions": 1,
+    "totalCommits": 16,
+    "firstActivity": "2025-07-21T09:53:08.000Z",
+    "lastActivity": "2025-08-13T06:47:53.000Z",
+    "mostActiveDay": "2025-08-12",
+    "totalEntries": 10,
+    "averageWordCount": 98
+  },
+  "commitsByDate": {
+    "2025-08-13": [
+      {
+        "message": "made changes in images path",
+        "repository": "diksha-portfolio",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "optimized images",
+        "repository": "diksha-portfolio",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "added notes md files",
+        "repository": "diksha-portfolio",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "change in home page",
+        "repository": "diksha-portfolio",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "added image optemizer",
+        "repository": "diksha-portfolio",
+        "time": "August 13, 2025"
+      }
+    ],
+    "2025-08-12": [
+      {
+        "message": "added artwork,photography,painting pages",
+        "repository": "diksha-portfolio",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "added image",
+        "repository": "diksha-portfolio",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "made changes memories and added artwork page",
+        "repository": "diksha-portfolio",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "added memories page and photocard",
+        "repository": "diksha-portfolio",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "made changes in thought and note",
+        "repository": "diksha-portfolio",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "add styling thought pages",
+        "repository": "diksha-portfolio",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "added about page and thougts page",
+        "repository": "diksha-portfolio",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "created homepage",
+        "repository": "diksha-portfolio",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "updated astro project",
+        "repository": "diksha-portfolio",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "Update README.md",
+        "repository": "diksha-portfolio",
+        "time": "August 5, 2025"
+      }
+    ],
+    "2025-07-31": [
+      {
+        "message": "Initial commit",
+        "repository": "diksha-portfolio",
+        "time": "July 31, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-13T06:48:10.576Z",
+  "repositories": [
+    {
+      "name": "web2025-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2025",
+      "type": "submissions",
+      "description": "Project submissions and student work"
+    }
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://jude-lyrics.netlify.app/",
+        "author": "Diksha0702",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102225107",
+        "createdAt": "2025-07-22T10:57:14Z",
+        "imageName": "jude-lyrics.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://thetinderboxbydiksha.netlify.app/",
+        "author": "Diksha0702",
+        "authorType": "issue_author",
+        "issueNumber": 17,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/17",
+        "createdAt": "2025-07-25T10:32:53Z",
+        "imageName": "thetinderboxbydiksha.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://dikshajain-portfolio.netlify.app/",
+        "author": "Diksha0702",
+        "authorType": "issue_author",
+        "issueNumber": 14,
+        "issueTitle": "Diksha Jain",
+        "issueUrl": "https://github.com/open-making/web2025/issues/14",
+        "createdAt": "2025-08-12T12:09:26Z",
+        "imageName": "dikshajain-portfolio.netlify.app.webp"
+      }
+    ]
+  }
+}

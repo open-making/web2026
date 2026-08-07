@@ -1,0 +1,48 @@
+name: Project Gallery
+description: web2025 Project Gallery
+title: "[STUDENT] Your Name"
+labels: ["student"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the information below to have your page in the course gallery.
+
+  - type: input
+    id: student-name
+    attributes:
+      label: Student Name
+      description: Your full name as you'd like it to appear in the gallery
+      placeholder: e.g., Baburao Apte
+    validations:
+      required: true
+
+  - type: input
+    id: website-url
+    attributes:
+      label: Website URL
+      description: The URL of your deployed site (perfectly okay if it is the Netlify URL)
+      placeholder: e.g., https://star-garage.netlify.app
+    validations:
+      required: true
+
+  - type: input
+    id: social-link-1
+    attributes:
+      label: Social Link 1 (Optional)
+      description: Your first social media or external link if you want to have that (Instagram, Twitter, etc.)
+      placeholder: e.g., https://instagram.com/baburao
+
+  - type: input
+    id: social-link-2
+    attributes:
+      label: Social Link 2 (Optional)
+      description: Your second social media
+      placeholder: e.g., https://linkedin.com/in/shyam
+
+  - type: input
+    id: social-link-3
+    attributes:
+      label: Social Link 3 (Optional)
+      description: Your third social media or portfolio link
+      placeholder: e.g., https://twitter.com/baburao

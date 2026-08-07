@@ -1,0 +1,445 @@
+{
+  "username": "jaipalsingh11",
+  "name": "Jaipal Sonigara",
+  "website": "https://jaypeeweb.netlify.app/",
+  "socialLinks": [
+    "https://www.instagram.com/jaypeebanna/"
+  ],
+  "devNotes": [
+    {
+      "id": "dev-notes-2-comment-3095971179",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Hello World",
+      "commentId": 3095971179,
+      "content": "## Deviant Art\n\nhttps://www.deviantart.com/\n\n<img width=\"781\" height=\"675\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/98100aa2-dab6-4bbb-b3c2-b4a6d32e2521\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/98100aa2-dab6-4bbb-b3c2-b4a6d32e2521"
+      ],
+      "wordCount": 10,
+      "date": {
+        "iso": "2025-07-21T09:52:37.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 21, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/2#issuecomment-3095971179"
+    },
+    {
+      "id": "dev-notes-1-comment-3099626633",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Day 1: The Small Web",
+      "commentId": 3099626633,
+      "content": "### Today was a Great day for me!\nwhen I got introduced to the concept of Geocities and the Wayback Machine, so I felt so excited. It also watered my hope of being able to do design in this era of AI, **The idea and belief that websites can be built considering that these are made for humans, not a robot that is there just to get information,  Just like how talking to a person isn't only about getting facts, but also about experiencing their personality, websites can be the same. They can feel alive, expressive, and full of character.**\n\nThe idea of comparing websites to a person who is communicating with us, was introduced to me by a book by everett N. McKayI some years ago and i always used to think that websites can also be more visually appealing, have more personality, and be expressive. And today, I got introduced to this small web era, and I could not stop browsing more and more websites. Neocities really blew my mind, some of the websites there were very creative and mind-blowing. And using the Wayback Machine was also very fun it kind of felt like using a time machine.\n\nClass Assignment:\nhttps://www.figma.com/design/k1o1fyoyAyg34pRNz9xt2k/Untitled?node-id=0-1&t=MYHLaNW6VNkvUMlK-1\n\n\n<img width=\"633\" height=\"697\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/335c4a5f-8668-4125-87c8-9be80d495a05\" />\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/335c4a5f-8668-4125-87c8-9be80d495a05"
+      ],
+      "wordCount": 210,
+      "date": {
+        "iso": "2025-07-21T22:27:49.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3099626633"
+    },
+    {
+      "id": "dev-notes-3-comment-3104912553",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 3,
+      "issueTitle": "Day 2: HTML, CSS, and You",
+      "commentId": 3104912553,
+      "content": "### Amazing day again!\nHad so much fun learning the basics of HTML and CSS, and then applying them in the \"Make the Ugliest Website\" task. That task was honestly great because I could experiment freely without worrying about the outcome or feeling any pressure. It didn’t even feel like a task, I did it effortlessly, lol.\n\nThe code game was super fun too! learned how to target specific elements in CSS in such a playful way.\n\nAnanya, if you're reading this -you missed a lot of fun today!\n",
+      "urls": [],
+      "wordCount": 90,
+      "date": {
+        "iso": "2025-07-22T21:41:19.000Z",
+        "date": "2025-07-22",
+        "formatted": "July 23, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/3#issuecomment-3104912553"
+    },
+    {
+      "id": "dev-notes-4-comment-3109608798",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 4,
+      "issueTitle": "Day 3: Seeing and Searching",
+      "commentId": 3109608798,
+      "content": "###  3rd Day – Web Design Module\n\nIt feels like I’ve started becoming a coder now.  \nI can look at HTML and actually understand some parts of if, I don't feel completely lost anymore.\n\nThe exercises were good.  \nI learned how to find the right code for things and how to search better.\n\nAnd again, the game was really good, so fun and so informative.\n\nI learned CSS properties like `flex-flow`, `align-self`, `order`, `justify-content` and all.\n\nVery excited to use them in tomorrow’s task!\n\n<img width=\"986\" height=\"738\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7fcd7cf7-3134-41a7-acdf-4798f1c636de\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/7fcd7cf7-3134-41a7-acdf-4798f1c636de"
+      ],
+      "wordCount": 90,
+      "date": {
+        "iso": "2025-07-23T18:07:50.000Z",
+        "date": "2025-07-23",
+        "formatted": "July 23, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/4#issuecomment-3109608798"
+    },
+    {
+      "id": "dev-notes-5-comment-3115126102",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 5,
+      "issueTitle": "Day 4: Typesetting a page",
+      "commentId": 3115126102,
+      "content": "## Day 4 \nEnjoyed the process of making my design come to life but also got frustrated few times, because of errors/mistakes i could not diagnose/solve, but yes after trying again and again finally solved most of, \nIt was really a productive day, learned a lot lf html things in such a short time. ",
+      "urls": [],
+      "wordCount": 55,
+      "date": {
+        "iso": "2025-07-24T22:10:01.000Z",
+        "date": "2025-07-24",
+        "formatted": "July 25, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/5#issuecomment-3115126102"
+    },
+    {
+      "id": "dev-notes-7-comment-3133541111",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 7,
+      "issueTitle": "Day 7: The Indie Web",
+      "commentId": 3133541111,
+      "content": "## Menifesto\n\nI am making this space to curate all of my works that I have done so far, and organise them nicely and in a good, presentable way, and have some space on the internet for my identity/interests so that if anyone wants to connect/know more about me, I can send them my website. I want it to be like I am as a person professional at first encounter, but when you dig deeper in breadcrumbs/interact more with it and go inside and inside it, you will get to know my interests and how I am as a person, what my work ethics are, and basically my personal space.\n\nI want it to be very graphic, visually appealing, artistic, playful kind of mood professional but in a creative way, something that is not dictated by rules/guidelines, free, entho-driven, and again very much **GRAPHIC**.\nIts visual identity should communicate my entho and work ethics about aesthetics and how much I value art in my work.\n\nTo me, this space would mean or I want it to mean a place where I can truly express my interests, my opinions, my philosophy (not in a literal way, but in the way it's designed), and something that is truly **MY OWN.**\n\nThis space will grow as I grow professionally, and as my interests grow, as my knowledge grows. I will keep adding projects/works that I will be doing articles, writings, posters (which I do as a hobby) and I want it to grow like a tree, not a building. I mean something that can grow in different directions and develop into different sub-branches.\n\n",
+      "urls": [],
+      "wordCount": 271,
+      "date": {
+        "iso": "2025-07-29T18:09:25.000Z",
+        "date": "2025-07-29",
+        "formatted": "July 29, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/7#issuecomment-3133541111"
+    },
+    {
+      "id": "dev-notes-8-comment-3137554533",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 8,
+      "issueTitle": "Day 8: Visual Hierarchies",
+      "commentId": 3137554533,
+      "content": "So finally we started working on our own websites, which I had been waiting for for some time. But starting on a layout or fixing one was not very easy. I think I am being very choosy about it. First, I was thinking of something very flashy and ornamental, but then I wasn't confident about that and thought it might irritate the visitor. Then I considered something simpler or something that isn’t very graphic, but again, that didn’t feel right. So I’m feeling stuck. I’ll try again tomorrow for layout ideas that don’t overwhelm the visitor but are still visually appealing and unique at some level. Below are some explorations from today’s ideas.\n\n\n<img width=\"943\" height=\"587\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/dbad1d5e-0f7c-4859-b8ae-22993f535b95\" />\n<img width=\"446\" height=\"722\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f4a3ac13-d23f-4b7c-9c8e-0026f522bbea\" />\n<img width=\"760\" height=\"612\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d6fa3912-3ea1-4842-88d1-56b552650101\" />\n\n\nApart from that, reading those articles about hierarchies was fun and informative.",
+      "urls": [
+        "https://github.com/user-attachments/assets/dbad1d5e-0f7c-4859-b8ae-22993f535b95",
+        "https://github.com/user-attachments/assets/f4a3ac13-d23f-4b7c-9c8e-0026f522bbea",
+        "https://github.com/user-attachments/assets/d6fa3912-3ea1-4842-88d1-56b552650101"
+      ],
+      "wordCount": 143,
+      "date": {
+        "iso": "2025-07-30T19:20:30.000Z",
+        "date": "2025-07-30",
+        "formatted": "July 31, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/8#issuecomment-3137554533"
+    },
+    {
+      "id": "dev-notes-9-comment-3141357671",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 9: Thinking in Frameworks",
+      "commentId": 3141357671,
+      "content": "Feeling more satisfied with the layout/Design i have today, 😊\n\n<img width=\"831\" height=\"682\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ee288cc1-7cff-4352-9905-d12e35037932\" />\n\n<img width=\"693\" height=\"740\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fa49e0a7-f18d-4a96-9f48-fe8561420d7a\" />\n\n\n### Homepage\n<img width=\"1280\" height=\"2489\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0c84450d-b48d-4982-b89e-07088e9d6e78\" />\n\n### About me page\n<img width=\"1280\" height=\"2386\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c681fcef-4ea2-44a9-bd19-0fbc61c30bed\" />\n\nPlease Feel free to help me guys in my Issues here : _https://github.com/jaipalsingh11/Web2025-jaipal-site/issues_\n\n\n\n:root {\n/* Colors */\n--color-primary: #8bd9ff;\n--color-secondary: #ffde00;\n--color-Black: #000000;\n--color-White: #ffffff;\n\n/* Typography */\n--text-heading-: 41px;\n--text-title: 20px;\n--text-paragraph: 14px;\n\n/* Fonts */\n--font-heading: 'Recoleta Bold';\n--font-paragraph: 'Cloud Soft';\n}",
+      "urls": [
+        "https://github.com/user-attachments/assets/ee288cc1-7cff-4352-9905-d12e35037932",
+        "https://github.com/user-attachments/assets/fa49e0a7-f18d-4a96-9f48-fe8561420d7a",
+        "https://github.com/user-attachments/assets/0c84450d-b48d-4982-b89e-07088e9d6e78",
+        "https://github.com/user-attachments/assets/c681fcef-4ea2-44a9-bd19-0fbc61c30bed",
+        "https://github.com/jaipalsingh11/Web2025-jaipal-site/issues"
+      ],
+      "wordCount": 85,
+      "date": {
+        "iso": "2025-07-31T21:14:22.000Z",
+        "date": "2025-07-31",
+        "formatted": "August 1, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/9#issuecomment-3141357671"
+    },
+    {
+      "id": "dev-notes-9-comment-3141361498",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 9: Thinking in Frameworks",
+      "commentId": 3141361498,
+      "content": "> **Variables**\n> \n> :root {  /* Colors _/  --color-primary: ##F0E301; /_ Yellow for highlights _/  --text-dark: #000000; /_ Main text color _/  --text-light: ##9AA0A6; /_ Secondary text _/  --background: #ffffff; /_ Page background */  \n> \n> /* Typography _/  --text-normal: 1rem; /_ 16px - body text _/  --text-large: 1.5rem; /_ 24px - section headings _/  --text-huge: 2.5rem; /_ 40px - page title */  \n> \n> /* Fonts */  --font-main: 'Inter', sans-serif;  --font-heading: 'GFS Didot, serif; }\n> \n> \n> \n> **High Fidelity Prototype**\n> \n> <img alt=\"Image\" width=\"684\" height=\"485\" src=\"https://private-user-images.githubusercontent.com/221995799/473135147-56113d8f-baf0-41b3-9655-a6769d20caea.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTM5OTU5NTgsIm5iZiI6MTc1Mzk5NTY1OCwicGF0aCI6Ii8yMjE5OTU3OTkvNDczMTM1MTQ3LTU2MTEzZDhmLWJhZjAtNDFiMy05NjU1LWE2NzY5ZDIwY2FlYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDczMVQyMTAwNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZGJiNDA0OTg1MDM1MTQ0NTM4ZTk3NWNhYWIzYWZhNjBlMjQ5ZWE2YTllMjNiNjYxMDk4NGFkYzA0N2I1Yjk1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.sgQvADPkQXNBwju85_CG7Ge5WRFW2M72swvD0f_4Snk\">\n> <img alt=\"Image\" width=\"674\" height=\"481\" src=\"https://private-user-images.githubusercontent.com/221995799/473135202-047eed14-d31e-4137-a522-a3ce7d2d33b6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTM5OTU5NTgsIm5iZiI6MTc1Mzk5NTY1OCwicGF0aCI6Ii8yMjE5OTU3OTkvNDczMTM1MjAyLTA0N2VlZDE0LWQzMWUtNDEzNy1hNTIyLWEzY2U3ZDJkMzNiNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDczMVQyMTAwNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMDFiODkzMDQxZWY2YzlhYzU2MTgzNjMwMjJmMWNhNTFhZWVmODljZWVlZjkwN2Q1YWQyMGQzZTU5MWYwMjc0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.5J_ymjJN3jPdhxGSAbmtx5KF0D2_dGClGbkwj9nAQew\">\n> \n> \n> \n> **MoodBoard**\n> \n> <img alt=\"Image\" width=\"501\" height=\"376\" src=\"https://private-user-images.githubusercontent.com/221995799/473135397-0e82d9ba-7ac6-477f-9ebd-37945f6b231a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTM5OTU5NTgsIm5iZiI6MTc1Mzk5NTY1OCwicGF0aCI6Ii8yMjE5OTU3OTkvNDczMTM1Mzk3LTBlODJkOWJhLTdhYzYtNDc3Zi05ZWJkLTM3OTQ1ZjZiMjMxYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDczMVQyMTAwNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZTE0ZjM1MjAzZjkyODgwZGM5OTBhN2I3ZTkzNzlkY2FmOTRhODgwZjVhYmY4MmExZGE4MzIwNjA4NjA1NmE4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.i4KvVOumgyT0QyxOV0RmQlAnuoj865eP8zR9OByRYcg\">\n> \n> \n> **My To Do List**\n> [Nishtha-afk/web2025-Nishtha-site#2](https://github.com/Nishtha-afk/web2025-Nishtha-site/issues/2)\n\nWow Nishtha",
+      "urls": [
+        "https://github.com/Nishtha-afk/web2025-Nishtha-site/issues/2"
+      ],
+      "wordCount": 120,
+      "date": {
+        "iso": "2025-07-31T21:16:17.000Z",
+        "date": "2025-07-31",
+        "formatted": "August 1, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/9#issuecomment-3141361498"
+    },
+    {
+      "id": "dev-notes-11-comment-3151488640",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 11,
+      "issueTitle": "Day 11: [Project Day 1] Here comes the sun",
+      "commentId": 3151488640,
+      "content": "Today's goals \n\n- [x] Complete the about me page design\n- [x] Figure out how to stick header on top\n- [ ] Figure out how to make custom project tabs sorting option\n- [x] Complete Header Code\n\n\n\n<img width=\"1906\" height=\"787\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7dc90afa-55ee-4db2-986f-da8b27e22390\" />\n\n<img width=\"1911\" height=\"637\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3de74561-cc09-4cc3-b165-cec2c2dc0fac\" />\n\nWeb Link: https://jaypeeweb.netlify.app/",
+      "urls": [
+        "https://github.com/user-attachments/assets/7dc90afa-55ee-4db2-986f-da8b27e22390",
+        "https://github.com/user-attachments/assets/3de74561-cc09-4cc3-b165-cec2c2dc0fac",
+        "https://jaypeeweb.netlify.app/"
+      ],
+      "wordCount": 53,
+      "date": {
+        "iso": "2025-08-04T16:42:48.000Z",
+        "date": "2025-08-04",
+        "formatted": "August 4, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3151488640"
+    },
+    {
+      "id": "dev-notes-12-comment-3156460780",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "commentId": 3156460780,
+      "content": "The only task I had for myself today was to finish the homepage code, but I couldn’t complete it. Still, I’m happy that I’ve done almost 80%.\n\n<img width=\"1553\" height=\"911\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bfbb740d-630c-4dc1-a078-830fdbe58be4\" />\n\nLink for web: https://jaypeeweb.netlify.app/\n\nRepo link : https://github.com/jaipalsingh11/Jaypee1\n\n### Tasks for tomorrow:\n- [ ] Finish project info page design\n- [ ] Finish homepage code\n- [ ] Start working on the About Me code\n\n### **ALSO**\nThank you so much for teaching AI2HTML",
+      "urls": [
+        "https://github.com/user-attachments/assets/bfbb740d-630c-4dc1-a078-830fdbe58be4",
+        "https://jaypeeweb.netlify.app/",
+        "https://github.com/jaipalsingh11/Jaypee1"
+      ],
+      "wordCount": 78,
+      "date": {
+        "iso": "2025-08-05T20:00:00.000Z",
+        "date": "2025-08-05",
+        "formatted": "August 6, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156460780"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "submissions-7-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 7,
+      "issueTitle": "Jaipal Sonigara",
+      "content": "### Student Name\n\nJaipal Sonigara\n\n### Website URL\n\nhttps://jaypeeweb.netlify.app/\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/jaypeebanna/\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://jaypeeweb.netlify.app/"
+      ],
+      "wordCount": 29,
+      "date": {
+        "iso": "2025-08-12T10:22:47.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 12, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/7"
+    }
+  ],
+  "statistics": {
+    "totalNotes": 11,
+    "totalSubmissions": 1,
+    "totalCommits": 21,
+    "firstActivity": "2025-07-21T09:52:37.000Z",
+    "lastActivity": "2025-08-12T16:03:18.000Z",
+    "mostActiveDay": "2025-08-12",
+    "totalEntries": 12,
+    "averageWordCount": 103
+  },
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "Made Project Page Layout",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Made the homepage responsive to some extent",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Mobile Try 1",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "max with 600px for mobile",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "tried to make the homepage for mobile",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-10": [
+      {
+        "message": "Added Some more projects",
+        "repository": "Jaypee",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "Added custom cursor and added project pages and some cool stuff",
+        "repository": "Jaypee",
+        "time": "August 10, 2025"
+      }
+    ],
+    "2025-08-09": [
+      {
+        "message": "Added Some Overlay Effect on Homepage",
+        "repository": "Jaypee",
+        "time": "August 9, 2025"
+      }
+    ],
+    "2025-08-08": [
+      {
+        "message": "almost completed my story page",
+        "repository": "Jaypee",
+        "time": "August 8, 2025"
+      }
+    ],
+    "2025-08-06": [
+      {
+        "message": "worked on My Story Page",
+        "repository": "Jaypee",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "Homepage 80%",
+        "repository": "Jaypee",
+        "time": "August 6, 2025"
+      }
+    ],
+    "2025-08-04": [
+      {
+        "message": "Header and footer",
+        "repository": "Jaypee",
+        "time": "August 4, 2025"
+      }
+    ],
+    "2025-08-03": [
+      {
+        "message": "DId some javascripting",
+        "repository": "Jaypee",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "Learning updates",
+        "repository": "Jaypee",
+        "time": "August 3, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "new changes test",
+        "repository": "Jaypee",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "First Change",
+        "repository": "Jaypee",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "Birth",
+        "repository": "Jaypee",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "Changed Heading",
+        "repository": "Jaipal-Site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "Added Image Card Component",
+        "repository": "Jaipal-Site",
+        "time": "August 1, 2025"
+      }
+    ],
+    "2025-07-28": [
+      {
+        "message": "New m",
+        "repository": "jaipal-grid",
+        "time": "July 28, 2025"
+      },
+      {
+        "message": "adds index.html",
+        "repository": "jaipal-grid",
+        "time": "July 28, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-13T06:48:10.576Z",
+  "repositories": [
+    {
+      "name": "web2025-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2025",
+      "type": "submissions",
+      "description": "Project submissions and student work"
+    }
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://web2025-hey-jude-jaipal.netlify.app/",
+        "author": "jaipalsingh11",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102197848",
+        "createdAt": "2025-07-22T10:47:59Z",
+        "imageName": "web2025-hey-jude-jaipal.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://the-tin-soldier.netlify.app/",
+        "author": "jaipalsingh11",
+        "authorType": "issue_author",
+        "issueNumber": 12,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/12",
+        "createdAt": "2025-07-25T10:04:46Z",
+        "imageName": "the-tin-soldier.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://jaypeeweb.netlify.app/",
+        "author": "jaipalsingh11",
+        "authorType": "commenter",
+        "issueNumber": 12,
+        "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156460780",
+        "createdAt": "2025-08-05T20:00:00Z",
+        "imageName": "jaypeeweb.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://jaypeeweb.netlify.app/",
+        "author": "jaipalsingh11",
+        "authorType": "issue_author",
+        "issueNumber": 7,
+        "issueTitle": "Jaipal Sonigara",
+        "issueUrl": "https://github.com/open-making/web2025/issues/7",
+        "createdAt": "2025-08-12T10:22:47Z",
+        "imageName": "jaypeeweb.netlify.app.webp"
+      }
+    ]
+  }
+}

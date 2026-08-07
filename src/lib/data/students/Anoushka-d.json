@@ -1,0 +1,218 @@
+{
+  "username": "Anoushka-d",
+  "name": null,
+  "website": "https://anoushka-personal-webpage.netlify.app",
+  "socialLinks": [
+    "https://www.instagram.com/anoushka_915/"
+  ],
+  "devNotes": [
+    {
+      "id": "dev-notes-1-comment-3098315469",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Day 1: The Small Web",
+      "commentId": 3098315469,
+      "content": "## Today's learning - Anoushka D'costa\nInitially my idea of a website was the typical format that consisted of a navigation bar, a hero section and so on but through this assignment I got to know just how inspirational a website can be. A website can be a lot of things while also being functional. It can be a representation of one's self, an idea of life, something personal yet relating to others and much more. One part of the lecture that stayed with me was that **a product is user-centric where as art is author-centric.**\n\nI also liked the idea of comparing a website to a shelf where we can arrange light weight books or trinkets as per our liking and rearrange it as many times we wish and when something gets outdated we can simply replace it with something fresh. \n\nAssignment: https://www.icloud.com/freeform/062ncDY_od-4xIHENWZS6UWTQ#web_archeology\n\n<img width=\"1566\" height=\"939\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/43b4888a-c43c-4a4b-87a6-225a092d8140\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/43b4888a-c43c-4a4b-87a6-225a092d8140"
+      ],
+      "wordCount": 150,
+      "date": {
+        "iso": "2025-07-21T19:52:10.000Z",
+        "date": "2025-07-21",
+        "formatted": "July 22, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098315469"
+    },
+    {
+      "id": "dev-notes-3-comment-3104526577",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 3,
+      "issueTitle": "Day 2: HTML, CSS, and You",
+      "commentId": 3104526577,
+      "content": "### Anoushka D'costa\n\nThere's something very satisfying about using html. I get to arrange everything into neatly structured layers and VS code makes the process much more pleasing. It's so easy to just start with a simple html tag and see where it leads to. Today's class was exciting yet not tiring. The assignment allowed me to brush up on all the tags and elements and attributes I had long forgotten. ",
+      "urls": [],
+      "wordCount": 72,
+      "date": {
+        "iso": "2025-07-22T19:26:31.000Z",
+        "date": "2025-07-22",
+        "formatted": "July 23, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/3#issuecomment-3104526577"
+    },
+    {
+      "id": "dev-notes-7-comment-3133568619",
+      "type": "comment",
+      "repository": "web2025-dev-notes",
+      "issueNumber": 7,
+      "issueTitle": "Day 7: The Indie Web",
+      "commentId": 3133568619,
+      "content": "### Today's notes\n\n![Image](https://github.com/user-attachments/assets/7d625704-1ab6-42c0-8f54-b7c5a32341a9)\n\n==============================================================================================\n\n### Manifesto\n\nThe purpose of my website is to express myself and my hobbies to people without an actual interaction. While talking to people personally I tend to leave out some details or some aspects of my life for some reason. With this web page I won’t have to, this page will be me being true to myself and to people who view it. They will see my hobbies and interests through the page’s content and my creative and cheerful character through the theme. The use of bright colours will be welcoming to all and attract positive energy. It will be my personal digital journal where I can put up my work, what I do in my free time or what helps me calm myself during tough times and helps me to relax. I would also like to include some of my favourite songs to play in the background while people view my content. \n\n==============================================================================================\n\nLearning web development as a computer science student and learning web development as a designer are two very different things. In the first case, the purpose was just to build a web page that works (interactive and responsive). But as designers we learn to add meaning to such lifeless web pages. Along with building it we also learn to add our own touch to the web page and make it go from product to art. I am very excited to see the outcome of this exercise and how it will affect my web development skills. \n\n![Image](https://github.com/user-attachments/assets/cd4f092e-cdca-4f2a-ade5-384a169c54c4)",
+      "urls": [
+        "https://github.com/user-attachments/assets/7d625704-1ab6-42c0-8f54-b7c5a32341a9",
+        "https://github.com/user-attachments/assets/cd4f092e-cdca-4f2a-ade5-384a169c54c4"
+      ],
+      "wordCount": 256,
+      "date": {
+        "iso": "2025-07-29T18:17:59.000Z",
+        "date": "2025-07-29",
+        "formatted": "July 29, 2025"
+      },
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/7#issuecomment-3133568619"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "submissions-17-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 17,
+      "issueTitle": "[STUDENT] Anoushka Dcosta",
+      "content": "Anoushka Dcosta\n\n### Website URL\n\nhttps://anoushka-personal-webpage.netlify.app\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/anoushka_915/\n\n### Social Link 2 (Optional)\n\nwww.linkedin.com/in/anoushka-dcosta-39b694314\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://anoushka-personal-webpage.netlify.app"
+      ],
+      "wordCount": 25,
+      "date": {
+        "iso": "2025-08-12T18:35:09.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 13, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/17"
+    }
+  ],
+  "statistics": {
+    "totalNotes": 3,
+    "totalSubmissions": 1,
+    "totalCommits": 12,
+    "firstActivity": "2025-07-21T19:52:10.000Z",
+    "lastActivity": "2025-08-12T17:32:23.000Z",
+    "mostActiveDay": "2025-08-07",
+    "totalEntries": 4,
+    "averageWordCount": 126
+  },
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "text changes",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "done with sub page 2 of crochet page",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "made 1 sub page for crochet main",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "message": "finished crochet main page",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "finished current page",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "current page without img",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "added scrolling text and updated current page",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "image mapping with highights but img is short",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "first look with img mapping",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "heading change",
+        "repository": "anoushka-website",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "Added ImageCard component to home page and about page",
+        "repository": "anoushka-website",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "initial message",
+        "repository": "first-repo",
+        "time": "August 1, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-13T06:48:10.576Z",
+  "repositories": [
+    {
+      "name": "web2025-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2025",
+      "type": "submissions",
+      "description": "Project submissions and student work"
+    }
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://uglyjude.netlify.app",
+        "author": "Anoushka-d",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102202972",
+        "createdAt": "2025-07-22T10:49:50Z",
+        "imageName": "uglyjude.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://topandball.netlify.app",
+        "author": "Anoushka-d",
+        "authorType": "issue_author",
+        "issueNumber": 18,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/18",
+        "createdAt": "2025-07-25T14:07:02Z",
+        "imageName": "topandball.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://anoushka-personal-webpage.netlify.app",
+        "author": "Anoushka-d",
+        "authorType": "issue_author",
+        "issueNumber": 17,
+        "issueTitle": "[STUDENT] Anoushka Dcosta",
+        "issueUrl": "https://github.com/open-making/web2025/issues/17",
+        "createdAt": "2025-08-12T18:35:09Z",
+        "imageName": "anoushka-personal-webpage.netlify.app.webp"
+      }
+    ]
+  }
+}
