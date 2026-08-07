@@ -1,0 +1,329 @@
+{
+  "username": "rushiatdesign-cmyk",
+  "name": "Rushiat",
+  "slug": "rushiat",
+  "website": null,
+  "socialLinks": [],
+  "devNotes": [
+    {
+      "id": "dev-notes-1-comment-5021248187",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Hello World",
+      "day": 0,
+      "commentId": 5021248187,
+      "content": "*Rushikesh is here*",
+      "urls": [],
+      "wordCount": 3,
+      "date": {
+        "iso": "2026-07-20T10:29:07.000Z",
+        "date": "2026-07-20",
+        "formatted": "July 20, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/1#issuecomment-5021248187"
+    },
+    {
+      "id": "dev-notes-1-comment-5021253491",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Hello World",
+      "day": 0,
+      "commentId": 5021253491,
+      "content": "# **BIG TITLE**",
+      "urls": [],
+      "wordCount": 3,
+      "date": {
+        "iso": "2026-07-20T10:29:48.000Z",
+        "date": "2026-07-20",
+        "formatted": "July 20, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/1#issuecomment-5021253491"
+    },
+    {
+      "id": "dev-notes-2-comment-5021336484",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Day 1: The Small Web",
+      "day": 1,
+      "commentId": 5021336484,
+      "content": "# Day 1 of Learning Web Design by Aman Sir\n\n**Learnings of the Day**\nHow the era of Internet evolved and how the things changed with time, how the web changed and how people started believing on design and styles which they created by their own and followed the trends.\n\n[**ASSIGNMENT**](https://www.figma.com/board/pbMLQVa1v00bweHkSHikP8/Immersive-Web-Design?node-id=0-1&t=RdpkE6GMgxBYOiUw-1)\n\n## You can find the assignment by clicking on above link, please don't edit :/\n\n<img width=\"1998\" height=\"630\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/de6da654-7b82-4295-a797-012bbf2670f4\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/de6da654-7b82-4295-a797-012bbf2670f4"
+      ],
+      "wordCount": 72,
+      "date": {
+        "iso": "2026-07-20T10:40:12.000Z",
+        "date": "2026-07-20",
+        "formatted": "July 20, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/2#issuecomment-5021336484"
+    },
+    {
+      "id": "dev-notes-3-comment-5036392900",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 3,
+      "issueTitle": "Day 2: HTML, CSS and Commitment",
+      "day": 2,
+      "commentId": 5036392900,
+      "content": "# HMM this can be much better, didn't enjoyed it!\n<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>\n\n<details>\n  <summary>Read more</summary>\n\n **Hehe, I got your attention ><**\n\nI mean, the internet was bron with almost zero sense of design or at least not in the way we deifne it today.\n\nThe people buliding the early web weren't follwosing design systems, UX principles, or trying to maximize 🤝🏻 CONVERSION RATES. They were experimentinG while being curious, But are creative.\nToday, we look back at many of those websites and casually call them ugly. But what does ugly actually mean?\nI think Ugly doesn't always mean bad looking or weird. Sometimes it simply means different and different from what we have accepted a \"good design.\"\nToday's task of making an ugly webpage, it sounded easy at first. But the more I thought about it, it was not easy? or is it? coz we were thinking and taking certain decison to make it ugly. Even an \"ugly\" website is designed in its own way.\nAnd that's where it becomes subjective.\nA website that Aditi, Anchit, or Darshan made might look beautiful to Sanskar, but to me it's ugly. No one of us is right or wrong. I think it's just a part of what is \"GOOD Design\" in our dictionary.\n\nMaybe \"UGLY\" isn't a design at all or MAYBE it's just a label we have given to something that is not as per our expectations.\n\nI'm honestly surprised you are reading till here. These are just my thoughts, and I could be completely wrong, but that's what made today's assignment interesting for me.\n\n<img width=\"2880\" height=\"1436\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2c27cca6-7727-4c83-b1a5-3019a3b55207\" />\n\n</details>\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/2c27cca6-7727-4c83-b1a5-3019a3b55207"
+      ],
+      "wordCount": 271,
+      "date": {
+        "iso": "2026-07-21T16:18:24.000Z",
+        "date": "2026-07-21",
+        "formatted": "July 21, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5036392900"
+    },
+    {
+      "id": "dev-notes-4-comment-5048667791",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 4,
+      "issueTitle": "Day 3: What a flex ya",
+      "day": 3,
+      "commentId": 5048667791,
+      "content": "SPEECHLESS,\n\nThe day went with full headache that I am not in a state to write anything, but still lemme try.\n\n\nLearning flex was really cool, as it unlocked the way responsive sites work and how sections could be responsive.\nI can't sleep for next 2 days thinking about how the complex, CRM softwares are coded and what their developers are eating.\nPlaying with CSS was also a fun initially but now it's more fun as we are going further and can imagine what crazy things can be done.\nI am in a deep thought, especially when he said the \"Rebeccapurple\" is given for the person who is working in CSS in his daughter's memory, it's so cool.\nLike in a day if we are learning 20+ new css properties, so how many are there? Are there 1000s? if yes then I would like to explore them, because I want my websites to be Flowing like a \"River\" and should have highest \"CONVERSION RATE\".\n\nLink to my assignment:\nhttps://spaceoditty.netlify.app/\n\n\nThanks!",
+      "urls": [
+        "https://spaceoditty.netlify.app/"
+      ],
+      "wordCount": 170,
+      "date": {
+        "iso": "2026-07-22T16:21:56.000Z",
+        "date": "2026-07-22",
+        "formatted": "July 22, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/4#issuecomment-5048667791"
+    },
+    {
+      "id": "dev-notes-6-comment-5062278930",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 6,
+      "issueTitle": "Day 4: Fitting to print",
+      "day": 4,
+      "commentId": 5062278930,
+      "content": "## MY FAVOURITE DAY\n\nSeems like the silence before the war OO\n\nAs designing stuff in our favourite design tools is something we always enjoyed till data, so this was really fun day today.\nAnd to be honest I am not that afraid about the coding part, just there is some pain in my Superior Vena Cava which is bearable btw.\n\nI have exported my assets, \nalso for the HTML structure I've written a short structure [here](https://github.com/rushiatdesign-cmyk/Rushikesh/issues/1), as I was not getting enough clarity on wireframes.\n\n<img width=\"802\" height=\"1764\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0013123a-cd16-4a7e-bc3a-10cbaa85428e\" />\n\n\nThanks!!",
+      "urls": [
+        "https://github.com/rushiatdesign-cmyk/Rushikesh/issues/1",
+        "https://github.com/user-attachments/assets/0013123a-cd16-4a7e-bc3a-10cbaa85428e"
+      ],
+      "wordCount": 93,
+      "date": {
+        "iso": "2026-07-23T19:03:50.000Z",
+        "date": "2026-07-23",
+        "formatted": "July 24, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/6#issuecomment-5062278930"
+    },
+    {
+      "id": "dev-notes-7-comment-5073166791",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 7,
+      "issueTitle": "Day 5: Making the most of it",
+      "day": 5,
+      "commentId": 5073166791,
+      "content": "# Friday - a simple and sorted day\n\n\nToday was a bit headache learning about borders, especially **Responsive** borders.\nBut thanks to CSS portal these guys are just so damns cool that they have created these tools to make our lives easier.\nAfter figuring out the borders rest was quite smooth.\n\n**But yaa today's thought which popped in my mind,**\n\nLike as per Dao theory websites should be flexible and fluid also responsive for different screens at the same time, then is it almost impossible to achieve best results in almost every design? I mean we can't be the best at every screen size?\nOr we can be, because I can see the small not but big differences between what I've designed and what is on web after development, the difference is there.\nI think we can pick one card out of three the Consistency, the Responsiveness or the Design.\n\nHmmmmm... maybe I'm thinking too much while writing, maybe there are ways to achieve all these three, let's seee!\n\n![image](https://github.com/user-attachments/assets/76e0a612-ea89-4bf0-9c87-90f52d9adeba)\nIt's me right there in the image!\n\n\nPHEWWWWWW",
+      "urls": [
+        "https://github.com/user-attachments/assets/76e0a612-ea89-4bf0-9c87-90f52d9adeba"
+      ],
+      "wordCount": 178,
+      "date": {
+        "iso": "2026-07-24T18:27:13.000Z",
+        "date": "2026-07-24",
+        "formatted": "July 24, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/7#issuecomment-5073166791"
+    },
+    {
+      "id": "dev-notes-8-comment-5093652867",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 8,
+      "issueTitle": "Day 6: Clocking it 😌🤏🤏🤏",
+      "day": 6,
+      "commentId": 5093652867,
+      "content": "### SAMAY SAMAY KI BAAT HAI\n\nIt was really a fun today, I was thinking it's going to be just one prompt and we are done, but if we want the exact same thing which is there in mind it take more that what one could do it with code, but yes doing something which we don't know like JS is not going to happen unless we don't know the language.\n\nA special thanks to Chatgpt, Claude, and all the smart people in my class, without them this was not going to happen. \n\nThe second prototype I am working is in progress, i'll try to finish it by tomorrow, till then enjoy this one **[THIS ONE](https://rushikeshclock.netlify.app/)**\n\n<img width=\"2866\" height=\"2417\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b7c9a408-c08a-4e16-b349-20e63fdcaf3a\" />\n\n<img width=\"1182\" height=\"1160\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/207f0d66-be4e-4bc0-8012-583127d35e17\" />\n\n\nThanksss !",
+      "urls": [
+        "https://rushikeshclock.netlify.app/)**",
+        "https://github.com/user-attachments/assets/b7c9a408-c08a-4e16-b349-20e63fdcaf3a",
+        "https://github.com/user-attachments/assets/207f0d66-be4e-4bc0-8012-583127d35e17"
+      ],
+      "wordCount": 130,
+      "date": {
+        "iso": "2026-07-27T15:59:59.000Z",
+        "date": "2026-07-27",
+        "formatted": "July 27, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/8#issuecomment-5093652867"
+    },
+    {
+      "id": "dev-notes-9-comment-5108754983",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 7: A room of one's own",
+      "day": 7,
+      "commentId": 5108754983,
+      "content": "**Today I feel like a dog who has lost in his consciousness :<**\n\nMost of the time I was just thinking about what can be brought unique, in terms of content and tone of voice and bla-bla, but at the end of the day I get some clarity that thing will stay as they are, unless **we are not changing them.**\n\n_Exactly, it makes no sense what I said above, it just felt cool._\nBut I think writing is an great tool for expression, like things or tools today, those are occupied can do so many things which are so complicated and they can do it in single prompt within a minute.\n\n###BUTBUTBUT\nthink about it, AI or \"LLMs\" in our cool slang, can do any ship related to pixel, it can be any single ducking thing, but this thing which I am writing here, or I have my own place where I express myself with text which is typed with keyboard and published somewhere on small web, and one person is reading that and commenting and I am getting mad like crazy!\nHow can I bring this feel or emotion with \"LLM\", of course we cannot, and it does make sense, the feeling of self-expression and someone responding in a form of a criticism, appreciation or hate it is just owned and no AI can replace this.\n\nAnd whole day I was thinking about this and this really made me think about this small web like why people in this AI Internet world are still writing ship, the simple reason is this only and it really convinced me to start my own space where I can keep things or my thought there in one small corner of the internet. \n\nThen I actually started writing about the questions from the assignment and putting things on figjam.\n\nhere is the link \n[RIGHT HERE](https://www.figma.com/board/56MDyaltj45NvYzYWIJjXn/Untitled?node-id=0-1&t=3hJyUo1oInZ81Q4X-1) ",
+      "urls": [],
+      "wordCount": 313,
+      "date": {
+        "iso": "2026-07-28T19:28:40.000Z",
+        "date": "2026-07-28",
+        "formatted": "July 29, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/9#issuecomment-5108754983"
+    },
+    {
+      "id": "dev-notes-10-comment-5126034290",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 10,
+      "issueTitle": "Day 8: Scheming about Schemas",
+      "day": 8,
+      "commentId": 5126034290,
+      "content": "### THU 30 JULY DO HAZAAR CHABBIS\n\nI can't express why I'm so excited to start this thing because what I'm having right now inside my brain is too ambitious but if that gets fully there online l'll give treat to everyone in class.\nAnyways the day went cool too many things got unlocked yet learning from other folks in my class everyone's ideas and thoughts are unique in itself also the approach and ideologies.\n\nSo yeahh this was it...\n\n**I'm planning to have this schema structure for my normal blog**\n\n```\ntitle:\nsubtitle:\ncover:\ncaption:\nopening-quote:\nestimated-reading:\ndifficulty:\nwritten-by:\npublished-on:\nreading-mood:\nlocation-written:\ncollection:\nkeywords:\n```\n\n\n**For typography page I'm planning to have this structure**\n```\ntitle:\nspecimen:\nscript:\nwriting-system:\nclassification:\ndesigner:\nfoundry:\nyear:\ninspired-by:\nvisual-character:\nideal-use:\nsupports:\nbest-pairing:\nfeatured-glyphs:\nfamous-usage:\ncurator's-note:\n```\n\n\n\n",
+      "urls": [],
+      "wordCount": 134,
+      "date": {
+        "iso": "2026-07-30T03:25:53.000Z",
+        "date": "2026-07-30",
+        "formatted": "July 30, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/10#issuecomment-5126034290"
+    },
+    {
+      "id": "dev-notes-11-comment-5134860592",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 11,
+      "issueTitle": "Day 9: Astro nots",
+      "day": 9,
+      "commentId": 5134860592,
+      "content": "### GO WITH THE FLOW\nI have heard this thing before that we should go with the flow, but never thought the flow will be like tsunami.\n\nMy brain is slowly accepting the astro and appreciating how it works, I think upcoming days it will going to be more smooth 🤞,\nI am almost there to finish the tutorial, right now doing the layout part, I think it's enough for today!\nOhh @aaditisharmaa29-web just popped up, she is done with everything !\nLemme also get it done today only then, I can't see this! 😶‍🌫️ \n\nThe best part of the day was when @thedivtagguy was telling about Maps and the things he had done with reuters and revisual labs. Damn it just picked me up, I am getting more curious about it now!\n\nI am actually looking forward to have something from this map thing inside my blog, also I am really excited to start working on the personal space as ideas came are really good but just worried about how I can achieve that thing.\n\n\nThat's it for the day, lemme shut now!\nThanks!\n\n<img width=\"1200\" height=\"1184\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/934bf7c4-3dd4-4f0c-9967-4d24d51243b3\" />\n\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/934bf7c4-3dd4-4f0c-9967-4d24d51243b3"
+      ],
+      "wordCount": 192,
+      "date": {
+        "iso": "2026-07-30T18:39:10.000Z",
+        "date": "2026-07-30",
+        "formatted": "July 31, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/11#issuecomment-5134860592"
+    },
+    {
+      "id": "dev-notes-12-comment-5147737313",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 12,
+      "issueTitle": "Day 10: Lo-fi, High-fi, bheja fry",
+      "day": 10,
+      "commentId": 5147737313,
+      "content": "<img width=\"1466\" height=\"1570\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ef719998-57bd-4226-86e5-93f1999b1992\" />\n\n<img width=\"1624\" height=\"1790\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/761a44eb-5c3a-43d6-9ffa-36a128c9559d\" />\n\n<img width=\"820\" height=\"1180\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2cbbbfe0-5db7-45e4-b718-b7fe47f902b1\" />\n<img width=\"1180\" height=\"820\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8695fc27-9eec-4f83-b855-087ddf3bb16f\" />\n\nThank you!!!",
+      "urls": [
+        "https://github.com/user-attachments/assets/ef719998-57bd-4226-86e5-93f1999b1992",
+        "https://github.com/user-attachments/assets/761a44eb-5c3a-43d6-9ffa-36a128c9559d",
+        "https://github.com/user-attachments/assets/2cbbbfe0-5db7-45e4-b718-b7fe47f902b1",
+        "https://github.com/user-attachments/assets/8695fc27-9eec-4f83-b855-087ddf3bb16f"
+      ],
+      "wordCount": 26,
+      "date": {
+        "iso": "2026-07-31T21:45:38.000Z",
+        "date": "2026-07-31",
+        "formatted": "August 1, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/12#issuecomment-5147737313"
+    },
+    {
+      "id": "dev-notes-13-comment-5184048104",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 13,
+      "issueTitle": "Day 12: [Project Week] Everyone's cooking",
+      "day": 12,
+      "commentId": 5184048104,
+      "content": "# is this happening fr?\n\nHello. So, it was a long day today. Initially, I thought it's going to be too easy with GSAP. Like I just had to animate from point A to point B to point C and point D, somewhere like that. But as I was going further ahead, I got to know that this is not easy. It's a mess. It's a fucking mess. And yeah, it took almost a day to do this kind of shit. Like I started with basic placement of images. I did it. And after doing the placement, I found that transparent images are still images. So we cannot have this hover kind of thing with transparent images. So to figure that out, I had to add the hotspots. So basically, hotspots are the locations where we can just hover. And hotspots can be like manually set so that only that area will be triggered on hover. So I did that. I figured that out, like how I can make the hover animation possible with transparent images. So I did that. After doing that, my next goal was to adding the timeline to my overall scene. Like I just wanted, like there are six buildings, so I wanted it to be zoomed at first scroll to the first building, ground floor. Then on the next scroll, it should go to the right. Then on the next scroll, it should go to the third building balcony. Then on the next, it should go below that balcony, like the bottom floor, and so on and so on. So as I planned, I thought it's going to be too easy. But again, mapping the camera movement in GSAP is a headache. And yeah, it was too crazy tough. It was again too many iterations with here and there. I tried using LLM, but it was not helping. I tried understanding the syntax. I tried figuring out the things. Like some things I did manually, some things I did with GPT. Then somehow things worked at 10 p.m. night. And after that, the next challenge was to add the buttons. So my images were looking good, timeline was working with animations, but when I was trying to add the buttons, again, it's not easy and I'm still doing it. I will do it tomorrow. That's it for today. It was a whole fucking crazy day, but I enjoyed this shit. Yeah.\n\n\n![image](https://github.com/user-attachments/assets/17f58ac7-829e-461d-91e3-7ad436d48dd1)\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/17f58ac7-829e-461d-91e3-7ad436d48dd1"
+      ],
+      "wordCount": 408,
+      "date": {
+        "iso": "2026-08-04T20:08:41.000Z",
+        "date": "2026-08-04",
+        "formatted": "August 5, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/13#issuecomment-5184048104"
+    },
+    {
+      "id": "dev-notes-14-comment-5196756162",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 14,
+      "issueTitle": "Day 13: [Project Week] Nine to Five",
+      "day": 13,
+      "commentId": 5196756162,
+      "content": "# Hmm, life's good. \n\nToday was no progress day. Like, sometimes what we get very ambitious for is not something which is really meant for us. So it's better to stick with something which is really meant for us. \nThis one thing taught me a lot today. Initially, I was thinking like creating animation with a scroll will be a best choice. \nAs I stick with it, it's not done, but it's working fine. Later, I thought let's add the Me card thing. So I was figuring out how I can put the Obsidian thing with overall Me card pages so that whatever I will put in Obsidian, it will get reflected on my Me card. Whether it's poems, whether it's personal things, whether it's scripts, articles, or whatever it is. So that is something I was looking for, and it's quite interesting stuff to do. I am just worried about designing each page UI. So right now I'm on it, like half of the day I spent just to fix one single bug on my side to make the buttons responsive with the size of the overall canvas. It was not possible at all. So I figured out a way that how I can bake the buttons inside my illustration and just make them clickable. So I did that only. \nAnd no big update so far. What I'm planning tomorrow is, let's finish the rest of the pages design and implement it on the website as soon as possible. \n\nRest, the day was really good. It was really a fun today. We enjoyed a lot. We also got some crazy gifts from Prabhu sir today. Like we, just three were there in the studio. So Anchita, I, and Darshan, we got gifts from Prabhu sir. So it was a crazy day today. And, and, and, we enjoyed this day. But not big progress today. I think the holiday is something which was really getting over everything. Yeah, that's it.\n\nByeee, peace off!\n\n\n![image](https://github.com/user-attachments/assets/d55a1287-465d-49e9-980d-1d62d679585d)",
+      "urls": [
+        "https://github.com/user-attachments/assets/d55a1287-465d-49e9-980d-1d62d679585d"
+      ],
+      "wordCount": 334,
+      "date": {
+        "iso": "2026-08-05T20:05:50.000Z",
+        "date": "2026-08-05",
+        "formatted": "August 6, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/14#issuecomment-5196756162"
+    },
+    {
+      "id": "dev-notes-15-comment-5208463940",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 15,
+      "issueTitle": "Day 14: [Project Week] Div and Let Div",
+      "day": 14,
+      "commentId": 5208463940,
+      "content": "# SORRY I CAN'T MAKE IT LIVE Today\n\nRight now I'm dead inside sound room and have no tendency to go and make my site live and share link and screenshots here 😭😭😭\n\nI'm really genuinely wanted to but I can't, I'm tied with my circumstances..\n\nI'll do it tomorrow morning as I'll reach to the studio \n\nToday no commitments were required as I was only committed with my design and illustrations LOL...\n\nAlso we all really enjoyed searching domains for our site AT **PORK.BUN**, especially when we all turned into RED while laughing 😎🫵..\n\nP.S. Aman sir while laughing today![image](https://github.com/user-attachments/assets/6a309a3c-6df4-4ca2-946a-f25e3a16cf81)![image](https://github.com/user-attachments/assets/2640d637-aeac-4882-bce8-126a0da58936)\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/6a309a3c-6df4-4ca2-946a-f25e3a16cf81)![image",
+        "https://github.com/user-attachments/assets/2640d637-aeac-4882-bce8-126a0da58936"
+      ],
+      "wordCount": 102,
+      "date": {
+        "iso": "2026-08-06T19:11:51.000Z",
+        "date": "2026-08-06",
+        "formatted": "August 7, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208463940"
+    }
+  ],
+  "submissions": [],
+  "statistics": {
+    "totalNotes": 15,
+    "totalSubmissions": 0,
+    "totalCommits": 0,
+    "firstActivity": "2026-07-20T10:29:07.000Z",
+    "lastActivity": "2026-08-06T19:11:51.000Z",
+    "mostActiveDay": "2026-07-20",
+    "totalEntries": 15,
+    "averageWordCount": 162
+  },
+  "commitsByDate": {},
+  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "repositories": [
+    {
+      "name": "web2026-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    }
+  ],
+  "projectSubmissions": {}
+}

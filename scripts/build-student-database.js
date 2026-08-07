@@ -18,6 +18,25 @@ const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
 });
 
+// The web2026 cohort. Comments from anyone else (facilitator, bots, drive-bys) are ignored.
+const ROSTER = {
+  'pathakdarshan2705-creator': { name: 'Darshan', slug: 'darshan' },
+  'aaditisharmaa29-web': { name: 'Aaditi', slug: 'aaditi' },
+  'anchita101': { name: 'Anchita', slug: 'anchita' },
+  'prakhardzn': { name: 'Prakhar', slug: 'prakhar' },
+  'rushiatdesign-cmyk': { name: 'Rushiat', slug: 'rushiat' },
+  'sanskarshendge': { name: 'Sanskar', slug: 'sanskar' },
+  'ashishgajjar360-source': { name: 'Ashish', slug: 'ashish' },
+};
+
+// Issue titles look like "Day 4: Fitting to print". Issue #1 is the "Hello World" intro
+// thread (day 0). Never map by issue number.
+function dayFromTitle(title) {
+  const m = title.match(/^Day\s+(\d+)/i);
+  if (m) return parseInt(m[1], 10);
+  return /hello world/i.test(title) ? 0 : null;
+}
+
 if (!process.env.GITHUB_TOKEN) {
   console.error('❌ GITHUB_TOKEN not found in environment variables');
   console.error('   Please create a .env file with your GitHub personal access token');
@@ -220,16 +239,10 @@ async function buildStudentDatabase(options = {}) {
   const { skipCommits = false, commitWeeks = 4 } = options;
   const repositories = [
     {
-      name: 'web2025-dev-notes',
-      url: 'https://github.com/open-making/web2025-dev-notes',
+      name: 'web2026-dev-notes',
+      url: 'https://github.com/open-making/web2026-dev-notes',
       type: 'dev-notes',
       description: 'Daily development notes and progress updates'
-    },
-    {
-      name: 'web2025',
-      url: 'https://github.com/open-making/web2025',
-      type: 'submissions',
-      description: 'Project submissions and student work'
     }
   ];
 
@@ -331,11 +344,13 @@ async function buildStudentDatabase(options = {}) {
       const comments = await fetchAllComments(owner, repoName, issue.number);
       studentDatabase.statistics.totalComments += comments.length;
 
+      const day = dayFromTitle(issue.title);
+
       for (const comment of comments) {
         const author = comment.user.login;
 
-        // Skip specific users
-        if (author === 'thedivtagguy') {
+        // Only roster members count as students
+        if (!ROSTER[author]) {
           continue;
         }
 
@@ -348,7 +363,8 @@ async function buildStudentDatabase(options = {}) {
           if (!studentDatabase.students[author]) {
             studentDatabase.students[author] = {
               username: author,
-              name: null, // Will be updated when we find student details from issue body
+              name: ROSTER[author].name,
+              slug: ROSTER[author].slug,
               website: null,
               socialLinks: [],
               devNotes: [],
@@ -371,6 +387,7 @@ async function buildStudentDatabase(options = {}) {
             repository: repo.name,
             issueNumber: issue.number,
             issueTitle: issue.title,
+            day,
             commentId: comment.id,
             content: comment.body,
             urls: urls,
@@ -673,6 +690,13 @@ Examples:
 
   buildStudentDatabase({ skipCommits, commitWeeks })
     .then(database => {
+      const missing = Object.keys(ROSTER).filter(
+        handle => !database.students[handle] || database.students[handle].devNotes.length === 0
+      );
+      if (missing.length > 0) {
+        throw new Error(`Roster members with no dev notes fetched: ${missing.join(', ')}`);
+      }
+
       console.log('\n📊 Database Statistics:');
       console.log(`   • Total students: ${database.statistics.totalStudents}`);
       console.log(`   • Total issues: ${database.statistics.totalIssues}`);

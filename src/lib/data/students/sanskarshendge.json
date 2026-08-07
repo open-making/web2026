@@ -1,0 +1,303 @@
+{
+  "username": "sanskarshendge",
+  "name": "Sanskar",
+  "slug": "sanskar",
+  "website": null,
+  "socialLinks": [],
+  "devNotes": [
+    {
+      "id": "dev-notes-1-comment-5021254157",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 1,
+      "issueTitle": "Hello World",
+      "day": 0,
+      "commentId": 5021254157,
+      "content": "**hello** _world_",
+      "urls": [],
+      "wordCount": 2,
+      "date": {
+        "iso": "2026-07-20T10:29:53.000Z",
+        "date": "2026-07-20",
+        "formatted": "July 20, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/1#issuecomment-5021254157"
+    },
+    {
+      "id": "dev-notes-2-comment-5022137750",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 2,
+      "issueTitle": "Day 1: The Small Web",
+      "day": 1,
+      "commentId": 5022137750,
+      "content": "### **DAY-1**\n[https://www.figma.com/board/DGoed0ejgMR4DjJJZyH2Hf/WEB-MOOD-BOARD?node-id=0-1&t=XzqoRVcaSmK7sCqQ-1](url)\n Day one was all about exploring and getting familiar with the thinking process and style changed throughout the time till now. \nGot to know why, in some cases, the web changed.",
+      "urls": [],
+      "wordCount": 34,
+      "date": {
+        "iso": "2026-07-20T12:18:37.000Z",
+        "date": "2026-07-20",
+        "formatted": "July 20, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/2#issuecomment-5022137750"
+    },
+    {
+      "id": "dev-notes-3-comment-5036450568",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 3,
+      "issueTitle": "Day 2: HTML, CSS and Commitment",
+      "day": 2,
+      "commentId": 5036450568,
+      "content": "### **Day 2- Ugly web & CSS dinner**\nHad a great fun today, creating an ugly web made me try a lot of different things in CSS. The concept of making it ugly really made my mind free to explore CSS. \nAlso, the game was too informative and practical, which made me jump directly into the playground in a creative way without getting bored.\nOn the other hand traditional method (learning step by step, like syntax/property-wise)could have been like deep learning , but would have waisted lot of time. and that dosent make sense. \nInshort it was good learning day today. \njust wished that we could have a lil more time just playing around this ugly web, although it is not necessary. \n\n### INSHORT a big thumbs up for the day \n```\n      _\n     /(|\n    (  :\n   __\\  \\  _____\n (____)  `|\n(____)|   |\n (____).__|\n  (___)__.|_____\n```\n             ",
+      "urls": [],
+      "wordCount": 147,
+      "date": {
+        "iso": "2026-07-21T16:24:50.000Z",
+        "date": "2026-07-21",
+        "formatted": "July 21, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/3#issuecomment-5036450568"
+    },
+    {
+      "id": "dev-notes-4-comment-5048748704",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 4,
+      "issueTitle": "Day 3: What a flex ya",
+      "day": 3,
+      "commentId": 5048748704,
+      "content": "### **DAY-3**\nToday, the day was like a sprint, covering a lot of things in just a little span. The flex frog game was really helpful, covering a lot of things in just a little span, and it made me learn how to use CSS. \n\nBelow is my space oddity \n[https://sanskarspaceoddity.netlify.app/](url)",
+      "urls": [
+        "https://sanskarspaceoddity.netlify.app/"
+      ],
+      "wordCount": 51,
+      "date": {
+        "iso": "2026-07-22T16:29:19.000Z",
+        "date": "2026-07-22",
+        "formatted": "July 22, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/4#issuecomment-5048748704"
+    },
+    {
+      "id": "dev-notes-6-comment-5064369934",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 6,
+      "issueTitle": "Day 4: Fitting to print",
+      "day": 4,
+      "commentId": 5064369934,
+      "content": "### Rule-breaking day \nSo finally the rule was broken; sorry for the delayed submission. But it was a great day; still, some lil things have to be figured out. Pasting the direction link below \n\n<img width=\"5120\" height=\"3808\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fe2c3beb-10e6-48bd-88d2-fb3708229c6c\" />\n\n[https://www.figma.com/board/DGoed0ejgMR4DjJJZyH2Hf/WEB-MOOD-BOARD?node-id=0-1&t=CUWQh5AP3oASOcnn-1](url)",
+      "urls": [
+        "https://github.com/user-attachments/assets/fe2c3beb-10e6-48bd-88d2-fb3708229c6c"
+      ],
+      "wordCount": 41,
+      "date": {
+        "iso": "2026-07-23T23:01:42.000Z",
+        "date": "2026-07-23",
+        "formatted": "July 24, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/6#issuecomment-5064369934"
+    },
+    {
+      "id": "dev-notes-7-comment-5075540268",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 7,
+      "issueTitle": "Day 5: Making the most of it",
+      "day": 5,
+      "commentId": 5075540268,
+      "content": "### **Friday**\nToday was a great day; it was hectic to get those images as a border, but it was great learning.\nborder-imager: cool to see, hard to get it done. \n",
+      "urls": [],
+      "wordCount": 32,
+      "date": {
+        "iso": "2026-07-24T23:28:33.000Z",
+        "date": "2026-07-24",
+        "formatted": "July 25, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/7#issuecomment-5075540268"
+    },
+    {
+      "id": "dev-notes-8-comment-5095554128",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 8,
+      "issueTitle": "Day 6: Clocking it 😌🤏🤏🤏",
+      "day": 6,
+      "commentId": 5095554128,
+      "content": "### **DAY6**\nIt was a lot of fun today. Handling astro is the same: easy and complicated a bit- managing files. \n[CLOCK](https://coffeebreakclock.netlify.app/)\n\n<img width=\"2604\" height=\"4624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/5dea3851-ff7f-4747-98e4-72f8719f5e93\" />\n<img width=\"2604\" height=\"4624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fca80842-81de-4608-a111-bbb2901cd50c\" />",
+      "urls": [
+        "https://coffeebreakclock.netlify.app/",
+        "https://github.com/user-attachments/assets/5dea3851-ff7f-4747-98e4-72f8719f5e93",
+        "https://github.com/user-attachments/assets/fca80842-81de-4608-a111-bbb2901cd50c"
+      ],
+      "wordCount": 34,
+      "date": {
+        "iso": "2026-07-27T19:01:25.000Z",
+        "date": "2026-07-27",
+        "formatted": "July 28, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/8#issuecomment-5095554128"
+    },
+    {
+      "id": "dev-notes-9-comment-5110643891",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 9,
+      "issueTitle": "Day 7: A room of one's own",
+      "day": 7,
+      "commentId": 5110643891,
+      "content": "### **DAY- (forgot the count )**\n### Surfing on fire. \nToo excited  to see what I can create, from making ugly pages to now thinking about something crazy, creative stuff; it feels like we all came too far, \nToday it was like surfing in a fire, doing a lot of things. I thought it would be an easy thing just to make something, but it took me  use all my brain credits, ** THAT WHAT SOMETHING** .   I can do this, I can do that, this can be put, this also can be .............. , it should be personal , it should be general, etc etc., and then finally I thought let's do everything then  \n\n<img width=\"500\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4a32d767-60d9-4594-ae55-fd8d117b1ec1\" />\n###aDVENTURE TIME** \n\n [CLICK HERE](https://www.figma.com/board/DGoed0ejgMR4DjJJZyH2Hf/WEB-MOOD-BOARD?node-id=0-1&t=ZHjPWfGlExHhmKru-1)\n",
+      "urls": [
+        "https://github.com/user-attachments/assets/4a32d767-60d9-4594-ae55-fd8d117b1ec1"
+      ],
+      "wordCount": 126,
+      "date": {
+        "iso": "2026-07-28T23:07:18.000Z",
+        "date": "2026-07-28",
+        "formatted": "July 29, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/9#issuecomment-5110643891"
+    },
+    {
+      "id": "dev-notes-10-comment-5123677419",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 10,
+      "issueTitle": "Day 8: Scheming about Schemas",
+      "day": 8,
+      "commentId": 5123677419,
+      "content": "###  **How Pixle can also be alive ?** \nThis simple question is just now running through my head.  since morning.  How to give a dead page a life? \nFrom thinking that now, tho i have done a lot of things.Ending the presentation with this question. has made a new blank to be filled, and somewhere it will be a unique point of my web. \nI have tried to plan out the content schema; the format is a bit  scattered \n\n<img width=\"2007\" height=\"1215\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/76738e19-2094-411a-9a17-ba78fc395653\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/76738e19-2094-411a-9a17-ba78fc395653"
+      ],
+      "wordCount": 85,
+      "date": {
+        "iso": "2026-07-29T21:44:03.000Z",
+        "date": "2026-07-29",
+        "formatted": "July 30, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/10#issuecomment-5123677419"
+    },
+    {
+      "id": "dev-notes-11-comment-5134926060",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 11,
+      "issueTitle": "Day 9: Astro nots",
+      "day": 9,
+      "commentId": 5134926060,
+      "content": "### **Day 9**\nGoing through tutorials was really helpful; before directly jumping into the project, going through them helped a lot in using the interface. \nalthough im still in doubt how the lengthy codes would be handled without creating a mess.",
+      "urls": [],
+      "wordCount": 41,
+      "date": {
+        "iso": "2026-07-30T18:46:05.000Z",
+        "date": "2026-07-30",
+        "formatted": "July 31, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/11#issuecomment-5134926060"
+    },
+    {
+      "id": "dev-notes-12-comment-5147708377",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 12,
+      "issueTitle": "Day 10: Lo-fi, High-fi, bheja fry",
+      "day": 10,
+      "commentId": 5147708377,
+      "content": "### **Design day** \nBheja is kinda a half fry today.  Some blanks are still there to fill.  Cleared a lot of things today: the fonts, some colors, the directions.\n\n<img width=\"1440\" height=\"1024\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/de3d2672-e444-4f2a-af91-f544dfdeb0b9\" />\n\n<img width=\"1275\" height=\"3567\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/cdeb908e-bc5e-4312-b894-c62f8a92192e\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/de3d2672-e444-4f2a-af91-f544dfdeb0b9",
+        "https://github.com/user-attachments/assets/cdeb908e-bc5e-4312-b894-c62f8a92192e"
+      ],
+      "wordCount": 41,
+      "date": {
+        "iso": "2026-07-31T21:41:10.000Z",
+        "date": "2026-07-31",
+        "formatted": "August 1, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/12#issuecomment-5147708377"
+    },
+    {
+      "id": "dev-notes-13-comment-5184127593",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 13,
+      "issueTitle": "Day 12: [Project Week] Everyone's cooking",
+      "day": 12,
+      "commentId": 5184127593,
+      "content": "### **Day 12** \n\n- done with the basic struture today. \n- tomorrow more focus will be getting the final touches for the static page and figuring out the hero section animation, \n    and then the work section. \n",
+      "urls": [],
+      "wordCount": 37,
+      "date": {
+        "iso": "2026-08-04T20:16:09.000Z",
+        "date": "2026-08-04",
+        "formatted": "August 5, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/13#issuecomment-5184127593"
+    },
+    {
+      "id": "dev-notes-14-comment-5196656894",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 14,
+      "issueTitle": "Day 13: [Project Week] Nine to Five",
+      "day": 13,
+      "commentId": 5196656894,
+      "content": "### **day -@**\n\n<img width=\"500\" height=\"300\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/be6165c5-f0f7-496f-b436-5a9340fa1caa\" />\nfinished with one of the major tasks, the flipbook animation.\ntomorrow will be working on getting done with all the static work for the page. and figuring out the api for importing pintrests library. \nand working on illustrations(break from codding i think).\n\n<img width=\"1897\" height=\"870\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b003f095-89b0-4b11-a1dc-29aeb1179c35\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/be6165c5-f0f7-496f-b436-5a9340fa1caa",
+        "https://github.com/user-attachments/assets/b003f095-89b0-4b11-a1dc-29aeb1179c35"
+      ],
+      "wordCount": 57,
+      "date": {
+        "iso": "2026-08-05T19:55:32.000Z",
+        "date": "2026-08-05",
+        "formatted": "August 6, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/14#issuecomment-5196656894"
+    },
+    {
+      "id": "dev-notes-15-comment-5208585700",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 15,
+      "issueTitle": "Day 14: [Project Week] Div and Let Div",
+      "day": 14,
+      "commentId": 5208585700,
+      "content": "### **kaal tak khatam**\n\n<img width=\"211\" height=\"374\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8f5823ae-e88b-4fab-a9af-e5e3ab764c33\" />\nfiguring the pintrest api and ending up with the final touches tomorrow\n[link to web](https://sanskarportfolio2026.netlify.app/)",
+      "urls": [
+        "https://github.com/user-attachments/assets/8f5823ae-e88b-4fab-a9af-e5e3ab764c33",
+        "https://sanskarportfolio2026.netlify.app/"
+      ],
+      "wordCount": 25,
+      "date": {
+        "iso": "2026-08-06T19:31:43.000Z",
+        "date": "2026-08-06",
+        "formatted": "August 7, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208585700"
+    }
+  ],
+  "submissions": [],
+  "statistics": {
+    "totalNotes": 14,
+    "totalSubmissions": 0,
+    "totalCommits": 0,
+    "firstActivity": "2026-07-20T10:29:53.000Z",
+    "lastActivity": "2026-08-06T19:31:43.000Z",
+    "mostActiveDay": "2026-07-20",
+    "totalEntries": 14,
+    "averageWordCount": 54
+  },
+  "commitsByDate": {},
+  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "repositories": [
+    {
+      "name": "web2026-dev-notes",
+      "type": "dev-notes",
+      "description": "Daily development notes and progress updates"
+    }
+  ],
+  "projectSubmissions": {}
+}
