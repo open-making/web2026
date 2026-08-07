@@ -24,26 +24,32 @@
 	font-display: swap;
 }
 @font-face {
-	font-family: 'Grandsans';
-	src: url('./lib/assets/fonts/Grandsans-Regular.woff2') format('woff2');
+	font-family: 'Scorekard';
+	src: url('./lib/assets/fonts/Scorekard-Regular.woff2') format('woff2');
 	font-weight: 400;
 	font-display: swap;
 }
 @font-face {
-	font-family: 'Grandsans Rough';
-	src: url('./lib/assets/fonts/Grandsans-Rough.woff2') format('woff2');
+	font-family: 'Scorekard';
+	src: url('./lib/assets/fonts/Scorekard-Semibold.woff2') format('woff2');
+	font-weight: 600;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Scorekard';
+	src: url('./lib/assets/fonts/Scorekard-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Spagetty';
+	src: url('./lib/assets/fonts/Spagetty-Regular.woff2') format('woff2');
 	font-weight: 400;
 	font-display: swap;
 }
 @font-face {
-	font-family: 'Free Lunch';
-	src: url('./lib/assets/fonts/FreeLunch-Regular.woff2') format('woff2');
-	font-weight: 400;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'Free Lunch Rough';
-	src: url('./lib/assets/fonts/FreeLunch-Rough.woff2') format('woff2');
+	font-family: 'Spagetty Rough';
+	src: url('./lib/assets/fonts/Spagetty-Rough.woff2') format('woff2');
 	font-weight: 400;
 	font-display: swap;
 }
@@ -58,10 +64,9 @@
 	--color-blue-tint: #d3dcef;
 
 	--font-display: 'Cartridge', sans-serif;
-	--font-body: 'Grandsans', sans-serif;
-	--font-body-rough: 'Grandsans Rough', sans-serif;
-	--font-hand: 'Free Lunch', cursive;
-	--font-hand-rough: 'Free Lunch Rough', cursive;
+	--font-body: 'Scorekard', sans-serif;
+	--font-hand: 'Spagetty', cursive;
+	--font-hand-rough: 'Spagetty Rough', cursive;
 }
 
 :root {

@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "totals": {
+    "notes": 92,
+    "words": 18171,
+    "students": 7,
+    "averageWords": 198,
+    "longestNote": {
+      "words": 733,
+      "author": "Darshan",
+      "day": 4,
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/6#issuecomment-5064694808"
+    },
+    "afterMidnight": 40,
+    "afterMidnightShare": 43
+  },
+  "days": [
+    {
+      "day": 0,
+      "title": "Hello World",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/1",
+      "date": "2026-07-20",
+      "noteCount": 8,
+      "totalWords": 43,
+      "sentiment": null
+    },
+    {
+      "day": 1,
+      "title": "Day 1: The Small Web",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/2",
+      "date": "2026-07-20",
+      "noteCount": 7,
+      "totalWords": 886,
+      "sentiment": null
+    },
+    {
+      "day": 2,
+      "title": "Day 2: HTML, CSS and Commitment",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/3",
+      "date": "2026-07-21",
+      "noteCount": 7,
+      "totalWords": 1886,
+      "sentiment": null
+    },
+    {
+      "day": 3,
+      "title": "Day 3: What a flex ya",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/4",
+      "date": "2026-07-22",
+      "noteCount": 6,
+      "totalWords": 1313,
+      "sentiment": null
+    },
+    {
+      "day": 4,
+      "title": "Day 4: Fitting to print",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/6",
+      "date": "2026-07-23",
+      "noteCount": 6,
+      "totalWords": 1581,
+      "sentiment": null
+    },
+    {
+      "day": 5,
+      "title": "Day 5: Making the most of it",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/7",
+      "date": "2026-07-24",
+      "noteCount": 7,
+      "totalWords": 1195,
+      "sentiment": null
+    },
+    {
+      "day": 6,
+      "title": "Day 6: Clocking it 😌🤏🤏🤏",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/8",
+      "date": "2026-07-27",
+      "noteCount": 6,
+      "totalWords": 2066,
+      "sentiment": null
+    },
+    {
+      "day": 7,
+      "title": "Day 7: A room of one's own",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/9",
+      "date": "2026-07-28",
+      "noteCount": 7,
+      "totalWords": 2393,
+      "sentiment": null
+    },
+    {
+      "day": 8,
+      "title": "Day 8: Scheming about Schemas",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/10",
+      "date": "2026-07-29",
+      "noteCount": 7,
+      "totalWords": 1236,
+      "sentiment": null
+    },
+    {
+      "day": 9,
+      "title": "Day 9: Astro nots",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/11",
+      "date": "2026-07-30",
+      "noteCount": 6,
+      "totalWords": 1266,
+      "sentiment": null
+    },
+    {
+      "day": 10,
+      "title": "Day 10: Lo-fi, High-fi, bheja fry",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/12",
+      "date": "2026-07-31",
+      "noteCount": 6,
+      "totalWords": 1110,
+      "sentiment": null
+    },
+    {
+      "day": 12,
+      "title": "Day 12: [Project Week] Everyone's cooking",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/13",
+      "date": "2026-08-04",
+      "noteCount": 7,
+      "totalWords": 1185,
+      "sentiment": null
+    },
+    {
+      "day": 13,
+      "title": "Day 13: [Project Week] Nine to Five",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/14",
+      "date": "2026-08-05",
+      "noteCount": 5,
+      "totalWords": 878,
+      "sentiment": null
+    },
+    {
+      "day": 14,
+      "title": "Day 14: [Project Week] Div and Let Div",
+      "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/15",
+      "date": "2026-08-06",
+      "noteCount": 7,
+      "totalWords": 1133,
+      "sentiment": null
+    }
+  ],
+  "hoursIST": [
+    16,
+    9,
+    4,
+    6,
+    5,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    7,
+    2,
+    3,
+    2,
+    1,
+    5,
+    11,
+    4,
+    9
+  ],
+  "lengthBuckets": [
+    {
+      "label": "under 50",
+      "count": 23
+    },
+    {
+      "label": "50–149",
+      "count": 20
+    },
+    {
+      "label": "150–299",
+      "count": 27
+    },
+    {
+      "label": "300–499",
+      "count": 15
+    },
+    {
+      "label": "500+",
+      "count": 7
+    }
+  ]
+}

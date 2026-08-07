@@ -16,6 +16,13 @@ const config = {
 			$components: 'src/lib/components',
 			$utils: 'src/lib/utils',
 			$hooks: 'src/lib/hooks'
+		},
+		prerender: {
+			// student dev notes contain arbitrary markdown links that the crawler
+			// follows; a bad relative link in a note should not fail the build
+			handleHttpError: ({ path, referrer, message }) => {
+				console.warn(`prerender: ${message} (${path} linked from ${referrer})`);
+			}
 		}
 	},
 	extensions: ['.svelte', '.svx']
