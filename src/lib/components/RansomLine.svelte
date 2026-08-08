@@ -125,7 +125,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		gap: 0.06em;
+		gap: 0.01em;
 		line-height: 1.15;
 	}
 	.gap {

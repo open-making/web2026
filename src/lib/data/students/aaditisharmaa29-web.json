@@ -1,7 +1,7 @@
 {
   "username": "aaditisharmaa29-web",
-  "name": "Aaditi",
-  "slug": "aaditi",
+  "name": "Aditi",
+  "slug": "aditi",
   "website": null,
   "socialLinks": [],
   "devNotes": [
@@ -275,21 +275,375 @@
         "formatted": "August 6, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208127572"
+    },
+    {
+      "id": "dev-notes-16-comment-5221480036",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 16,
+      "issueTitle": "Day 15: [Project Week] Getting Ship Done",
+      "day": 15,
+      "commentId": 5221480036,
+      "content": "### FILE OR A FOLDER? \n\nIf someone opened my website right now, I think they would be so confused. Why does it look so horrible? Why are these things not linking? And why is the design so lacking?\n\nBy Wednesday, I think I need to stop focusing on how many features I want to add and start focusing on how good I can make a small, specific set of things look. That is my goal until Wednesday: to have something that works smoothly from end to end. At least I am done with the slot, though I was already finished with that yesterday.\n\nEarlier today in class, I was complaining out loud because I had been at this for four hours straight. No matter what I tried, even after I shifted from VS Code to Anti Gravity just to use Claude, the pages still were not opening. But then it clicked for me. If there are separate pages and they have separate URLs, how would those pages act as windows? The code was working earlier only because they were not separate pages yet. That was a big lightbulb moment for me.\n\nAs for what is still half built, honestly, everything is. It is not even half built, it is barely there. I am really stressing about how I am going to get it all finished. I feel like I am working at a very slow pace, but this is the speed that allows me to actually understand what I am doing. \nOh, side note. I was showing a friend your business cards and he liked them so much that he decided to keep them all. So, now I have none :(\n\nThat's all for today!\nGood night",
+      "urls": [],
+      "wordCount": 287,
+      "date": {
+        "iso": "2026-08-07T20:01:20.000Z",
+        "date": "2026-08-07",
+        "formatted": "August 8, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/16#issuecomment-5221480036"
     }
   ],
   "submissions": [],
   "statistics": {
-    "totalNotes": 13,
+    "totalNotes": 14,
     "totalSubmissions": 0,
-    "totalCommits": 0,
+    "totalCommits": 63,
     "firstActivity": "2026-07-20T10:29:11.000Z",
-    "lastActivity": "2026-08-06T18:16:10.000Z",
-    "mostActiveDay": "2026-07-20",
-    "totalEntries": 13,
-    "averageWordCount": 243
+    "lastActivity": "2026-08-08T05:58:40.000Z",
+    "mostActiveDay": "2026-08-07",
+    "totalEntries": 14,
+    "averageWordCount": 246
   },
-  "commitsByDate": {},
-  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "commitsByDate": {
+    "2026-08-08": [
+      {
+        "message": "Merge pull request #11 from aaditisharmaa29-web/feat/window-routing\n\nfeat: window routing and fixes",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      }
+    ],
+    "2026-08-07": [
+      {
+        "message": ".",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": ".",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "closed a tag",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "tring to get the pages to open",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "fixed layout of /pages",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "individual url updating",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "shifted to pages",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "move projects to md files",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "fixed paths",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "dock added",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "back button in folder",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "made folders inside projects",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "made netlify link",
+        "repository": "My-portfolio-website",
+        "time": "August 7, 2026"
+      }
+    ],
+    "2026-08-06": [
+      {
+        "message": "updated retro mac display",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "button done",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "added back button",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "adding transition to index page",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "saving file",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "mac size bigger",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "slot done",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "mac dsiplay done in css",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "changing code to make slot",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      }
+    ],
+    "2026-08-05": [
+      {
+        "message": "NOWHERE YET",
+        "repository": "My-portfolio-website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "mac added on homescreen",
+        "repository": "My-portfolio-website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "bg done",
+        "repository": "My-portfolio-website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "initaial code",
+        "repository": "My-portfolio-website",
+        "time": "August 5, 2026"
+      }
+    ],
+    "2026-08-04": [
+      {
+        "message": "setting up",
+        "repository": "My-portfolio-website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Initial commit",
+        "repository": "My-portfolio-website",
+        "time": "August 4, 2026"
+      }
+    ],
+    "2026-07-30": [
+      {
+        "message": "unit 6 compeleted",
+        "repository": "astro-playground",
+        "time": "July 30, 2026"
+      },
+      {
+        "message": "5 compelete",
+        "repository": "astro-playground",
+        "time": "July 30, 2026"
+      },
+      {
+        "message": "layouts finished",
+        "repository": "astro-playground",
+        "time": "July 30, 2026"
+      },
+      {
+        "message": "components finished",
+        "repository": "astro-playground",
+        "time": "July 30, 2026"
+      },
+      {
+        "message": "Components half way finished",
+        "repository": "astro-playground",
+        "time": "July 30, 2026"
+      },
+      {
+        "message": "unit 2 pages half way finished",
+        "repository": "astro-playground",
+        "time": "July 30, 2026"
+      },
+      {
+        "message": "initial commit",
+        "repository": "astro-playground",
+        "time": "July 30, 2026"
+      }
+    ],
+    "2026-07-25": [
+      {
+        "message": "done",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "done",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "recovered files",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "all designing done",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "missing section finished",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "where not to stay",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "fonts added",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "flower border",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "bg",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "all content placed",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "the humphery stud",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      }
+    ],
+    "2026-07-24": [
+      {
+        "message": "SCRUBB'S AMMONIA",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "FLOWER HEAD",
+        "repository": "web2026-fit-to-print",
+        "time": "July 24, 2026"
+      },
+      {
+        "message": "mast head completed",
+        "repository": "web2026-fit-to-print",
+        "time": "July 24, 2026"
+      },
+      {
+        "message": "files raw",
+        "repository": "web2026-fit-to-print",
+        "time": "July 24, 2026"
+      }
+    ],
+    "2026-07-22": [
+      {
+        "message": "exercise 9 done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 8 compeleted",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 7 done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 6 completed",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "compeleted exeecise 5",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 4 complete",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 3 complete",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "second exercise complete",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "file 1",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      }
+    ],
+    "2026-07-21": [
+      {
+        "message": "a few final changes",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "change name",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "started with the ugly changes, gave some animations and roations.",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-08T07:21:17.503Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

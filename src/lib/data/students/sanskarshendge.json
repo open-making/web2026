@@ -283,15 +283,241 @@
   "statistics": {
     "totalNotes": 14,
     "totalSubmissions": 0,
-    "totalCommits": 0,
+    "totalCommits": 41,
     "firstActivity": "2026-07-20T10:29:53.000Z",
-    "lastActivity": "2026-08-06T19:31:43.000Z",
-    "mostActiveDay": "2026-07-20",
+    "lastActivity": "2026-08-07T14:38:32.000Z",
+    "mostActiveDay": "2026-07-22",
     "totalEntries": 14,
     "averageWordCount": 54
   },
-  "commitsByDate": {},
-  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "commitsByDate": {
+    "2026-08-07": [
+      {
+        "message": "final touches",
+        "repository": "Portfolio-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "fianlizing the thing",
+        "repository": "Portfolio-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "responsive nav",
+        "repository": "Portfolio-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "privacy policy",
+        "repository": "Portfolio-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "inspiration section\n\nworking on the layouting basics",
+        "repository": "Portfolio-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "inspiration section",
+        "repository": "Portfolio-Website",
+        "time": "August 7, 2026"
+      }
+    ],
+    "2026-08-06": [
+      {
+        "message": "inspiration section",
+        "repository": "Portfolio-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "skill section done\n\nthe hover animation is fixed\nthe color changing is also fixed",
+        "repository": "Portfolio-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "skill section animation done",
+        "repository": "Portfolio-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "Update SkillsSection.astro",
+        "repository": "Portfolio-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "nav bar final changes",
+        "repository": "Portfolio-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "nav fix",
+        "repository": "Portfolio-Website",
+        "time": "August 6, 2026"
+      }
+    ],
+    "2026-08-05": [
+      {
+        "message": "sktchbook-navigation",
+        "repository": "Portfolio-Website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "sketchbook",
+        "repository": "Portfolio-Website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "sketchbook animation\n\nsketchbook animation done",
+        "repository": "Portfolio-Website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "sketchbook\n\ndone with the final animation of the sketch book everything is working",
+        "repository": "Portfolio-Website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "sketchbook scroll\n\nnow the page gets pinned for the first scroll , the sketchbook comes in the center,",
+        "repository": "Portfolio-Website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "sketchbook section",
+        "repository": "Portfolio-Website",
+        "time": "August 5, 2026"
+      }
+    ],
+    "2026-08-04": [
+      {
+        "message": "working on sketch and work section",
+        "repository": "Portfolio-Website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "basic layout hero setion\n\nThe bar section and a scroll animation for sketchbook is baki",
+        "repository": "Portfolio-Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "1",
+        "repository": "Portfolio-Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Ai gen",
+        "repository": "Portfolio-Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Starting with the project",
+        "repository": "Portfolio-Website",
+        "time": "August 4, 2026"
+      }
+    ],
+    "2026-07-27": [
+      {
+        "message": "Update style.css",
+        "repository": "web2026-fit-to-print",
+        "time": "July 27, 2026"
+      }
+    ],
+    "2026-07-26": [
+      {
+        "message": "2 last",
+        "repository": "web2026-fit-to-print",
+        "time": "July 27, 2026"
+      },
+      {
+        "message": "second last",
+        "repository": "web2026-fit-to-print",
+        "time": "July 27, 2026"
+      },
+      {
+        "message": "final",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "right column done\n\ntill this right coloum of news and notes is almost done , left column remaining",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      }
+    ],
+    "2026-07-25": [
+      {
+        "message": "content",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      }
+    ],
+    "2026-07-24": [
+      {
+        "message": "Ad section\n\nbackup to default code",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      }
+    ],
+    "2026-07-22": [
+      {
+        "message": "exercise 9",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 7",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "till exercise 6",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "task 5th\n\ndone till exercise 5",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "task 5",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "task 3",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "nav 1",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      }
+    ],
+    "2026-07-21": [
+      {
+        "message": "ugly web 2",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "ugly web 2",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "1",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "random changes",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-08T07:21:17.503Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

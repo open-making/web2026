@@ -22,6 +22,7 @@
 	<h2 class="font-display text-3xl font-black misreg">
 		{sections.contributors.title} <span class="h2tag font-hand">{sections.contributors.tag}</span>
 	</h2>
+	<p class="lede">{sections.contributors.desc}</p>
 
 	<div class="bar">
 		{#each students as s, i}
@@ -42,6 +43,11 @@
 		max-width: var(--page-max);
 		margin-inline: auto;
 		padding-inline: 1.25rem;
+	}
+	.lede {
+		max-width: var(--measure);
+		margin-top: var(--leading);
+		font-size: 1.1rem;
 	}
 	.bar {
 		margin-top: calc(var(--leading) * 1.25);

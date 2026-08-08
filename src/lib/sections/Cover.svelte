@@ -62,26 +62,37 @@
 		tape: string;
 		tapeSeed: string;
 	};
-	const COLS = 7;
-	const ROWS = 4;
-	function arrange(rand: () => number): Slot[] {
+	// the wall reflows to the viewport: narrow screens get fewer, wider columns
+	// and more rows so the collage still fills the hero top-to-bottom instead of
+	// clustering at the top. widths are in vw so pieces scale with the screen.
+	type Grid = { cols: number; rows: number };
+	const GRID_SSR: Grid = { cols: 7, rows: 4 };
+	function pickGrid(w: number): Grid {
+		if (w <= 480) return { cols: 3, rows: 8 };
+		if (w <= 768) return { cols: 4, rows: 6 };
+		if (w <= 1024) return { cols: 5, rows: 5 };
+		return { cols: 7, rows: 4 };
+	}
+	function arrange(rand: () => number, { cols, rows }: Grid): Slot[] {
 		const shuffled = [...pool]
 			.map((p) => ({ p, k: rand() }))
 			.sort((a, b) => a.k - b.k)
 			.map(({ p }) => p);
+		const cell = 100 / cols; // column width as a fraction of the hero
 		const slots: Slot[] = [];
 		let i = 0;
-		for (let r = 0; r < ROWS; r++) {
-			for (let c = 0; c < COLS; c++) {
+		for (let r = 0; r < rows; r++) {
+			for (let c = 0; c < cols; c++) {
 				const piece = shuffled[i % shuffled.length];
 				i++;
 				slots.push({
 					...piece,
-					left: (c / COLS) * 103 - 3 + rand() * 5,
+					left: c * cell - 3 + rand() * (cell * 0.35),
 					// top row may run off the top edge; the bottom row always
 					// lands fully inside the hero
-					top: -3 + (r / ROWS) * 88 + rand() * 5,
-					w: 8.5 + rand() * 4,
+					top: -3 + (r / rows) * 88 + rand() * 5,
+					// pieces overlap their cell a touch so there are no seams
+					w: cell * (0.9 + rand() * 0.4),
 					tilt: (rand() * 2 - 1) * 9,
 					z: Math.floor(rand() * 3),
 					tape: ['pink', 'blue', 'paper'][Math.floor(rand() * 3)],
@@ -92,9 +103,19 @@
 		return slots;
 	}
 
-	let slots = $state(arrange(mulberry32(20260812)));
+	let slots = $state(arrange(mulberry32(20260812), GRID_SSR));
 	onMount(() => {
-		slots = arrange(Math.random);
+		let key = '';
+		const update = () => {
+			const g = pickGrid(window.innerWidth);
+			const k = `${g.cols}x${g.rows}`;
+			if (k === key) return; // only reshuffle when the grid actually changes
+			key = k;
+			slots = arrange(Math.random, g);
+		};
+		update();
+		window.addEventListener('resize', update);
+		return () => window.removeEventListener('resize', update);
 	});
 </script>
 
@@ -105,7 +126,7 @@
 				href={s.href}
 				class="paste"
 				tabindex="-1"
-				style="left: {s.left}%; top: {s.top}%; width: {s.w}rem; --tilt: {s.tilt.toFixed(
+				style="left: {s.left}%; top: {s.top}%; width: {s.w}vw; --tilt: {s.tilt.toFixed(
 					1
 				)}deg; z-index: {s.z}"
 			>
@@ -121,25 +142,22 @@
 	</div>
 
 	<div class="matter">
-		<p class="edition font-hand">19 july – 12 august 2026 · mdes @ daiict</p>
+		<p class="edition font-hand">mdes @ daiict</p>
 		<h1 class="masthead">
-			<RansomLine text="the web2026" />
-			<RansomLine text="zine" />
+			<RansomLine text="web2026" />
+			<RansomLine text="showcase" />
+			<!-- <RansomLine text="zine" /> -->
 		</h1>
 		<p class="byline">ft. {names.join(', ')}</p>
 
-		<Sticker
-			seedKey="cover-notes"
-			tilt="-8deg"
-			style="position: absolute; left: -9rem; bottom: -1.5rem">{t.notes} dev notes inside</Sticker
-		>
-		<Sticker
-			color="blue"
-			seedKey="cover-words"
-			tilt="5deg"
-			style="position: absolute; right: -8.5rem; top: -1rem"
-			>{t.words.toLocaleString()} words</Sticker
-		>
+		<div class="stick stick-notes">
+			<Sticker seedKey="cover-notes" tilt="-8deg">{t.notes} dev notes inside</Sticker>
+		</div>
+		<div class="stick stick-words">
+			<Sticker color="blue" seedKey="cover-words" tilt="5deg"
+				>{t.words.toLocaleString()} words</Sticker
+			>
+		</div>
 	</div>
 </section>
 
@@ -164,6 +182,7 @@
 	.paste {
 		position: absolute;
 		display: block;
+		max-width: 13rem;
 		padding: 0.4rem 0.4rem 0.5rem;
 		background: #fffcf4;
 		transform: rotate(var(--tilt));
@@ -221,17 +240,32 @@
 		transform: rotate(0.8deg);
 	}
 
-	/* smaller screens: fewer pieces, stickers inline */
-	@media (max-width: 64rem) {
-		.cover {
-			min-height: 92svh;
+	/* the stickers hang off the matter block into the surrounding collage */
+	.stick {
+		position: absolute;
+	}
+	.stick-notes {
+		left: -9rem;
+		bottom: -1.5rem;
+	}
+	.stick-words {
+		right: -8.5rem;
+		top: -1rem;
+	}
+
+	/* narrow screens: the grid already reflows in JS; here the stickers tuck
+	   into the lower collage instead of shooting off the edge of the matter */
+	@media (max-width: 48rem) {
+		.stick :global(.sticker) {
+			width: 6.5rem;
 		}
-		.paste:nth-child(n + 17) {
-			display: none;
+		.stick-notes {
+			left: -0.5rem;
+			bottom: -8rem;
 		}
-		.matter :global(.sticker) {
-			position: static !important;
-			margin-top: 0.5rem;
+		.stick-words {
+			right: -0.5rem;
+			top: -7rem;
 		}
 	}
 </style>

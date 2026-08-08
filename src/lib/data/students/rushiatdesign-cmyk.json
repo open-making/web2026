@@ -1,7 +1,7 @@
 {
   "username": "rushiatdesign-cmyk",
-  "name": "Rushiat",
-  "slug": "rushiat",
+  "name": "Rushikesh",
+  "slug": "rushikesh",
   "website": null,
   "socialLinks": [],
   "devNotes": [
@@ -303,21 +303,273 @@
         "formatted": "August 7, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208463940"
+    },
+    {
+      "id": "dev-notes-16-comment-5222756877",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 16,
+      "issueTitle": "Day 15: [Project Week] Getting Ship Done",
+      "day": 15,
+      "commentId": 5222756877,
+      "content": "# I'm Done\n\nWith the blog\n\nYess, today I was planning to work on design but as last 2 days I was not coding so I thought let's code today and keep the design part for tomorrow it's helping me mentally to stay boosted. \n\nSo the blog is done and I'm happy (kidding) I'll never get satisfied with the output ever... 😭\n\nBut yaaav since I made the blog, I'll finish the rest ship asap and will enjaaaaay my weekend.\n\nSee how happy lilly is in this..\n![image](https://github.com/user-attachments/assets/0e622b99-a7cb-470b-b267-2bad1f01e86f)",
+      "urls": [
+        "https://github.com/user-attachments/assets/0e622b99-a7cb-470b-b267-2bad1f01e86f"
+      ],
+      "wordCount": 88,
+      "date": {
+        "iso": "2026-08-07T22:23:18.000Z",
+        "date": "2026-08-07",
+        "formatted": "August 8, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/16#issuecomment-5222756877"
     }
   ],
   "submissions": [],
   "statistics": {
-    "totalNotes": 15,
+    "totalNotes": 16,
     "totalSubmissions": 0,
-    "totalCommits": 0,
+    "totalCommits": 43,
     "firstActivity": "2026-07-20T10:29:07.000Z",
-    "lastActivity": "2026-08-06T19:11:51.000Z",
-    "mostActiveDay": "2026-07-20",
-    "totalEntries": 15,
-    "averageWordCount": 162
+    "lastActivity": "2026-08-07T22:23:18.000Z",
+    "mostActiveDay": "2026-07-22",
+    "totalEntries": 16,
+    "averageWordCount": 157
   },
-  "commitsByDate": {},
-  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "commitsByDate": {
+    "2026-08-07": [
+      {
+        "message": "Blog version 1.0",
+        "repository": "My_Portfolio_Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "updated animations on blog page",
+        "repository": "My_Portfolio_Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "blog page static is done with refinements",
+        "repository": "My_Portfolio_Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "removed blog page frame border",
+        "repository": "My_Portfolio_Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "Blog page draft with improved popup and scroll",
+        "repository": "My_Portfolio_Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "Updated the blog frame",
+        "repository": "My_Portfolio_Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "updated borders and stage 1 of fixing the blog page ui elements",
+        "repository": "My_Portfolio_Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "we are now using component for blog card",
+        "repository": "My_Portfolio_Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "added blog page",
+        "repository": "My_Portfolio_Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Updated hover off for zommed version",
+        "repository": "My_Portfolio_Website",
+        "time": "August 7, 2026"
+      }
+    ],
+    "2026-08-06": [
+      {
+        "message": "figured out the pop ups\n\nworked on popups",
+        "repository": "My_Portfolio_Website",
+        "time": "August 6, 2026"
+      }
+    ],
+    "2026-08-05": [
+      {
+        "message": "Decided to go with the current hotspots for adding external pages on shop click",
+        "repository": "My_Portfolio_Website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "Added the buttons with scaling as per background\n\nthe problem right now is buttons are changing position vertically on different display sizes",
+        "repository": "My_Portfolio_Website",
+        "time": "August 5, 2026"
+      }
+    ],
+    "2026-08-04": [
+      {
+        "message": "Added button using CSS\n\nthey are not maintening their position but it's working",
+        "repository": "My_Portfolio_Website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "*Done with the final timeline with animations",
+        "repository": "My_Portfolio_Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Updated with the camera locations which are not creating mess",
+        "repository": "My_Portfolio_Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Added keyboard Shortcuts",
+        "repository": "My_Portfolio_Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Done with the span animation with wrong camera positions",
+        "repository": "My_Portfolio_Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Done with the First version with all the basic hover animation of the top floors\n\nI can change the animations with scene-layer and it's active css class",
+        "repository": "My_Portfolio_Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "version 1 with hover is done",
+        "repository": "My_Portfolio_Website",
+        "time": "August 4, 2026"
+      }
+    ],
+    "2026-07-26": [
+      {
+        "message": "Refined GIFs",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "Added GIF Animations",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      }
+    ],
+    "2026-07-25": [
+      {
+        "message": "Version 6",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "version 5",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "Version 4",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "Version 3",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "Reset the directory",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "version 2.0",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "Version 1",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      }
+    ],
+    "2026-07-22": [
+      {
+        "message": "final revision",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Done with bonus exercise",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Exercise 9 Done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Assignment 8 Done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Assignment 7 Done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Done Assignment 5",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Assignment 6 Done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Done Assignment 4",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Done Exercise 3",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Done Exercise 2",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Done with Exercise 1",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      }
+    ],
+    "2026-07-21": [
+      {
+        "message": "Tried figuring out with z index and overall position",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "Update index.html",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "added basic styles just a draft",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-08T07:21:17.503Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

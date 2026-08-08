@@ -31,19 +31,13 @@
 
 <section id="season" class="page">
 	<h2 class="font-display text-3xl font-black misreg">
-		{sections.season.title} <span class="h2tag font-hand">{sections.season.tag}</span>
+		{sections.notes.title} <span class="h2tag font-hand">{sections.notes.tag}</span>
 	</h2>
 
 	<p class="lede">
-		Between 19 July and 12 August, {t.students} students wrote {t.notes} dev notes, {t.words.toLocaleString()}
-		words in all. A sentiment model read every day's notes and drew this line:
+		{sections.notes.desc}
+		{t.students} students wrote {t.notes}
 	</p>
-
-	<div class="arc-card scrap" style="--tilt: -0.6deg">
-		<Tape tilt="-5deg" style="left: 8%; top: -0.8rem" />
-		<Tape color="blue" tilt="4deg" style="right: 6%; top: -0.7rem" />
-		<SentimentArc days={stats.days} />
-	</div>
 
 	<ol class="timeline">
 		{#each days as d, i}
@@ -83,10 +77,16 @@
 		{/each}
 	</ol>
 
+	<div class="arc-card scrap" style="--tilt: -0.6deg">
+		<Tape tilt="-5deg" style="left: 8%; top: -0.8rem" />
+		<Tape color="blue" tilt="4deg" style="right: 6%; top: -0.7rem" />
+		<SentimentArc days={stats.days} />
+	</div>
+
 	<div class="charts">
 		<figure class="chart scrap" style="--tilt: -0.8deg">
 			<Tape tilt="-6deg" style="left: 40%; top: -0.8rem" />
-			<h3 class="font-hand">when the notes got written</h3>
+			<h3 class="font-hand">a lot of sleepless nights posting these everyday</h3>
 			<TimeOfDay
 				hours={stats.hoursIST}
 				annotation="{t.afterMidnight} of {t.notes} notes were posted after midnight"
@@ -95,7 +95,7 @@
 
 		<figure class="chart scrap" style="--tilt: 0.9deg">
 			<Tape color="blue" tilt="5deg" style="left: 38%; top: -0.8rem" />
-			<h3 class="font-hand">how long they ran</h3>
+			<h3 class="font-hand">some wrote essays, some wrote two lines</h3>
 			<NoteLengths buckets={stats.lengthBuckets} />
 		</figure>
 	</div>

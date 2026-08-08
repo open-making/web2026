@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "generatedAt": "2026-08-08T07:21:17.503Z",
   "statistics": {
     "totalIssues": 16,
-    "totalComments": 94,
+    "totalComments": 99,
     "totalStudents": 7,
     "dateRange": {
       "earliest": "2026-07-19T09:45:19.000Z",
-      "latest": "2026-08-07T05:46:22.000Z"
+      "latest": "2026-08-08T05:58:40.000Z"
     },
-    "totalCommits": 0
+    "totalCommits": 302
   },
   "repositories": [
     {
@@ -28,53 +28,53 @@
   ],
   "topContributors": [
     {
-      "username": "anchita101",
-      "totalEntries": 15,
-      "totalCommits": 0,
-      "totalWords": 2962,
-      "totalActivity": 15
+      "username": "aaditisharmaa29-web",
+      "totalEntries": 14,
+      "totalCommits": 63,
+      "totalWords": 3444,
+      "totalActivity": 77
+    },
+    {
+      "username": "ashishgajjar360-source",
+      "totalEntries": 11,
+      "totalCommits": 56,
+      "totalWords": 643,
+      "totalActivity": 67
     },
     {
       "username": "rushiatdesign-cmyk",
-      "totalEntries": 15,
-      "totalCommits": 0,
-      "totalWords": 2429,
-      "totalActivity": 15
+      "totalEntries": 16,
+      "totalCommits": 43,
+      "totalWords": 2517,
+      "totalActivity": 59
     },
     {
       "username": "pathakdarshan2705-creator",
-      "totalEntries": 14,
-      "totalCommits": 0,
-      "totalWords": 5627,
-      "totalActivity": 14
+      "totalEntries": 15,
+      "totalCommits": 40,
+      "totalWords": 6071,
+      "totalActivity": 55
     },
     {
       "username": "sanskarshendge",
       "totalEntries": 14,
-      "totalCommits": 0,
+      "totalCommits": 41,
       "totalWords": 753,
-      "totalActivity": 14
+      "totalActivity": 55
     },
     {
-      "username": "aaditisharmaa29-web",
-      "totalEntries": 13,
-      "totalCommits": 0,
-      "totalWords": 3157,
-      "totalActivity": 13
+      "username": "anchita101",
+      "totalEntries": 16,
+      "totalCommits": 30,
+      "totalWords": 3187,
+      "totalActivity": 46
     },
     {
       "username": "prakhardzn",
       "totalEntries": 11,
-      "totalCommits": 0,
+      "totalCommits": 29,
       "totalWords": 2632,
-      "totalActivity": 11
-    },
-    {
-      "username": "ashishgajjar360-source",
-      "totalEntries": 10,
-      "totalCommits": 0,
-      "totalWords": 611,
-      "totalActivity": 10
+      "totalActivity": 40
     }
   ]
 }

@@ -297,21 +297,258 @@
         "formatted": "August 7, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208515567"
+    },
+    {
+      "id": "dev-notes-16-comment-5220707927",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 16,
+      "issueTitle": "Day 15: [Project Week] Getting Ship Done",
+      "day": 15,
+      "commentId": 5220707927,
+      "content": "# COOL STUFF DAY 🍃\n\nBefore I give my updates on my work, first I want to give a huge shout-out to Aman Sir, @thedivtagguy! For me, storytelling, data analysis, and putting out that stuff to people always excites me a lot. Like, for me personally, creativity and logic are something that go together hand in hand by pulling each other forcefully towards them. The way abstract and passionate art pieces attract me, in the same way, very data-driven things and factual stuff also excite me; hence, I always try to put both things together on one table in all my projects and attempts, even though balancing both is difficult, at least for me personally, but @thedivtagguy surely cracked it. His cool projects were really interesting, and surely, now I will try to understand all his work; it is super interesting, but apart from that, it is super inspiring too. By seeing those projects, I also got some sort of ideas about what I can do for whatever little things that I have started, and I surely will attempt them someday very soon.\n\nAs for work, finally...finally the entire home page is perfectly done!!!! I mean, of course, refinements will come, but yeah, it is just precisely done, and I am happy that I have achieved the same or maybe kinda a little more interesting than what I planned and like by design, maybe I didn't have any reference so kinda it was little tricky to get but more than that I am having super fun that I am doing code stuff very calculatively, I mean I know what is happening where cause I am doing by myself and using LLM just to get the solution for errors and to get suggestions for what I can do how, maybe it is little extra time consuming but this experince is nice, being stuck and then putting efforts to get a teeny tiny solution. I am just imagining that right now, I am just trying for such a project, but eventually these learnings will help me a lot in my future projects also, so yeah, happy about that and also excited for my next steps!\n\nTomorrow, I will finish the entire blog page with individual blog mockups and CMS setup, along with which I will also try to finish the film recommendation section! I have high-fidelity ready, and kinda figured out the assets, so now I guess execution will be a little easier than the home page (hopefully)\n\nLogging off with a film recommendation: The Matrix (1999)\n\nLittle sketch from my diary as I am missing our 'Chinese Billa' hehe!\n\n<img width=\"2268\" height=\"1373\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/35c938ed-1955-45cf-8df4-f6fd01b714c4\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/35c938ed-1955-45cf-8df4-f6fd01b714c4"
+      ],
+      "wordCount": 444,
+      "date": {
+        "iso": "2026-08-07T18:32:54.000Z",
+        "date": "2026-08-07",
+        "formatted": "August 8, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/16#issuecomment-5220707927"
     }
   ],
   "submissions": [],
   "statistics": {
-    "totalNotes": 14,
+    "totalNotes": 15,
     "totalSubmissions": 0,
-    "totalCommits": 0,
+    "totalCommits": 40,
     "firstActivity": "2026-07-20T10:37:55.000Z",
-    "lastActivity": "2026-08-06T19:20:10.000Z",
-    "mostActiveDay": "2026-07-20",
-    "totalEntries": 14,
-    "averageWordCount": 402
+    "lastActivity": "2026-08-08T03:42:37.000Z",
+    "mostActiveDay": "2026-07-22",
+    "totalEntries": 15,
+    "averageWordCount": 405
   },
-  "commitsByDate": {},
-  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "commitsByDate": {
+    "2026-08-08": [
+      {
+        "message": "Blog page added",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 8, 2026"
+      }
+    ],
+    "2026-08-07": [
+      {
+        "message": "Correction in the worker link",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Securing the secret token",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Home Page Done, Let's Move On",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Almost there for home page",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Remote control setup a little",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Almost done with home page",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 7, 2026"
+      }
+    ],
+    "2026-08-06": [
+      {
+        "message": "mobile version is here hehe",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Tried Mobile Version",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "another little change",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "cloudflare for",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "for cloudflare",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "Home page requires some changes only",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 6, 2026"
+      }
+    ],
+    "2026-08-05": [
+      {
+        "message": "Almost there for home page",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 6, 2026"
+      },
+      {
+        "message": "Almost there almost there",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 5, 2026"
+      }
+    ],
+    "2026-08-04": [
+      {
+        "message": "Getting close to create the shape",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 5, 2026"
+      },
+      {
+        "message": "grid fix 2",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Attempt 1 for cards",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Project Created",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 4, 2026"
+      }
+    ],
+    "2026-07-25": [
+      {
+        "message": "websie files moved to main folder",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "final removal from draft",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "Final Draft Fairytale",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      }
+    ],
+    "2026-07-22": [
+      {
+        "message": "final bonus task",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "final update exercise 5",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "fixing css exercise 9",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "solving html css exercise 8",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "corrected html-css further more exercise 7",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "updates",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "correcting html, css exercise 7",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "correcting css, html further exercise 6",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "fixing html and css exercise 5",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "fixing html and css exercise 6",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "fixing html exercise 5",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "fixing css exercise 4",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "fixing css exercise 3",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "fixing css exercise 2",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Task 1",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      }
+    ],
+    "2026-07-21": [
+      {
+        "message": "Version submitted somehow ugly",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "Version 2 Ugly Website",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "I added random animations to make it ugly",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-08T07:21:17.503Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

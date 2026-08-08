@@ -1,9 +1,10 @@
 <script lang="ts">
 	// One student's sentiment line across their notes, with their best and
-	// roughest days called out by date. D3 for the math, Svelte for the DOM.
+	// roughest days called out by note title. D3 for the math, Svelte for the DOM.
 	import { scaleLinear, line as d3line, curveMonotoneX } from 'd3';
+	import { ArrowRight01Icon } from '@hugeicons/core-free-icons';
 
-	type Point = { day: number; sentiment: number; date: string | null };
+	type Point = { day: number; sentiment: number; date: string | null; title: string | null };
 	let { series }: { series: Point[] } = $props();
 
 	let width = $state(340);
@@ -29,33 +30,58 @@
 
 	const worst = series.reduce((m, d) => (d.sentiment < m.sentiment ? d : m), series[0]);
 	const best = series.reduce((m, d) => (d.sentiment > m.sentiment ? d : m), series[0]);
-	const fmt = (d: Point) =>
-		d.date
-			? new Date(d.date + 'T00:00:00')
-					.toLocaleDateString('en-GB', { day: 'numeric', month: 'long' })
-					.toLowerCase()
-			: `day ${d.day}`;
-	// keep annotation text inside the frame even when the point sits at an edge
+	const label = (d: Point) =>
+		d.title ? `“${d.title.replace(/^Day \d+:?\s*/i, '').toLowerCase()}”` : `day ${d.day}`;
+	// keep annotation text inside the frame even when the point sits at an edge;
+	// the margin scales with the title so long ones don't spill or collide
+	const half = (t: string) => Math.max(58, Math.round(t.length * 3.6));
 	const clampX = (v: number, m = 58) => Math.max(m, Math.min(width - m, v));
+	const hiX = $derived(clampX(x(series.indexOf(best)), half(label(best))));
+	const loX = $derived(clampX(x(series.indexOf(worst)), half(label(worst))));
+	const loY = Math.min(y(worst.sentiment) + 20, H - 16);
+	// the axis captions yield when the worst-day label lands on top of them
+	const startAxisClear = $derived(loY < H - 22 || loX - half(label(worst)) > PAD.left + 56);
+	const endAxisClear = $derived(loY < H - 22 || loX + half(label(worst)) < width - PAD.right - 64);
 </script>
 
 <figure class="spark" bind:clientWidth={width}>
 	<svg
 		viewBox="0 0 {width} {H}"
 		role="img"
-		aria-label="Sentiment across their notes: best on {fmt(best)}, roughest on {fmt(worst)}"
+		aria-label="Sentiment across their notes: highest on {label(best)}, lowest on {label(worst)}"
 	>
 		<path d={path} />
 		<circle cx={x(series.indexOf(worst))} cy={y(worst.sentiment)} r="4" class="lo" />
 		<circle cx={x(series.indexOf(best))} cy={y(best.sentiment)} r="4" class="hi" />
-		<text x={clampX(x(series.indexOf(best)))} y={y(best.sentiment) - 12} class="note hi-note">
-			{fmt(best)}, their best day
+		<text x={hiX} y={y(best.sentiment) - 12} class="note hi-note">
+			{label(best)}
 		</text>
-		<text x={clampX(x(series.indexOf(worst)))} y={y(worst.sentiment) + 20} class="note lo-note">
-			{fmt(worst)}, the roughest
+		<text x={loX} y={loY} class="note lo-note">
+			{label(worst)}
 		</text>
-		<text x={PAD.left} y={H - 4} class="axis">day {series[0].day}</text>
-		<text x={width - PAD.right} y={H - 4} class="axis end">day {series[series.length - 1].day} →</text>
+		{#if startAxisClear}
+			<text x={PAD.left} y={H - 4} class="axis">day {series[0].day}</text>
+		{/if}
+		{#if endAxisClear}
+			<text x={width - PAD.right - 14} y={H - 4} class="axis end"
+				>day {series[series.length - 1].day}</text
+			>
+			<g
+				class="axis-arrow"
+				transform="translate({width - PAD.right - 12}, {H - 14}) scale(0.5)"
+				aria-hidden="true"
+			>
+				{#each ArrowRight01Icon as [, a]}
+					<path
+						d={a.d as string}
+						fill="none"
+						stroke-width={a.strokeWidth}
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/>
+				{/each}
+			</g>
+		{/if}
 	</svg>
 </figure>
 
@@ -102,5 +128,9 @@
 	}
 	.axis.end {
 		text-anchor: end;
+	}
+	.axis-arrow path {
+		stroke: var(--color-blue);
+		opacity: 0.8;
 	}
 </style>

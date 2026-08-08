@@ -1,13 +1,13 @@
 <script lang="ts">
 	// A cut line between zine pages: crop marks at the corners, the folio in the middle.
-	let { page, title = 'the web2026 zine' }: { page: string; title?: string } = $props();
+	let { page, title = 'web2026 showcase' }: { page: string; title?: string } = $props();
 </script>
 
 <div class="cut" role="separator">
 	<svg class="marks" viewBox="0 0 24 24" aria-hidden="true">
 		<path d="M12 0v8M0 12h8" stroke="currentColor" stroke-width="1.5" fill="none" />
 	</svg>
-	<span class="folio">p. {page} · {title}</span>
+	<span class="folio"></span>
 	<svg class="marks" viewBox="0 0 24 24" aria-hidden="true">
 		<path d="M12 24v-8M24 12h-8" stroke="currentColor" stroke-width="1.5" fill="none" />
 	</svg>
@@ -40,5 +40,9 @@
 		font-size: 0.8rem;
 		letter-spacing: 0.04em;
 		white-space: nowrap;
+		color: var(--color-blue);
+		font-weight: 600;
+		text-transform: uppercase;
+
 	}
 </style>

@@ -5,6 +5,8 @@
 	import Tape from '$lib/components/Tape.svelte';
 	import index from '$lib/assets/images/open/index.json';
 	import { mulberry32, hashSeed } from '$lib/components/prng';
+	import { HugeiconsIcon } from '@hugeicons/svelte';
+	import { ArrowUpRight01Icon } from '@hugeicons/core-free-icons';
 
 	const images = import.meta.glob('$lib/assets/images/open/processed/*.webp', {
 		eager: true,
@@ -20,9 +22,7 @@
 	]
 		.map((e) => {
 			const file = (index as Record<string, string>)[e.url];
-			const img = file
-				? Object.entries(images).find(([p]) => p.endsWith(file))?.[1]
-				: undefined;
+			const img = file ? Object.entries(images).find(([p]) => p.endsWith(file))?.[1] : undefined;
 			return { ...e, img };
 		})
 		.filter((e) => e.img);
@@ -35,18 +35,11 @@
 	<h2 class="font-display text-3xl font-black misreg">
 		{sections.colophon.title} <span class="h2tag font-hand">{sections.colophon.tag}</span>
 	</h2>
-	<p class="lede">
-		The full curriculum, the readings, the assignments, and every dev note the class wrote —
-		freely available for anyone to go through.
-	</p>
+	<p class="lede">{sections.colophon.desc}</p>
 
 	<div class="fan">
 		{#each materials as m, i (m.url)}
-			<a
-				class="card scrap"
-				href={m.url}
-				style="--tilt: {tilt(m.url)}deg; z-index: {i + 1}"
-			>
+			<a class="card scrap" href={m.url} style="--tilt: {tilt(m.url)}deg; z-index: {i + 1}">
 				<Tape
 					color={i % 2 ? 'blue' : 'pink'}
 					tilt="{tilt(m.url + 't', 8)}deg"
@@ -54,7 +47,9 @@
 					style="left: {22 + ((i * 17) % 40)}%; top: -0.85rem"
 				/>
 				<PrintImage src={m.img!} alt={m.label} />
-				<span class="caption font-hand">{m.label} ↗</span>
+				<span class="caption font-hand"
+					>{m.label} <HugeiconsIcon icon={ArrowUpRight01Icon} size={14} strokeWidth={2} /></span
+				>
 			</a>
 		{/each}
 	</div>
@@ -69,16 +64,18 @@
 	</div>
 
 	<dl class="colophon">
-		<div><dt>inks</dt><dd>fluoro pink · blue · violet where they overlap</dd></div>
-		<div><dt>type</dt><dd>Cartridge, Scorekard and Spagetty by SimpleBits</dd></div>
 		<div>
-			<dt>made with</dt>
-			<dd>SvelteKit, and {stats.totals.notes} dev notes written between classes</dd>
-		</div>
-		<div>
-			<dt>course</dt>
 			<dd>
-				<a href="https://teaching.aman.bh/web2026">Introduction to Making for the Web</a>, DA-IICT
+				<a href="https://teaching.aman.bh/web2026"
+					>Introduction to Making for the Web (web2026, DA-IICT)</a
+				>
+			</dd>
+		</div>
+
+		<div>
+			<dt>facilitated by</dt>
+			<dd>
+				<a href="https://aman.bh">Aman Bhargava</a>
 			</dd>
 		</div>
 	</dl>
@@ -131,6 +128,10 @@
 		font-size: 0.85rem;
 		color: var(--color-violet);
 	}
+	.caption :global(svg) {
+		display: inline-block;
+		vertical-align: -0.12em;
+	}
 	.card:hover .caption {
 		color: var(--color-pink);
 	}
@@ -175,7 +176,7 @@
 		border-top: 1.5px dashed rgba(50, 24, 113, 0.25);
 		display: flex;
 		flex-wrap: wrap;
-		column-gap: 2.25rem;
+		column-gap: 0.75rem;
 		row-gap: 0.4rem;
 		font-size: 0.9rem;
 	}

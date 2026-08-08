@@ -223,15 +223,181 @@
   "statistics": {
     "totalNotes": 11,
     "totalSubmissions": 0,
-    "totalCommits": 0,
+    "totalCommits": 29,
     "firstActivity": "2026-07-20T12:58:24.000Z",
-    "lastActivity": "2026-08-06T20:31:48.000Z",
-    "mostActiveDay": "2026-07-20",
+    "lastActivity": "2026-08-07T07:43:33.000Z",
+    "mostActiveDay": "2026-07-22",
     "totalEntries": 11,
     "averageWordCount": 239
   },
-  "commitsByDate": {},
-  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "commitsByDate": {
+    "2026-08-07": [
+      {
+        "message": "Set up Obsidian content workflow",
+        "repository": "personal-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Move work projects to Markdown content collection",
+        "repository": "personal-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "made changes",
+        "repository": "personal-website",
+        "time": "August 7, 2026"
+      }
+    ],
+    "2026-08-06": [
+      {
+        "message": "Chapter: add layered homepage planet animations",
+        "repository": "personal-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Chapter: add layered homepage planet animations",
+        "repository": "personal-website",
+        "time": "August 7, 2026"
+      }
+    ],
+    "2026-08-05": [
+      {
+        "message": "Add animated alien cursor and homepage interface updates",
+        "repository": "personal-website",
+        "time": "August 5, 2026"
+      }
+    ],
+    "2026-08-04": [
+      {
+        "message": "Build static homepage with real assets",
+        "repository": "personal-website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Complete homepage structure and controls",
+        "repository": "personal-website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Complete Chapter 04 homepage HTML structure",
+        "repository": "personal-website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "initial commit",
+        "repository": "personal-website",
+        "time": "August 4, 2026"
+      }
+    ],
+    "2026-07-27": [
+      {
+        "message": "made css changes to the webpage",
+        "repository": "web2026-fit-to-print",
+        "time": "July 27, 2026"
+      }
+    ],
+    "2026-07-26": [
+      {
+        "message": "made css,html and js changes to the file",
+        "repository": "web2026-fit-to-print",
+        "time": "July 27, 2026"
+      }
+    ],
+    "2026-07-25": [
+      {
+        "message": "made changes to the folder",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "made changes in html and css in story web page",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "made css changes on story web page",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      },
+      {
+        "message": "made changes in the html and the css file on my story web page",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      }
+    ],
+    "2026-07-24": [
+      {
+        "message": "Delete newspaper directory",
+        "repository": "web2026-fit-to-print",
+        "time": "July 24, 2026"
+      }
+    ],
+    "2026-07-22": [
+      {
+        "message": "made css changes in the final exercise",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "made css changes in exercise 8",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "made css changes in exercise 7",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "made html and css changes in exercise 6",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "made html changes in exercise 5",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "made css changes to exercise 4",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "made changes to exercise 3",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "made css changes to the exercise 2",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "fixed the css in the first exercise",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      }
+    ],
+    "2026-07-21": [
+      {
+        "message": "I added more style, gifs and images.",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "Update index.html",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "added styles to make the web page look uglier",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-08T07:21:17.503Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

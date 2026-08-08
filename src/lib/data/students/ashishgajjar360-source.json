@@ -200,21 +200,332 @@
         "formatted": "August 7, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5210881981"
+    },
+    {
+      "id": "dev-notes-16-comment-5219858622",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 16,
+      "issueTitle": "Day 15: [Project Week] Getting Ship Done",
+      "day": 15,
+      "commentId": 5219858622,
+      "content": "### Present Sir\n\nThe posts works end to end \nthe work page 2 works small changes\nand still work needed on work page-1 and will be finishing that on this weekend\n",
+      "urls": [],
+      "wordCount": 32,
+      "date": {
+        "iso": "2026-08-07T17:00:51.000Z",
+        "date": "2026-08-07",
+        "formatted": "August 7, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/16#issuecomment-5219858622"
     }
   ],
   "submissions": [],
   "statistics": {
-    "totalNotes": 10,
+    "totalNotes": 11,
     "totalSubmissions": 0,
-    "totalCommits": 0,
+    "totalCommits": 56,
     "firstActivity": "2026-07-20T10:29:26.000Z",
-    "lastActivity": "2026-08-07T01:20:35.000Z",
-    "mostActiveDay": "2026-07-29",
-    "totalEntries": 10,
-    "averageWordCount": 61
+    "lastActivity": "2026-08-07T17:37:48.000Z",
+    "mostActiveDay": "2026-08-07",
+    "totalEntries": 11,
+    "averageWordCount": 58
   },
-  "commitsByDate": {},
-  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "commitsByDate": {
+    "2026-08-07": [
+      {
+        "message": "7-8-26 final push",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "update specific work ans tried to do the global css",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "show global csss",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "global did it back",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "update global css in the home page",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "tried for +",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "save the file",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "web not update push",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "work card push-001",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "the specific work to obsidian-001",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "final push",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "pushh",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "sketch-001",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "text-002",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "push-002",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "photo check",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "demo-005",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "update 32",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "image upload check-001",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "test-001",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "graphic update-001",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "image upload",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "my demo-1",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "created folders and demo posts",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "upload -2",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "obsidian Upload-2",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "update-1",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "obsidian chcek-4",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "obsidian check-3",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "obsidian check-2",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "tried the obsidian thing",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "check-1",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "Update posts.css",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "check-1",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "copied",
+        "repository": "Ashish-Gajjar-website",
+        "time": "August 7, 2026"
+      },
+      {
+        "message": "did the posts-details page and added the back button",
+        "repository": "Portfolio-website",
+        "time": "August 7, 2026"
+      }
+    ],
+    "2026-08-06": [
+      {
+        "message": "made the posts page work page and did some changes",
+        "repository": "Portfolio-website",
+        "time": "August 7, 2026"
+      }
+    ],
+    "2026-08-04": [
+      {
+        "message": "Home page done content push remaning",
+        "repository": "Portfolio-website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "perfected the scroll",
+        "repository": "Portfolio-website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Home page component & scroll has been done",
+        "repository": "Portfolio-website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "re made the components",
+        "repository": "Portfolio-website",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "made the basic home page components",
+        "repository": "Portfolio-website",
+        "time": "August 4, 2026"
+      }
+    ],
+    "2026-07-27": [
+      {
+        "message": "Initial commit",
+        "repository": "web2026-drop-of-water",
+        "time": "July 27, 2026"
+      }
+    ],
+    "2026-07-22": [
+      {
+        "message": "exe-9 complete",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Exe-6 complete",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "Update index.html",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exe-8 done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exe-7 completed",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exe-4 done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exe-3 corrected",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "completed exe-2",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "1st exe complete",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      }
+    ],
+    "2026-07-21": [
+      {
+        "message": "Update index.html",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "Merge branch 'main' of https://github.com/ashishgajjar360-source/web2026-bohemian-rhapsody",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "tried to make a website that is visually hard to look at",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "Add files via upload",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-08T07:21:17.503Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

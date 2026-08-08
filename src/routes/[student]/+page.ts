@@ -27,9 +27,14 @@ export const load: PageLoad = async ({ params }) => {
 	const instructorNote = notes[notePath] ? ((await notes[notePath]()) as string) : null;
 
 	const dateByDay = new Map(seasonStats.days.map((d) => [d.day, d.date]));
+	const titleByDay = new Map(seasonStats.days.map((d) => [d.day, d.title]));
 	const sentiment = (
 		seasonStats.perStudent[username as keyof typeof seasonStats.perStudent] ?? []
-	).map((d) => ({ ...d, date: dateByDay.get(d.day) ?? null }));
+	).map((d) => ({
+		...d,
+		date: dateByDay.get(d.day) ?? null,
+		title: titleByDay.get(d.day) ?? null
+	}));
 
 	return {
 		student,

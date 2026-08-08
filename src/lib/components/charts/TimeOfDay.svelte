@@ -15,7 +15,10 @@
 	const PAD = { top: 20, right: 12, bottom: 34, left: 12 };
 
 	const x = $derived(
-		scaleBand<number>().domain(order).range([PAD.left, width - PAD.right]).paddingInner(0.25)
+		scaleBand<number>()
+			.domain(order)
+			.range([PAD.left, width - PAD.right])
+			.paddingInner(0.25)
 	);
 	const y = $derived(
 		scaleLinear()
@@ -35,7 +38,11 @@
 </script>
 
 <figure bind:clientWidth={width}>
-	<svg viewBox="0 0 {width} {H}" role="img" aria-label="Notes posted by hour of day (IST), one dot per note">
+	<svg
+		viewBox="0 0 {width} {H}"
+		role="img"
+		aria-label="Notes posted by hour of day (IST), one dot per note"
+	>
 		<rect
 			x={midnightX}
 			y={PAD.top - 8}
@@ -53,7 +60,13 @@
 				/>
 			{/each}
 		{/each}
-		<line x1={PAD.left} y1={H - PAD.bottom} x2={width - PAD.right} y2={H - PAD.bottom} class="axis" />
+		<line
+			x1={PAD.left}
+			y1={H - PAD.bottom}
+			x2={width - PAD.right}
+			y2={H - PAD.bottom}
+			class="axis"
+		/>
 		{#each ticks as t}
 			<text x={x(t)! + x.bandwidth() / 2} y={H - PAD.bottom + 22} class="tick">{tickLabel(t)}</text>
 		{/each}
@@ -61,9 +74,6 @@
 			<text x={(midnightX + width - PAD.right) / 2} y={PAD.top} class="note">after midnight</text>
 		{/if}
 	</svg>
-	{#if annotation}
-		<figcaption class="font-hand">{annotation}</figcaption>
-	{/if}
 </figure>
 
 <style>

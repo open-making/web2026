@@ -26,11 +26,12 @@
 	<h2 class="font-display text-3xl font-black misreg">
 		{sections.columns.title} <span class="h2tag font-hand">{sections.columns.tag}</span>
 	</h2>
+	<p class="lede">{sections.columns.desc}</p>
 
 	<header class="colhead">
 		<h3 class="font-display font-bold">logging off with a film recommendation</h3>
 		<p class="font-hand">
-			a column by <a href="{base}/darshan">Darshan</a>, who ended nearly every dev note with one
+			by <a href="{base}/darshan">Darshan</a>, who ended nearly every dev note with one
 		</p>
 	</header>
 
@@ -60,14 +61,14 @@
 	<header class="colhead">
 		<h3 class="font-display font-bold">okieee thanksss byieeee</h3>
 		<p class="font-hand">
-			a shared column by <a href="{base}/anchita">Anchita</a> and <a href="{base}/aaditi">Aaditi</a>, who signed
-			off nearly every note
+			by <a href="{base}/anchita">Anchita</a> and <a href="{base}/aditi">Aditi</a>, who signed
+			off nearly every note daily
 		</p>
 	</header>
 
 	<ul class="signoffs">
 		{#each curated.signoffs as s}
-			<li class="signoff" class:aaditi={s.author === 'Aaditi'} style="--tilt: {tilt(s.text + s.day, 3)}deg">
+			<li class="signoff" class:aditi={s.author === 'Aditi'} style="--tilt: {tilt(s.text + s.day, 3)}deg">
 				<a href={s.commentUrl}>
 					<span class="bye font-hand">{s.text}</span>
 					<span class="who">{s.author} · day {s.day}</span>
@@ -79,9 +80,9 @@
 	<div class="divider" aria-hidden="true"><span class="orn">✱</span></div>
 
 	<header class="colhead">
-		<h3 class="font-display font-bold">playing inside my mind</h3>
+		<h3 class="font-display font-bold">on my mind</h3>
 		<p class="font-hand">
-			every song quoted in a note or hidden in a day title — most of them by
+			songs quoted in a note or hidden in a day title, most of them by
 			<a href="{base}/prakhar">Prakhar</a>
 		</p>
 	</header>
@@ -106,6 +107,12 @@
 		max-width: var(--page-max);
 		margin-inline: auto;
 		padding-inline: 1.25rem;
+	}
+	.lede {
+		max-width: var(--measure);
+		margin-top: var(--leading);
+		font-size: 1.1rem;
+		text-wrap: pretty;
 	}
 	.colhead {
 		margin-top: var(--leading);
@@ -214,7 +221,7 @@
 		line-height: 1.1;
 		color: var(--color-pink);
 	}
-	.signoff.aaditi .bye {
+	.signoff.aditi .bye {
 		color: var(--color-blue);
 	}
 	.signoff a:hover .bye {

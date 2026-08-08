@@ -6,6 +6,8 @@
 	import manifest from '../../content/screenshots.json';
 	import index from '$lib/assets/images/final/index.json';
 	import { mulberry32, hashSeed } from '$lib/components/prng';
+	import { HugeiconsIcon } from '@hugeicons/svelte';
+	import { ArrowUpRight01Icon } from '@hugeicons/core-free-icons';
 
 	const images = import.meta.glob('$lib/assets/images/final/processed/*.webp', {
 		eager: true,
@@ -15,9 +17,7 @@
 	const sites = manifest.final
 		.map((e) => {
 			const file = (index as Record<string, string>)[e.url];
-			const img = file
-				? Object.entries(images).find(([p]) => p.endsWith(file))?.[1]
-				: undefined;
+			const img = file ? Object.entries(images).find(([p]) => p.endsWith(file))?.[1] : undefined;
 			return { ...e, img };
 		})
 		.filter((e) => e.img);
@@ -30,10 +30,7 @@
 	<h2 class="font-display text-3xl font-black misreg">
 		{sections.sites.title} <span class="h2tag font-hand">{sections.sites.tag}</span>
 	</h2>
-	<p class="lede">
-		The final project: a personal website, live on the open web. {sites.length} have shipped their
-		links in the dev notes so far; the rest land by showcase day.
-	</p>
+	<p class="lede">{sections.sites.desc}</p>
 
 	<div class="wall">
 		{#each sites as site, i}
@@ -46,8 +43,9 @@
 				<PrintImage src={site.img!} alt="{site.name}'s website" href={site.url} />
 				<footer>
 					<a class="name font-display" href="{base}/{site.slug}">{site.name}</a>
-					<a class="visit font-hand" href={site.url}>visit ↗</a>
-					<span class="stamp font-display" aria-hidden="true">shipped</span>
+					<a class="visit font-hand" href={site.url}
+					>visit <HugeiconsIcon icon={ArrowUpRight01Icon} size={14} strokeWidth={2} /></a
+				>
 				</footer>
 			</article>
 		{/each}
@@ -94,6 +92,10 @@
 		font-size: 0.85rem;
 		color: var(--color-pink);
 		text-decoration: none;
+	}
+	.visit :global(svg) {
+		display: inline-block;
+		vertical-align: -0.12em;
 	}
 	.visit:hover {
 		text-decoration: underline;

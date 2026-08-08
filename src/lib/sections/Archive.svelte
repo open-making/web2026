@@ -60,6 +60,7 @@
 	<h2 class="font-display text-3xl font-black misreg">
 		{sections.archive.title} <span class="h2tag font-hand">{sections.archive.tag}</span>
 	</h2>
+	<p class="lede">{sections.archive.desc}</p>
 
 	{#each strips as strip}
 		<div class="strip">
@@ -89,6 +90,11 @@
 		max-width: var(--page-max);
 		margin-inline: auto;
 		padding-inline: 1.25rem;
+	}
+	.lede {
+		max-width: var(--measure);
+		margin-top: var(--leading);
+		font-size: 1.1rem;
 	}
 	.strip {
 		margin-top: calc(var(--leading) * 1.5);

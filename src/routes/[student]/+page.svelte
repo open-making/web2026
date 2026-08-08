@@ -3,11 +3,104 @@
 	import { marked } from 'marked';
 	import RansomLine from '$lib/components/RansomLine.svelte';
 	import Tape from '$lib/components/Tape.svelte';
+	import PrintImage from '$lib/components/PrintImage.svelte';
 	import Sparkline from '$lib/components/charts/Sparkline.svelte';
 	import { mulberry32, hashSeed } from '$lib/components/prng';
+	import { HugeiconsIcon } from '@hugeicons/svelte';
+	import {
+		ArrowUpRight01Icon,
+		ArrowLeft01Icon,
+		MultiplicationSignIcon
+	} from '@hugeicons/core-free-icons';
+	import manifest from '../../content/screenshots.json';
+	import bohemianIndex from '$lib/assets/images/bohemian/index.json';
+	import printIndex from '$lib/assets/images/print/index.json';
+	import clockIndex from '$lib/assets/images/clocks/index.json';
+	import finalIndex from '$lib/assets/images/final/index.json';
+
+	const bohemianImages = import.meta.glob('$lib/assets/images/bohemian/processed/*.webp', {
+		eager: true,
+		import: 'default'
+	}) as Record<string, string>;
+	const printImages = import.meta.glob('$lib/assets/images/print/processed/*.webp', {
+		eager: true,
+		import: 'default'
+	}) as Record<string, string>;
+	const clockImages = import.meta.glob('$lib/assets/images/clocks/processed/*.webp', {
+		eager: true,
+		import: 'default'
+	}) as Record<string, string>;
+	const finalImages = import.meta.glob('$lib/assets/images/final/processed/*.webp', {
+		eager: true,
+		import: 'default'
+	}) as Record<string, string>;
 
 	let { data } = $props();
 	const s = $derived(data.student);
+
+	// their entries in the exercise archive, chronological: same manifests and
+	// screenshots the front-page Archive and SevenSites sections use
+	const exerciseGroups = [
+		{
+			key: 'bohemian',
+			title: 'bohemian rhapsody, but make it ugly',
+			caption: 'day 2: learn CSS by styling a song lyric as hideously as possible',
+			entries: manifest.bohemian,
+			index: bohemianIndex as Record<string, string>,
+			images: bohemianImages
+		},
+		{
+			key: 'print',
+			title: 'fit to print',
+			caption: 'day 4: typeset a fairy tale or a historical newspaper page',
+			entries: manifest.print,
+			index: printIndex as Record<string, string>,
+			images: printImages
+		},
+		{
+			key: 'clocks',
+			title: 'the clocks',
+			caption: 'day 6: sketch a way to measure time, then build it with an LLM as pair',
+			entries: manifest.clocks,
+			index: clockIndex as Record<string, string>,
+			images: clockImages
+		},
+		{
+			key: 'final',
+			title: 'their corner of the web',
+			caption: 'the final project: a personal site, built end to end',
+			entries: manifest.final,
+			index: finalIndex as Record<string, string>,
+			images: finalImages
+		}
+	];
+	const made = $derived(
+		exerciseGroups.flatMap((g) => {
+			const entry = g.entries.find((e) => e.slug === s.slug);
+			if (!entry) return [];
+			const file = g.index[entry.url];
+			const img = file ? Object.entries(g.images).find(([p]) => p.endsWith(file))?.[1] : undefined;
+			return img ? [{ ...g, url: entry.url, img }] : [];
+		})
+	);
+
+	// the commit log: everything they pushed during the course, oldest first
+	type Commit = { message: string; repository: string };
+	const commitDays = $derived(
+		Object.entries(s.commitsByDate as Record<string, Commit[]>)
+			.sort(([a], [b]) => a.localeCompare(b))
+			.map(([date, commits]) => ({ date, commits: [...commits].reverse() }))
+	);
+	const totalCommits = $derived(commitDays.reduce((n, d) => n + d.commits.length, 0));
+	const repoCount = $derived(
+		new Set(commitDays.flatMap((d) => d.commits.map((c) => c.repository))).size
+	);
+	const subject = (m: string) => m.split('\n')[0];
+	const commitDateFmt = new Intl.DateTimeFormat('en-GB', {
+		weekday: 'long',
+		day: 'numeric',
+		month: 'long'
+	});
 
 	const totalWords = $derived(
 		s.devNotes.reduce((sum: number, n: { wordCount: number }) => sum + n.wordCount, 0)
@@ -61,25 +154,23 @@
 </script>
 
 <svelte:head>
-	<title>{s.name} · the web2026 zine</title>
+	<title>{s.name} · web2026 showcase</title>
 </svelte:head>
 
 <article class="insert">
-	<p class="back font-hand"><a href="{base}/#contributors">← the web2026 zine</a></p>
+	<p class="back font-hand">
+		<a href="{base}/#contributors"
+			><HugeiconsIcon icon={ArrowLeft01Icon} size={14} strokeWidth={2} /> web2026 showcase</a
+		>
+	</p>
 
 	<header class="head">
 		<h1><RansomLine text={s.name.toLowerCase()} size="clamp(2.2rem, 6.5vw, 4.2rem)" /></h1>
 		<p class="stats font-hand">
-			{s.devNotes.length} dev notes · {totalWords.toLocaleString()} words
-			{#if afterMidnight > 0}
-				· {afterMidnight} posted after midnight{/if}
+			{s.devNotes.length} dev notes
 		</p>
 		{#if data.sentiment.length > 1}
 			<div class="spark-row">
-				<span class="spark-label font-hand"
-					>the sentiment model read their {data.sentiment.length} days of notes — the line rises on the
-					better days</span
-				>
 				<Sparkline series={data.sentiment} />
 			</div>
 		{/if}
@@ -87,7 +178,7 @@
 
 	{#if data.quotes.length > 0}
 		<section class="said">
-			<h2 class="font-display font-bold">from their dev notes</h2>
+			<h2 class="font-display font-bold">dev notes</h2>
 			<div class="quote-wall">
 				{#each data.quotes as q, i}
 					<blockquote class="scrap" style="--tilt: {tilt(q.text, 3)}deg">
@@ -113,6 +204,30 @@
 		</section>
 	{/if}
 
+	{#if made.length > 0}
+		<section class="made">
+			<h2 class="font-display font-bold">showcase</h2>
+			<div class="made-grid">
+				{#each made as m, i (m.key)}
+					<figure class="tile scrap" style="--tilt: {tilt(m.url)}deg">
+						<Tape
+							color={i % 2 ? 'blue' : 'pink'}
+							tilt="{tilt(m.url + 't', 8)}deg"
+							style="left: {22 + (i % 3) * 18}%; top: -0.8rem"
+						/>
+						<PrintImage src={m.img} alt="{m.title} — {s.name}" href={m.url} />
+						<figcaption>
+							<a class="ex-title" href={m.url}
+								>{m.title} <HugeiconsIcon icon={ArrowUpRight01Icon} size={13} strokeWidth={2} /></a
+							>
+							<span class="ex-caption font-hand">{m.caption}</span>
+						</figcaption>
+					</figure>
+				{/each}
+			</div>
+		</section>
+	{/if}
+
 	<nav class="toc font-hand" class:visible={tocVisible} aria-label="Their days">
 		{#each s.devNotes as note (note.id)}
 			<a href="#day-{note.day}" class:active={activeDay === note.day}>
@@ -123,7 +238,7 @@
 	</nav>
 
 	<section class="notes">
-		<h2 class="font-display font-bold">the complete dev notes</h2>
+		<h2 class="font-display font-bold">complete dev notes</h2>
 		{#each s.devNotes as note, i}
 			<details
 				class="scrap"
@@ -141,11 +256,50 @@
 				<div class="note-body">
 					<!-- eslint-disable-next-line svelte/no-at-html-tags — trusted course content -->
 					{@html marked(note.content)}
-					<p class="source font-hand"><a href={note.commentUrl}>on github ↗</a></p>
+					<p class="source font-hand">
+							<a href={note.commentUrl}
+								>on github <HugeiconsIcon icon={ArrowUpRight01Icon} size={13} strokeWidth={2} /></a
+							>
+						</p>
 				</div>
 			</details>
 		{/each}
 	</section>
+
+	{#if commitDays.length > 0}
+		<section class="commits">
+			<h2 class="font-display font-bold"> commit log</h2>
+			<p class="commits-lede font-hand">
+				{totalCommits} commits across {repoCount} repos, messages verbatim
+			</p>
+			<div class="receipt scrap" style="--tilt: 0.5deg">
+				<Tape tilt="-4deg" style="left: 12%; top: -0.85rem" />
+				<Tape color="blue" tilt="5deg" style="right: 10%; top: -0.85rem" />
+				{#each commitDays as d (d.date)}
+					<div class="cd">
+						<h3 class="font-hand">
+							{commitDateFmt.format(new Date(d.date + 'T00:00:00')).toLowerCase()}
+							<span class="tally" aria-hidden="true"
+								>{'|'.repeat(Math.min(d.commits.length, 24))}</span
+							>
+							<span class="count"
+								><HugeiconsIcon icon={MultiplicationSignIcon} size={12} strokeWidth={2.5}
+								/>{d.commits.length}</span
+							>
+						</h3>
+						<ul>
+							{#each d.commits as c, i (d.date + i)}
+								<li>
+									<span class="msg">{subject(c.message)}</span>
+									<span class="repo font-hand">{c.repository}</span>
+								</li>
+							{/each}
+						</ul>
+					</div>
+				{/each}
+			</div>
+		</section>
+	{/if}
 </article>
 
 <style>
@@ -158,6 +312,16 @@
 		font-size: 0.95rem;
 		text-decoration: none;
 		color: var(--color-pink);
+	}
+	.back :global(svg),
+	.ex-title :global(svg),
+	.source :global(svg) {
+		display: inline-block;
+		vertical-align: -0.1em;
+	}
+	.count :global(svg) {
+		display: inline-block;
+		vertical-align: -0.05em;
 	}
 	.head {
 		margin-top: var(--leading);
@@ -174,17 +338,11 @@
 		margin-top: 0.75rem;
 		max-width: 26rem;
 	}
-	.spark-label {
-		font-size: 0.85rem;
-		opacity: 0.75;
-	}
 
-	/* ── margin table of contents: desktop only, whisper-quiet until hovered ── */
 	.toc {
 		display: none;
 		position: fixed;
 		top: 50%;
-		/* hug the left edge of the 46rem content column */
 		left: calc(50% - 23rem - 14.5rem);
 		transform: translateY(-50%) translateX(-0.5rem);
 		width: 13rem;
@@ -197,7 +355,7 @@
 		pointer-events: none;
 	}
 	.toc.visible {
-		opacity: 0.45;
+		opacity: 0.75;
 		transform: translateY(-50%);
 		pointer-events: auto;
 	}
@@ -205,7 +363,6 @@
 		opacity: 1;
 	}
 	.toc a {
-		/* day numbers form a tidy rail along the column edge; titles rag left */
 		display: flex;
 		flex-direction: row-reverse;
 		align-items: baseline;
@@ -244,8 +401,108 @@
 		margin-top: calc(var(--leading) * 2);
 	}
 	.said h2,
-	.notes h2 {
+	.notes h2,
+	.made h2,
+	.commits h2 {
 		font-size: 1.4rem;
+	}
+
+	.made {
+		margin-top: calc(var(--leading) * 2);
+	}
+	.made-grid {
+		margin-top: var(--leading);
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+		gap: 1.75rem 1.5rem;
+	}
+	.tile {
+		position: relative;
+		padding: 0.55rem 0.55rem 0.5rem;
+	}
+	.ex-title {
+		display: block;
+		margin-top: 0.45rem;
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: 0.95rem;
+		color: var(--color-blue);
+		text-decoration: none;
+	}
+	.ex-title:hover {
+		color: var(--color-pink);
+	}
+	.ex-caption {
+		display: block;
+		margin-top: 0.1rem;
+		font-size: 0.8rem;
+		color: var(--color-pink);
+	}
+
+	.commits {
+		margin-top: calc(var(--leading) * 2);
+	}
+	.commits-lede {
+		margin-top: 0.3rem;
+		font-size: 0.9rem;
+		color: var(--color-pink);
+	}
+	.receipt {
+		position: relative;
+		margin-top: var(--leading);
+		margin-inline: auto;
+		max-width: 36rem;
+		padding: 1.4rem 1.5rem 1.6rem;
+	}
+	.cd + .cd {
+		margin-top: 1rem;
+		padding-top: 0.9rem;
+		border-top: 1px dashed rgba(50, 85, 164, 0.35);
+	}
+	.cd h3 {
+		display: flex;
+		align-items: baseline;
+		gap: 0.55rem;
+		font-size: 0.9rem;
+		color: var(--color-blue);
+	}
+	.tally {
+		color: var(--color-pink);
+		font-size: 0.8rem;
+		letter-spacing: 2px;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.count {
+		margin-left: auto;
+		color: var(--color-pink);
+		font-size: 0.85rem;
+	}
+	.cd ul {
+		list-style: none;
+		margin: 0.45rem 0 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.3rem;
+	}
+	.cd li {
+		display: flex;
+		align-items: baseline;
+		gap: 0.75rem;
+		font-size: 0.92rem;
+		line-height: 1.35;
+	}
+	.msg {
+		overflow-wrap: anywhere;
+	}
+	.repo {
+		margin-left: auto;
+		flex-shrink: 0;
+		font-size: 0.72rem;
+		color: var(--color-violet);
+		opacity: 0.75;
+		text-align: right;
 	}
 	.quote-wall {
 		display: flex;

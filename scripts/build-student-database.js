@@ -21,10 +21,10 @@ const octokit = new Octokit({
 // The web2026 cohort. Comments from anyone else (facilitator, bots, drive-bys) are ignored.
 const ROSTER = {
   'pathakdarshan2705-creator': { name: 'Darshan', slug: 'darshan' },
-  'aaditisharmaa29-web': { name: 'Aaditi', slug: 'aaditi' },
+  'aaditisharmaa29-web': { name: 'Aditi', slug: 'aditi' },
   'anchita101': { name: 'Anchita', slug: 'anchita' },
   'prakhardzn': { name: 'Prakhar', slug: 'prakhar' },
-  'rushiatdesign-cmyk': { name: 'Rushiat', slug: 'rushiat' },
+  'rushiatdesign-cmyk': { name: 'Rushikesh', slug: 'rushikesh' },
   'sanskarshendge': { name: 'Sanskar', slug: 'sanskar' },
   'ashishgajjar360-source': { name: 'Ashish', slug: 'ashish' },
 };

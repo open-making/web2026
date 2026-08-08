@@ -313,21 +313,202 @@
         "formatted": "August 7, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208347185"
+    },
+    {
+      "id": "dev-notes-16-comment-5221278303",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 16,
+      "issueTitle": "Day 15: [Project Week] Getting Ship Done",
+      "day": 15,
+      "commentId": 5221278303,
+      "content": "# Shippyyyy Dayyyy\n\nToday was veryyyyyyy mentally exhausting, I got so frustrated with making one part of the website that I clicked undo on all the LLM changes and started from the scratch (only the changes not the actual thing) \nVerrrryyyyyy UGHHHDJSJDKSBFHA day today. I lowkey wanted to stop coding today like why couldn’t my website just finish today????? 😭🙏🏽 ooooohhhhh the fun part of today was looking at sirs deep dive of his own work, the process and how it came about, etc. I personally loved how creative and at the same time engaging it was, to any audience. It was easy to understand, not so scary to read through because it was all written without AI and the visuals were lighthearted. Just like this course. After the session was over and we all got cool postcards and stickers it suddenly started to feel like the last day and I got so bummed out :(((( these past 3 weeks have been AMAZING. Even if it made me cry or shout or pull my hair out, I will still call it AMAZING. Looking at what sirs doing makes me want to be a faculty as well, making hard topics super easy for a bunch of individuals passionate enough to learn. Okay I’ll stop the senti yap now. WEBSITE NAI KHATAM HORI YAAAAR\n\n\nokieeee thanksss byiiieeeeeee",
+      "urls": [],
+      "wordCount": 225,
+      "date": {
+        "iso": "2026-08-07T19:36:56.000Z",
+        "date": "2026-08-07",
+        "formatted": "August 8, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/16#issuecomment-5221278303"
     }
   ],
   "submissions": [],
   "statistics": {
-    "totalNotes": 15,
+    "totalNotes": 16,
     "totalSubmissions": 0,
-    "totalCommits": 0,
+    "totalCommits": 30,
     "firstActivity": "2026-07-20T10:27:48.000Z",
-    "lastActivity": "2026-08-06T18:52:34.000Z",
-    "mostActiveDay": "2026-07-20",
-    "totalEntries": 15,
-    "averageWordCount": 197
+    "lastActivity": "2026-08-07T19:36:56.000Z",
+    "mostActiveDay": "2026-07-22",
+    "totalEntries": 16,
+    "averageWordCount": 199
   },
-  "commitsByDate": {},
-  "generatedAt": "2026-08-07T10:14:47.007Z",
+  "commitsByDate": {
+    "2026-08-04": [
+      {
+        "message": "added all sections and snake in the header animation closes #4 #5 #6 #10",
+        "repository": "Anchita-s-cornerr",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Merge branch 'main' of https://github.com/anchita101/Anchita-s-cornerr",
+        "repository": "Anchita-s-cornerr",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "added bg, header footer for issue closes #1",
+        "repository": "Anchita-s-cornerr",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "README added",
+        "repository": "Anchita-s-cornerr",
+        "time": "August 4, 2026"
+      },
+      {
+        "message": "Initial commit",
+        "repository": "Anchita-s-cornerr",
+        "time": "August 4, 2026"
+      }
+    ],
+    "2026-07-27": [
+      {
+        "message": "changed about, added colour to liquid and text",
+        "repository": "astro-demo",
+        "time": "July 27, 2026"
+      },
+      {
+        "message": "increased font size and updated about",
+        "repository": "astro-demo",
+        "time": "July 27, 2026"
+      },
+      {
+        "message": "hydration clock",
+        "repository": "astro-demo",
+        "time": "July 27, 2026"
+      },
+      {
+        "message": "first day with astro",
+        "repository": "astro-demo",
+        "time": "July 27, 2026"
+      }
+    ],
+    "2026-07-25": [
+      {
+        "message": "added caps to the",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "all done text  updated",
+        "repository": "web2026-fit-to-print",
+        "time": "July 26, 2026"
+      },
+      {
+        "message": "added texture images wrap and only column border left",
+        "repository": "web2026-fit-to-print",
+        "time": "July 25, 2026"
+      }
+    ],
+    "2026-07-24": [
+      {
+        "message": "bg added and lines",
+        "repository": "web2026-fit-to-print",
+        "time": "July 24, 2026"
+      },
+      {
+        "message": "deleted fairytale",
+        "repository": "web2026-fit-to-print",
+        "time": "July 24, 2026"
+      },
+      {
+        "message": "editing text and columns",
+        "repository": "web2026-fit-to-print",
+        "time": "July 24, 2026"
+      }
+    ],
+    "2026-07-22": [
+      {
+        "message": "added menus",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "columns changed",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 9 done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 8 done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 7 done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "finally done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "onethingleft",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "exercise 5 done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "completed exercise 4",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "third exercise done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "second exercise complete",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      },
+      {
+        "message": "first assignment done",
+        "repository": "web2026-space-oddity",
+        "time": "July 22, 2026"
+      }
+    ],
+    "2026-07-21": [
+      {
+        "message": "changed my name",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "Update index.html",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      },
+      {
+        "message": "made it ugly using bg and memes",
+        "repository": "web2026-bohemian-rhapsody",
+        "time": "July 21, 2026"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-08T07:21:17.503Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",
