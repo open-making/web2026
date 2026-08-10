@@ -105,7 +105,10 @@
 		overflow-wrap: normal;
 		max-width: 48mm;
 	}
+	/* the shared path sits on its own line(s); the student's slug always drops to
+	   a fresh line beneath it */
 	.url .base {
+		display: block;
 		color: var(--color-blue);
 	}
 	.url .slug {

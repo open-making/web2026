@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import { sections } from '$lib/data/section-titles';
 	import { awards } from '$lib/data/awards';
+	import Tape from '$lib/components/Tape.svelte';
 	import { mulberry32, hashSeed } from '$lib/components/prng';
 
 	import rosettePink from '$lib/assets/images/awards/rosette-pink.webp';
@@ -40,8 +41,17 @@
 			><path d="M12 0 L14 10 L24 12 L14 14 L12 24 L10 14 L0 12 L10 10 Z" /></svg
 		>
 
-		{#each awards as a (a.id)}
+		{#each awards as a, i (a.id)}
 			<article class="award scrap ink-{MEDAL[a.id].ink}" style="--tilt: {tilt(a.id, 1.8)}deg">
+				<Tape
+					color={i % 2 ? 'blue' : 'pink'}
+					tilt="{tilt(a.id + 't', 7)}deg"
+					seedKey={a.id}
+					style="left: 50%; top: -0.85rem; transform: translateX(-50%) rotate({tilt(
+						a.id + 't',
+						7
+					)}deg)"
+				/>
 				<div class="medal">
 					<img
 						class="flower"
