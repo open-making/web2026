@@ -5,7 +5,8 @@
 //   2. boot `vite preview` (the built site, base path and bundled fonts intact)
 //   3. sharecard → static/sharecard.jpg
 //   4. posters   → collateral/posters/*.pdf + *.png
-//   5. tear the preview server down
+//   5. extra     → collateral/{wordmark,cards,collages}/*  (wordmark, cards, collages)
+//   6. tear the preview server down
 //
 // Assumes `vite build` has already run (the preview serves build/). Run
 // `pnpm build` first, or use `pnpm collateral` which chains it (see package.json).
@@ -59,6 +60,8 @@ async function main() {
 		await sh('node', ['scripts/sharecard.js', '--base-url', BASE_URL]);
 		console.log('▸ posters');
 		await sh('node', ['scripts/posters.js', '--base-url', BASE_URL]);
+		console.log('▸ wordmark · cards · collages');
+		await sh('node', ['scripts/collateral-extra.js', '--base-url', BASE_URL]);
 	} finally {
 		try {
 			process.kill(-preview.pid, 'SIGTERM'); // whole process group

@@ -55,7 +55,7 @@ const CATEGORIES: Category[] = [
 	{
 		id: 'words',
 		title: 'The Novelist',
-		blurb: 'Longest dev notes, filled with emotions and thoughts about the course and things around it',
+		blurb: 'Longest dev notes, filled with emotion and thoughts about the course and things around it',
 		unit: 'words',
 		value: totalWords
 	},

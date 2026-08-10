@@ -17,6 +17,7 @@
 		"sharecard": "node scripts/sharecard.js",
 		"posters": "node scripts/posters.js",
 		"collateral": "pnpm build && node scripts/collateral.js",
+		"collateral:extra": "node scripts/collateral-extra.js",
 		"fetch-metadata": "node scripts/fetch-metadata.js",
 		"download-images": "node scripts/download-images.js",
 		"screenshot:hey-jude": "pnpm fetch-metadata https://github.com/open-making/web2025-hey-jude/issues/1 hey-jude --filter netlify && pnpm screenshot --metadata src/lib/data/hey-jude-metadata.json --output-dir src/lib/assets/images/hey-jude $(cat hey-jude.txt | tr '\\n' ' ')",
