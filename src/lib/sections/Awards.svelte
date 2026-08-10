@@ -28,7 +28,7 @@
 </script>
 
 <section id="awards" class="page">
-	<h2 class="font-display text-3xl font-black misreg">
+	<h2 class="font-display flex flex-col gap-2 justify-center items-center text-3xl font-black misreg">
 		{sections.awards.title} <span class="h2tag font-hand">{sections.awards.tag}</span>
 	</h2>
 	<p class="lede">{sections.awards.desc}</p>

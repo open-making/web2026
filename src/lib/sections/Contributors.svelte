@@ -19,7 +19,7 @@
 </script>
 
 <section id="contributors" class="page">
-	<h2 class="font-display text-3xl font-black misreg">
+	<h2 class="font-display flex flex-col gap-2 justify-center items-center text-3xl font-black misreg">
 		{sections.contributors.title} <span class="h2tag font-hand">{sections.contributors.tag}</span>
 	</h2>
 	<p class="lede">{sections.contributors.desc}</p>

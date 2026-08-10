@@ -27,7 +27,7 @@
 </script>
 
 <section id="sites" class="page">
-	<h2 class="font-display text-3xl font-black misreg">
+	<h2 class="font-display flex flex-col gap-2 justify-center items-center text-3xl font-black misreg">
 		{sections.sites.title} <span class="h2tag font-hand">{sections.sites.tag}</span>
 	</h2>
 	<p class="lede">{sections.sites.desc}</p>

@@ -32,7 +32,9 @@
 </script>
 
 <section id="colophon" class="back">
-	<h2 class="font-display text-3xl font-black misreg">
+	<h2
+		class="flex flex-col items-center justify-center gap-2 font-display text-3xl font-black misreg"
+	>
 		{sections.colophon.title} <span class="h2tag font-hand">{sections.colophon.tag}</span>
 	</h2>
 	<p class="lede">{sections.colophon.desc}</p>
@@ -79,6 +81,12 @@
 			</dd>
 		</div>
 	</dl>
+	<div class="flex gap-2 mt-2 pt-4 items-center" >
+		<dt class="m-0 p-0">showcase made while listening to</dt>
+		<dd>
+			<a class="text-sm" href="https://www.youtube.com/watch?v=q7aA60tSkLE">Pink Blue by Tsumyoki</a>
+		</dd>
+	</div>
 </section>
 
 <style>
@@ -173,6 +181,7 @@
 	.colophon {
 		margin-top: calc(var(--leading) * 2);
 		padding-top: var(--leading);
+		margin-bottom: var(--leading-snug);
 		border-top: 1.5px dashed rgba(50, 24, 113, 0.25);
 		display: flex;
 		flex-wrap: wrap;

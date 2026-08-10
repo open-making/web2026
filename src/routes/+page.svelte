@@ -9,6 +9,7 @@
 	import Awards from '$lib/sections/Awards.svelte';
 	import BackCover from '$lib/sections/BackCover.svelte';
 	import PageBreak from '$lib/components/PageBreak.svelte';
+	import ReadingRail from '$lib/components/ReadingRail.svelte';
 </script>
 
 <svelte:head>
@@ -36,3 +37,5 @@
 <Awards />
 <PageBreak page="9" />
 <BackCover />
+
+<ReadingRail />

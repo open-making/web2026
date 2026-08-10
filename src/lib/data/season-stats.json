@@ -594,5 +594,131 @@
         "sentiment": 0.1914
       }
     ]
+  },
+  "nlp": {
+    "vocab": [
+      {
+        "term": "html",
+        "day": 2,
+        "date": "2026-07-21",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/3"
+      },
+      {
+        "term": "css",
+        "day": 2,
+        "date": "2026-07-21",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/3"
+      },
+      {
+        "term": "flexbox",
+        "day": 3,
+        "date": "2026-07-22",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/4"
+      },
+      {
+        "term": "responsive",
+        "day": 3,
+        "date": "2026-07-22",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/4"
+      },
+      {
+        "term": "typography",
+        "day": 4,
+        "date": "2026-07-23",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/6"
+      },
+      {
+        "term": "animation",
+        "day": 4,
+        "date": "2026-07-23",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/6"
+      },
+      {
+        "term": "deploy",
+        "day": 6,
+        "date": "2026-07-27",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/8"
+      },
+      {
+        "term": "astro",
+        "day": 6,
+        "date": "2026-07-27",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/8"
+      },
+      {
+        "term": "javascript",
+        "day": 6,
+        "date": "2026-07-27",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/8"
+      },
+      {
+        "term": "schema",
+        "day": 8,
+        "date": "2026-07-29",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/10"
+      },
+      {
+        "term": "grid",
+        "day": 12,
+        "date": "2026-08-04",
+        "issueUrl": "https://github.com/open-making/web2026-dev-notes/issues/13"
+      }
+    ],
+    "lexicon": {
+      "frustration": 52,
+      "triumph": 106,
+      "frustrationWords": [
+        {
+          "word": "stuck",
+          "n": 7
+        },
+        {
+          "word": "tough",
+          "n": 6
+        },
+        {
+          "word": "difficult",
+          "n": 5
+        },
+        {
+          "word": "confused",
+          "n": 4
+        },
+        {
+          "word": "confusing",
+          "n": 4
+        },
+        {
+          "word": "struggling",
+          "n": 4
+        }
+      ],
+      "triumphWords": [
+        {
+          "word": "excited",
+          "n": 21
+        },
+        {
+          "word": "finally",
+          "n": 18
+        },
+        {
+          "word": "enjoyed",
+          "n": 17
+        },
+        {
+          "word": "figured",
+          "n": 11
+        },
+        {
+          "word": "loved",
+          "n": 9
+        },
+        {
+          "word": "worked",
+          "n": 8
+        }
+      ]
+    }
   }
 }

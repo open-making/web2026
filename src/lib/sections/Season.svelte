@@ -3,6 +3,8 @@
 	import TimeOfDay from '$lib/components/charts/TimeOfDay.svelte';
 	import NoteLengths from '$lib/components/charts/NoteLengths.svelte';
 	import SentimentArc from '$lib/components/charts/SentimentArc.svelte';
+	import LexiconMeter from '$lib/components/charts/LexiconMeter.svelte';
+	import VocabTimeline from '$lib/components/charts/VocabTimeline.svelte';
 	import stats from '$lib/data/season-stats.json';
 	import Tape from '$lib/components/Tape.svelte';
 	import curated from '../../content/quotes.json';
@@ -16,6 +18,8 @@
 		quotesByDay.get(q.day)!.push(q);
 	}
 
+	// drop the vocab timeline in the middle of the day list to break its rhythm
+	const breakAt = Math.floor(days.length / 2);
 	const fmtDate = (iso: string) =>
 		new Date(iso + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long' });
 	const shortTitle = (t: string) => t.replace(/^Day \d+:?\s*/i, '');
@@ -30,7 +34,7 @@
 </script>
 
 <section id="season" class="page">
-	<h2 class="font-display text-3xl font-black misreg">
+	<h2 class="font-display flex flex-col gap-2 justify-center items-center text-3xl font-black misreg">
 		{sections.notes.title} <span class="h2tag font-hand">{sections.notes.tag}</span>
 	</h2>
 
@@ -40,6 +44,16 @@
 
 	<ol class="timeline">
 		{#each days as d, i}
+			<!-- {#if i === breakAt}
+				<li class="vocab-break">
+					<div class="vocab-card scrap" style="--tilt: -0.5deg">
+						<Tape tilt="-4deg" style="left: 10%; top: -0.8rem" />
+						<Tape color="blue" tilt="5deg" style="right: 8%; top: -0.75rem" />
+						<h3 class="font-hand">the day each of these words first turned up in the notes</h3>
+						<VocabTimeline vocab={stats.nlp.vocab} />
+					</div>
+				</li>
+			{/if} -->
 			<li class="day" class:flip={i % 2 === 1} style="--tilt: {tilt('day' + d.day, 0.7)}deg">
 				<header class="head">
 					<p class="daynum font-display font-black {mood(d.sentiment)}">
@@ -82,6 +96,17 @@
 		<SentimentArc days={stats.days} />
 	</div>
 
+	<div class="lex-card scrap" style="--tilt: 0.5deg">
+		<Tape color="blue" tilt="4deg" style="left: 12%; top: -0.8rem" />
+		<h3 class="font-hand">the words we typed when things broke vs. when they didn't</h3>
+		<LexiconMeter
+			frustration={stats.nlp.lexicon.frustration}
+			triumph={stats.nlp.lexicon.triumph}
+			frustrationWords={stats.nlp.lexicon.frustrationWords}
+			triumphWords={stats.nlp.lexicon.triumphWords}
+		/>
+	</div>
+
 	<div class="charts">
 		<figure class="chart scrap" style="--tilt: -0.8deg">
 			<Tape tilt="-6deg" style="left: 40%; top: -0.8rem" />
@@ -116,6 +141,33 @@
 		position: relative;
 		margin-top: calc(var(--leading) * 1.25);
 		padding: 1.5rem 1.75rem 1rem;
+	}
+	.lex-card {
+		position: relative;
+		margin-top: calc(var(--leading) * 1.5);
+		max-width: 34rem;
+		margin-inline: auto;
+		padding: 1.25rem 1.5rem 1.4rem;
+	}
+	.lex-card h3 {
+		font-size: 1.05rem;
+		color: var(--color-blue);
+		margin-bottom: var(--leading);
+	}
+
+	/* the vocab timeline, pasted in mid-list to break the day-by-day rhythm */
+	.vocab-break {
+		list-style: none;
+	}
+	.vocab-card {
+		position: relative;
+		padding: 1.6rem 1.75rem 1.3rem;
+	}
+	.vocab-card h3 {
+		margin-top: 0;
+		margin-bottom: var(--leading);
+		font-size: 1.05rem;
+		color: var(--color-blue);
 	}
 
 	/* ── the day-by-day clusters ── */

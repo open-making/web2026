@@ -23,7 +23,7 @@
 </script>
 
 <section id="columns" class="page">
-	<h2 class="font-display text-3xl font-black misreg">
+	<h2 class="font-display flex flex-col gap-2 justify-center items-center text-3xl font-black misreg">
 		{sections.columns.title} <span class="h2tag font-hand">{sections.columns.tag}</span>
 	</h2>
 	<p class="lede">{sections.columns.desc}</p>

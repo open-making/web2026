@@ -90,6 +90,67 @@ for (const [key, score] of Object.entries(sentimentByStudentDay)) {
 }
 for (const series of Object.values(perStudent)) series.sort((a, b) => a.day - b.day);
 
+// ── text mining over the note corpus (pure string ops, no model) ──
+// strip markdown to prose: drop code, urls, the "(url)" placeholder, md marks
+const clean = (md) =>
+	md
+		.replace(/```[\s\S]*?```/g, ' ')
+		.replace(/`[^`]*`/g, ' ')
+		.replace(/https?:\/\/\S+/g, ' ')
+		.replace(/\(url\)/gi, ' ')
+		.replace(/[#*_>~[\]()!|]/g, ' ')
+		.toLowerCase();
+const cleaned = allNotes.map((n) => ({ ...n, text: clean(n.content) }));
+
+// 1) the vocabulary the course taught, dated to the first note that used each
+// term. the terms are the real curriculum; the day is computed from the notes.
+const VOCAB = [
+	['html', /\bhtml\b/],
+	['css', /\bcss\b/],
+	['flexbox', /\bflex(box)?\b/],
+	['grid', /\bgrid\b/],
+	['typography', /typograph|typeface|kerning/],
+	['git', /\bgit\b/],
+	['deploy', /deploy/],
+	['schema', /schema/],
+	['astro', /astro/],
+	['javascript', /javascript|\bjs\b/],
+	['responsive', /responsive|breakpoint|media quer/],
+	['animation', /animat|keyframe|\btransition/]
+];
+const byDay = cleaned
+	.filter((n) => n.day !== null && n.day !== undefined)
+	.sort((a, b) => a.day - b.day || a.date.iso.localeCompare(b.date.iso));
+const vocab = [];
+for (const [term, re] of VOCAB) {
+	const hit = byDay.find((n) => re.test(n.text));
+	if (hit)
+		vocab.push({ term, day: hit.day, date: days[hit.day].date, issueUrl: days[hit.day].issueUrl });
+}
+vocab.sort((a, b) => a.day - b.day);
+
+// 2) the frustration / triumph lexicons, counted across the whole corpus
+const FRUST = ['stuck','confused','confusing','confusion','frustrated','frustrating','struggle','struggled','struggling','broke','broken','error','errors','bug','bugs','ugh','argh','annoying','messed','crash','crashed','difficult','overwhelmed','stressful','stressed','panic','panicked','tough','failed','failing']; // prettier-ignore
+const RELIEF = ['finally','fixed','solved','figured','managed','proud','excited','loved','yay','nailed','success','succeeded','learnt','learned','enjoyed','satisfying','accomplished','relieved','worked','works']; // prettier-ignore
+const corpus = cleaned.map((n) => n.text).join(' \n ');
+const countWord = (w) => (corpus.match(new RegExp(`\\b${w}\\b`, 'g')) ?? []).length;
+const tally = (list) =>
+	list
+		.map((word) => ({ word, n: countWord(word) }))
+		.filter((x) => x.n > 0)
+		.sort((a, b) => b.n - a.n);
+const frustrationWords = tally(FRUST);
+const triumphWords = tally(RELIEF);
+const nlp = {
+	vocab,
+	lexicon: {
+		frustration: frustrationWords.reduce((s, x) => s + x.n, 0),
+		triumph: triumphWords.reduce((s, x) => s + x.n, 0),
+		frustrationWords: frustrationWords.slice(0, 6),
+		triumphWords: triumphWords.slice(0, 6)
+	}
+};
+
 const stats = {
 	generatedAt: db.generatedAt,
 	totals: {
@@ -109,10 +170,16 @@ const stats = {
 	days: Object.values(days).sort((a, b) => a.day - b.day),
 	hoursIST: hours,
 	lengthBuckets: lengthBuckets.map(({ label, count }) => ({ label, count })),
-	perStudent
+	perStudent,
+	nlp
 };
 
 await fs.writeFile('src/lib/data/season-stats.json', JSON.stringify(stats, null, 2));
 console.log(
 	`✅ season stats: ${stats.totals.notes} notes, ${stats.totals.words.toLocaleString()} words, ${stats.days.length} days`
 );
+
+console.log(`\n😖 frustration ${nlp.lexicon.frustration}  vs  😌 triumph ${nlp.lexicon.triumph}`);
+console.log(`   frust:  ${nlp.lexicon.frustrationWords.map((x) => `${x.word}×${x.n}`).join(', ')}`);
+console.log(`   relief: ${nlp.lexicon.triumphWords.map((x) => `${x.word}×${x.n}`).join(', ')}`);
+console.log(`\n📚 vocab first-seen: ${vocab.map((v) => `${v.term}→d${v.day}`).join(', ')}`);
