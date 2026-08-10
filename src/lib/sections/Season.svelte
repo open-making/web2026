@@ -36,7 +36,6 @@
 
 	<p class="lede">
 		{sections.notes.desc}
-		{t.students} students wrote {t.notes}
 	</p>
 
 	<ol class="timeline">
@@ -50,7 +49,7 @@
 						<a href={d.issueUrl}>{shortTitle(d.title)}</a>
 					</h3>
 					<p class="meta font-hand">
-						{fmtDate(d.date)}<br />{d.noteCount} notes · {d.totalWords.toLocaleString()} words
+						{fmtDate(d.date)}<br />{d.noteCount} notes
 					</p>
 				</header>
 				{#if quotesByDay.has(d.day)}

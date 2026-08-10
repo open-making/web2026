@@ -156,8 +156,15 @@
 	.wall {
 		margin-top: calc(var(--leading) * 1.25);
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(5.5rem, 1fr));
 		gap: 2rem 1.5rem;
+		overflow-x: clip;
+	}
+
+	@media (min-width: 768px) {
+		.wall {
+			grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+		}
 	}
 	.poster {
 		position: relative;

@@ -43,16 +43,21 @@
 	}
 
 	const chars = [...text];
+	// SVG filter ids are document-global: two RansomLines whose scraps land on the
+	// same seed%1000 + index would share an id and the later tile gets clipped to
+	// the first one's region (letters go invisible). Salt every id with the full
+	// text hash so distinct lines never collide, while staying SSR-deterministic.
+	const salt = hashSeed(text).toString(36);
 </script>
 
 <span class="line" style="font-size: {size}">
 	<span class="sr-only">{text}</span>
-	{#each chars as ch, i}
+	{#each chars as ch, i (i)}
 		{#if ch === ' '}
 			<span class="gap" aria-hidden="true"></span>
 		{:else}
 			{@const s = scrap(i)}
-			{@const uid = `rl${s.seed}-${i}`}
+			{@const uid = `rl${salt}-${s.seed}-${i}`}
 			<span
 				class="scrap"
 				aria-hidden="true"

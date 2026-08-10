@@ -1,0 +1,28 @@
+{
+  "name": "web2026 showcase",
+  "short_name": "web2026",
+  "description": "Seven designers learning to build the web end to end. mdes @ daiict.",
+  "start_url": "/web2026/showcase/",
+  "scope": "/web2026/showcase/",
+  "display": "standalone",
+  "background_color": "#faf7ef",
+  "theme_color": "#3255a4",
+  "icons": [
+    {
+      "src": "/web2026/showcase/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/web2026/showcase/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/web2026/showcase/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

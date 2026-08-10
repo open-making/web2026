@@ -153,11 +153,7 @@
 		<div class="stick stick-notes">
 			<Sticker seedKey="cover-notes" tilt="-8deg">{t.notes} dev notes inside</Sticker>
 		</div>
-		<div class="stick stick-words">
-			<Sticker color="blue" seedKey="cover-words" tilt="5deg"
-				>{t.words.toLocaleString()} words</Sticker
-			>
-		</div>
+		
 	</div>
 </section>
 

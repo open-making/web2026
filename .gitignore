@@ -28,3 +28,6 @@ secretclub.zip
 
 # screenshot originals
 src/lib/assets/images/**/original/
+
+# generated exhibition posters (multi-MB PDF/PNG, regenerated via pnpm posters)
+collateral/
