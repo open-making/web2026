@@ -6,6 +6,7 @@
 	import Archive from '$lib/sections/Archive.svelte';
 	import Columns from '$lib/sections/Columns.svelte';
 	import Contributors from '$lib/sections/Contributors.svelte';
+	import Awards from '$lib/sections/Awards.svelte';
 	import BackCover from '$lib/sections/BackCover.svelte';
 	import PageBreak from '$lib/components/PageBreak.svelte';
 </script>
@@ -32,4 +33,6 @@
 <PageBreak page="7" />
 <Contributors />
 <PageBreak page="8" />
+<Awards />
+<PageBreak page="9" />
 <BackCover />

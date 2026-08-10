@@ -6,7 +6,8 @@
 		{ href: '#season', page: '4', ...sections.notes },
 		{ href: '#archive', page: '5', ...sections.archive },
 		{ href: '#columns', page: '6', ...sections.columns },
-		{ href: '#contributors', page: '7', ...sections.contributors }
+		{ href: '#contributors', page: '7', ...sections.contributors },
+		{ href: '#awards', page: '8', ...sections.awards }
 	];
 </script>
 

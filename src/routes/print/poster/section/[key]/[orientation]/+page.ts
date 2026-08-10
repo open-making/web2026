@@ -30,8 +30,12 @@ const POSTER: Record<string, { title: string; kicker: string; visual: string; de
 	}
 };
 
+// only sections with a POSTER design get a printed poster — the on-site awards
+// section, for instance, has no wall poster, so it's skipped here (not a 404)
 export const entries: EntryGenerator = () =>
-	Object.keys(sections).flatMap((key) => ORIENTATIONS.map((orientation) => ({ key, orientation })));
+	Object.keys(sections)
+		.filter((key) => key in POSTER)
+		.flatMap((key) => ORIENTATIONS.map((orientation) => ({ key, orientation })));
 
 export const load: PageLoad = ({ params }) => {
 	const base = sections[params.key as keyof typeof sections];
