@@ -30,8 +30,8 @@ export const sections = {
 	},
 	awards: {
 		title: 'one thing',
-		tag: 'the awards',
-		desc: 'Every issue needs a prize-giving. Seven people, and the one thing each of them did better than anyone else.'
+		tag: 'awards',
+		desc: 'The one thing each of them did better than anyone else.'
 	},
 	colophon: {
 		title: 'more than this',
