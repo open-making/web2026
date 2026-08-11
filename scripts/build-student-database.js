@@ -243,6 +243,14 @@ async function buildStudentDatabase(options = {}) {
       url: 'https://github.com/open-making/web2026-dev-notes',
       type: 'dev-notes',
       description: 'Daily development notes and progress updates'
+    },
+    {
+      // Project Gallery submissions: students file the "[STUDENT] …" issue here.
+      // Processed after dev-notes so roster students (with a slug) already exist.
+      name: 'web2026',
+      url: 'https://github.com/open-making/web2026',
+      type: 'submission',
+      description: 'Project gallery submissions'
     }
   ];
 
@@ -267,6 +275,8 @@ async function buildStudentDatabase(options = {}) {
     const [, owner, repoName] = urlParts;
 
     const issues = await fetchAllIssues(repo.url);
+    // Process oldest first so a student's most recent submission overwrites earlier ones.
+    issues.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
     studentDatabase.statistics.totalIssues += issues.length;
 
     for (const issue of issues) {
@@ -275,12 +285,14 @@ async function buildStudentDatabase(options = {}) {
       const issueDate = parseDate(issue.created_at);
       allDates.push(new Date(issue.created_at));
 
-      // Process issue body if it exists (only for submission repos, not dev-notes)
-      if (issue.body && issue.body.trim() && repo.type !== 'dev-notes') {
+      // Project Gallery submissions come in as the issue body of a labelled `student`
+      // issue in the submission repo. Only cohort members (ROSTER) count, so drive-by
+      // issues never create ring entries.
+      if (issue.body && issue.body.trim() && repo.type === 'submission') {
         const author = issue.user.login;
+        const labels = (issue.labels || []).map((l) => (typeof l === 'string' ? l : l.name));
 
-        // Skip specific users
-        if (author === 'thedivtagguy') {
+        if (!labels.includes('student') || !ROSTER[author]) {
           continue;
         }
 
@@ -290,7 +302,8 @@ async function buildStudentDatabase(options = {}) {
         if (!studentDatabase.students[author]) {
           studentDatabase.students[author] = {
             username: author,
-            name: studentDetails?.name || author,
+            name: ROSTER[author].name || studentDetails?.name || author,
+            slug: ROSTER[author].slug,
             website: studentDetails?.website || null,
             socialLinks: studentDetails?.socialLinks || [],
             devNotes: [],
@@ -306,14 +319,12 @@ async function buildStudentDatabase(options = {}) {
             commitsByDate: {}
           };
         } else {
-          // Update student details if we found them and they're not already set
-          if (studentDetails?.name && !studentDatabase.students[author].name) {
-            studentDatabase.students[author].name = studentDetails.name;
-          }
-          if (studentDetails?.website && !studentDatabase.students[author].website) {
+          // The submission is the source of truth for website/socialLinks. Issues are
+          // processed oldest-first, so the newest submission wins.
+          if (studentDetails?.website) {
             studentDatabase.students[author].website = studentDetails.website;
           }
-          if (studentDetails?.socialLinks && studentDetails.socialLinks.length > 0 && studentDatabase.students[author].socialLinks.length === 0) {
+          if (studentDetails?.socialLinks && studentDetails.socialLinks.length > 0) {
             studentDatabase.students[author].socialLinks = studentDetails.socialLinks;
           }
         }
@@ -331,13 +342,14 @@ async function buildStudentDatabase(options = {}) {
           issueUrl: issue.html_url
         };
 
-        if (repo.type === 'dev-notes') {
-          studentDatabase.students[author].devNotes.push(entry);
-          studentDatabase.students[author].statistics.totalNotes++;
-        } else {
-          studentDatabase.students[author].submissions.push(entry);
-          studentDatabase.students[author].statistics.totalSubmissions++;
-        }
+        studentDatabase.students[author].submissions.push(entry);
+        studentDatabase.students[author].statistics.totalSubmissions++;
+      }
+
+      // Dev notes live in issue comments. Submission-repo comments are just chatter,
+      // so only crawl comments for the dev-notes repo.
+      if (repo.type !== 'dev-notes') {
+        continue;
       }
 
       // Fetch and process comments

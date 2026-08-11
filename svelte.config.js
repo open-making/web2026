@@ -27,6 +27,9 @@ const config = {
 			$hooks: 'src/lib/hooks'
 		},
 		prerender: {
+			// webring.json is fetched at runtime by the embeddable widget and is not
+			// linked from any page, so name it explicitly for the crawler.
+			entries: ['*', '/webring.json'],
 			// student dev notes contain arbitrary markdown links that the crawler
 			// follows; a bad relative link in a note should not fail the build
 			handleHttpError: ({ path, referrer, message }) => {

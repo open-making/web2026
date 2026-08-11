@@ -1,12 +1,16 @@
 name: Project Gallery
-description: web2025 Project Gallery
+description: web2026 Project Gallery — submit your final site & join the class webring
 title: "[STUDENT] Your Name"
 labels: ["student"]
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the information below to have your page in the course gallery.
+        Fill this out to add your final site to the course gallery and the class
+        **webring**, a little widget that links your site to your classmates'.
+
+        Once your submission is in, grab the one-line embed snippet at
+        https://teaching.aman.bh/web2026/showcase/webring to add the ring to your own site.
 
   - type: input
     id: student-name

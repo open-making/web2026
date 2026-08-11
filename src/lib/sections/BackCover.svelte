@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { sections } from '$lib/data/section-titles';
 	import stats from '$lib/data/season-stats.json';
 	import PrintImage from '$lib/components/PrintImage.svelte';
@@ -57,6 +58,7 @@
 	</div>
 
 	<div class="ctas">
+		<a class="cta cta-violet font-display" href="{base}/webring"> join the webring </a>
 		<a class="cta cta-blue font-display" href="https://teaching.aman.bh/web2026">
 			browse the course site
 		</a>
@@ -167,6 +169,13 @@
 	}
 	.cta-blue:hover {
 		background: var(--color-violet);
+	}
+	.cta-violet {
+		background: var(--color-violet);
+		color: var(--color-paper);
+	}
+	.cta-violet:hover {
+		background: var(--color-blue);
 	}
 	.cta-pink {
 		border-color: var(--color-pink);
