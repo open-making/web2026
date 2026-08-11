@@ -58,7 +58,6 @@
 	</div>
 
 	<div class="ctas">
-		<a class="cta cta-violet font-display" href="{base}/webring"> join the webring </a>
 		<a class="cta cta-blue font-display" href="https://teaching.aman.bh/web2026">
 			browse the course site
 		</a>
@@ -83,10 +82,11 @@
 			</dd>
 		</div>
 	</dl>
-	<div class="flex gap-2 mt-2 pt-4 items-center" >
+	<div class="mt-2 flex items-center gap-2 pt-4">
 		<dt class="m-0 p-0">showcase made while listening to</dt>
 		<dd>
-			<a class="text-sm" href="https://www.youtube.com/watch?v=q7aA60tSkLE">Pink Blue by Tsumyoki</a>
+			<a class="text-sm" href="https://www.youtube.com/watch?v=q7aA60tSkLE">Pink Blue by Tsumyoki</a
+			>
 		</dd>
 	</div>
 </section>
