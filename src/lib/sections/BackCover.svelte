@@ -64,6 +64,7 @@
 		<a class="cta cta-pink font-display" href="https://github.com/open-making/web2026-dev-notes">
 			read the dev notes
 		</a>
+
 	</div>
 
 	<dl class="colophon">
