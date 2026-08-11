@@ -317,21 +317,212 @@
         "formatted": "August 8, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/16#issuecomment-5220707927"
+    },
+    {
+      "id": "dev-notes-17-comment-5245390888",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 17,
+      "issueTitle": "Day 16: [Project Week] The end is in site",
+      "day": 16,
+      "commentId": 5245390888,
+      "content": "# Chitra Chaalak is excited to go out\n\nFinally, I guess I can see the website is visible a little and happy that it is coming out as I expected and more than that I am happy that I am doing everything manually, using LLM just to help me with figuring out the approach but atleast design and even code is something that I am figuring out and it is something that I definitely didn't expect from myself at the start of the module that I will be able to do such coding, even though there is a lot a lot to explore but happy that atleast I have started the journey now and it's gonna be exciting!\n\nAlso, excited for the exhibition; hence, I wanna finish the development part as soon as I can and then do some preparation for the exhibition. \n\nLogging off with a film recommendation:  Ankhon Dekhi (2013)\nFeeling sad for whatever is happening in the country, especially at Jharkhand\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1c6f3386-f8e3-424a-8e17-8ebd15324e6e\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/1c6f3386-f8e3-424a-8e17-8ebd15324e6e"
+      ],
+      "wordCount": 170,
+      "date": {
+        "iso": "2026-08-10T20:08:57.000Z",
+        "date": "2026-08-10",
+        "formatted": "August 11, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/17#issuecomment-5245390888"
     }
   ],
   "submissions": [],
   "statistics": {
-    "totalNotes": 15,
+    "totalNotes": 16,
     "totalSubmissions": 0,
-    "totalCommits": 40,
+    "totalCommits": 73,
     "firstActivity": "2026-07-20T10:37:55.000Z",
-    "lastActivity": "2026-08-08T03:42:37.000Z",
+    "lastActivity": "2026-08-11T05:54:56.000Z",
     "mostActiveDay": "2026-07-22",
-    "totalEntries": 15,
-    "averageWordCount": 405
+    "totalEntries": 16,
+    "averageWordCount": 390
   },
   "commitsByDate": {
+    "2026-08-11": [
+      {
+        "message": "Mobile View Fix",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Loading Screen Text",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Mobile View Correct",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Hero Page Added",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      }
+    ],
+    "2026-08-10": [
+      {
+        "message": "Bugs solved in contact card",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Contact card added",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "My Collection Section",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Visual Tour + Some bugs Done",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Added Visual Tour Section",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Live thing still needs to be fixed",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Bugs Solution",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Bugs Solved",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Few Bugs Out",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Mobile Bug Solve",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Mobile View Set Up Error Resolve",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Mobile Layout Set",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Portfolio Section Updates Final",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Portfolio Section Added",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Portfolio Section First Attempt",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      }
+    ],
+    "2026-08-09": [
+      {
+        "message": "Style of the footer",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Step counter",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "Film Section",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 9, 2026"
+      },
+      {
+        "message": "Little change for info card",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 9, 2026"
+      },
+      {
+        "message": "Updates section",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 9, 2026"
+      },
+      {
+        "message": "Individual Blog Page",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 9, 2026"
+      },
+      {
+        "message": "Image Filter Added",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 9, 2026"
+      },
+      {
+        "message": "Mobile Scroll Error Solved",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 9, 2026"
+      }
+    ],
     "2026-08-08": [
+      {
+        "message": "few final touch ups till blog page",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "Done with the bugs",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "Tried To Edit Main Blog Page",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "Merge branch 'main' of https://github.com/pathakdarshan2705-creator/Chitra-Chaalak-Website",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "Testing of CMS",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "Update Blog “the-cassette-shop”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 8, 2026"
+      },
       {
         "message": "Blog page added",
         "repository": "Chitra-Chaalak-Website",
@@ -548,12 +739,17 @@
       }
     ]
   },
-  "generatedAt": "2026-08-08T07:21:17.503Z",
+  "generatedAt": "2026-08-11T05:57:09.575Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",
       "type": "dev-notes",
       "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2026",
+      "type": "submission",
+      "description": "Project gallery submissions"
     }
   ],
   "projectSubmissions": {}

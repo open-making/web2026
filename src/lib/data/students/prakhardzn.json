@@ -223,15 +223,54 @@
   "statistics": {
     "totalNotes": 11,
     "totalSubmissions": 0,
-    "totalCommits": 29,
+    "totalCommits": 36,
     "firstActivity": "2026-07-20T12:58:24.000Z",
-    "lastActivity": "2026-08-07T07:43:33.000Z",
+    "lastActivity": "2026-08-10T20:12:49.000Z",
     "mostActiveDay": "2026-07-22",
     "totalEntries": 11,
     "averageWordCount": 239
   },
   "commitsByDate": {
+    "2026-08-10": [
+      {
+        "message": "Add Weekly markdown content and update News Weekly",
+        "repository": "personal-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "update homepage animation library layout and page transitions",
+        "repository": "personal-website",
+        "time": "August 11, 2026"
+      }
+    ],
+    "2026-08-09": [
+      {
+        "message": "add dedicated mobile homepage",
+        "repository": "personal-website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "apply responsive mobile homepage",
+        "repository": "personal-website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "update project files, astrology fixes and mobile layout",
+        "repository": "personal-website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "fix mobile homepage layout",
+        "repository": "personal-website",
+        "time": "August 10, 2026"
+      }
+    ],
     "2026-08-07": [
+      {
+        "message": "made css changes",
+        "repository": "personal-website",
+        "time": "August 7, 2026"
+      },
       {
         "message": "Set up Obsidian content workflow",
         "repository": "personal-website",
@@ -397,12 +436,17 @@
       }
     ]
   },
-  "generatedAt": "2026-08-08T07:21:17.503Z",
+  "generatedAt": "2026-08-11T05:57:09.575Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",
       "type": "dev-notes",
       "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2026",
+      "type": "submission",
+      "description": "Project gallery submissions"
     }
   ],
   "projectSubmissions": {}

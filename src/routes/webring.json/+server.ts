@@ -9,14 +9,15 @@ import type { RequestHandler } from './$types';
  */
 export const prerender = true;
 
-type StudentRow = { name: string; slug: string; website: string | null };
+type WebringRow = { name: string; slug: string; url: string; isStudent?: boolean };
 type WebringMember = { name: string; slug: string; url: string };
 
+// The generator assembles studentDatabase.webring (roster students who submitted a
+// site + ring-only extras). The widget only needs name/slug/url.
 function ringMembers(): WebringMember[] {
-	const students = Object.values(studentDatabase.students as Record<string, StudentRow>);
-	return students
-		.filter((s): s is StudentRow & { website: string } => Boolean(s.website))
-		.map((s) => ({ name: s.name, slug: s.slug, url: s.website }))
+	const ring = (studentDatabase.webring ?? []) as WebringRow[];
+	return ring
+		.map((m) => ({ name: m.name, slug: m.slug, url: m.url }))
 		.sort((a, b) => a.name.localeCompare(b.name));
 }
 

@@ -178,7 +178,7 @@
 
 	{#if data.quotes.length > 0}
 		<section class="said">
-			<h2 class="font-display font-bold">dev notes</h2>
+			<h2 class="font-display font-bold">dev quotes</h2>
 			<div class="quote-wall">
 				{#each data.quotes as q, i}
 					<blockquote class="scrap" style="--tilt: {tilt(q.text, 3)}deg">

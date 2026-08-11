@@ -2,12 +2,11 @@
 	import { base } from '$app/paths';
 	import studentDatabase from '$lib/data/student-database.json';
 
-	type Row = { name: string; slug: string; website: string | null };
+	type Member = { name: string; slug: string; url: string; isStudent?: boolean };
 
-	const members = Object.values(studentDatabase.students as Record<string, Row>)
-		.filter((s) => Boolean(s.website))
-		.map((s) => ({ name: s.name, slug: s.slug, url: s.website as string }))
-		.sort((a, b) => a.name.localeCompare(b.name));
+	// The ring = roster students who submitted a site + ring-only extras (facilitator,
+	// guests). Assembled by scripts/build-student-database.js.
+	const members = (studentDatabase.webring ?? []) as Member[];
 
 	const NEW_ISSUE =
 		'https://github.com/open-making/web2026/issues/new?template=student-submission.yml';
@@ -131,7 +130,9 @@
 			{#each members as m (m.slug)}
 				<li class="member">
 					<a class="m-name font-display" href={m.url} target="_blank" rel="noopener">{m.name}</a>
-					<a class="m-profile font-hand" href="{base}/{m.slug}">profile →</a>
+					{#if m.isStudent}
+						<a class="m-profile font-hand" href="{base}/{m.slug}">profile →</a>
+					{/if}
 				</li>
 			{/each}
 		</ul>

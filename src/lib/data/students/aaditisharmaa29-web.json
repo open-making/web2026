@@ -130,17 +130,18 @@
       "issueTitle": "Day 6: Clocking it 😌🤏🤏🤏",
       "day": 6,
       "commentId": 5095383448,
-      "content": "### TICK TOCK\n\nToday has been my favourite day yet because I got to let my mind run wild. I designed the most bizarre clocks while making sketches in my sketchbook, and the fact that I was able to make something so simple so quickly was fascinating. I loved how this is something I could do almost every day. My goal, or my vision, is to have a page with all sorts of clocks, all genres and just small things that don't really contribute to the design as such, but make you happy when you make them. I think something that I'm very grateful for is that this course has stopped making me question _'Am I creative enough'?_\n\nThe confusing and shocking thing about today was that I almost understood everything about Astro. **Shocker, right?**\nI think sitting in such close vicinity to sir gives me the chance to ask all random questions that come to my mind.😎\n What I liked about Astro was that the fact that I don't have to keep switching between HTML and CSS anymore, but this made me question how many different types of things are out there. _ What is easier, sticking to what you already know or trying out new things?_But I think we already know the answer to that.\n\n**What am I expecting from week two?** \nWell, honestly, up until now, whatever I've thought of for the course or assignments has been the complete opposite. So I'm not thinking anything, but I just know that they are going to be packed with a lot of fun and excitement because I've liked all the assignments up until now.\n\n**Things I  learned today while using LLMs:**\n1) Timezone Detection with Code: Sir pointed out that I could get Claude to write code so that a person seeing it in their country can see the time in their own timezone. I thought that was very interesting. I learnt that the browser already knows where you are from the device's OS settings, so there is no need for IP lookups or permission prompts. Instead of using a hardcoded location, you just swap it for a script, and it auto-detects where the person is. (I could be wrong about this)\n\n2) When I was trying to edit code written by Claude, I asked myself how to know where everything is. I realised that when writing a prompt, it's very important to specify everything, like asking for items in a category to be aligned together so it's easier to edit later. I used to write prompts very casually, but today I changed that and specified every small thing. A friend always tells me that AI has no inherent understanding of its own, and to think of it like a child you need to explain everything to. It always irritates me when he points that out every time I'm complaing about AI, but today I decided to take his advice and fed the LLM every single thing in my head. Because of that, I got results much quicker than I would have if I were just writing things casually. (I'm not going to tell him that he was right tho)\n\n<img width=\"3024\" height=\"4032\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/26bdf36d-bf2d-4c78-a824-ef850ce8a667\" /> \n\n<img width=\"516\" height=\"293\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/947a0887-481e-4908-87e9-06cc63daccab\" />\n\nFor some reason, my Netlify is still loading, so I'm just attaching ss of what I've made.\n\n<img width=\"1470\" height=\"956\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d645c94a-00cd-4791-914c-4cb55860cb13\" />\n\n<img width=\"1470\" height=\"317\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1b1f2466-136f-4ae8-9660-93f94ca710b1\" />\n\n<img width=\"1470\" height=\"956\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1c11f840-97c2-48fd-adef-dfb756c5c2df\" />\n\n<img width=\"1470\" height=\"956\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1863a0e8-f1f2-4d1b-a737-4886a6ac8be8\" />\n\n<img width=\"1463\" height=\"950\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/53b39025-398b-4618-b148-d042020aef91\" />\n\nWell, I think that's it for today.\nI'm yet to start with the readings, so I'm gonna go do that.\nGood night!\n",
+      "content": "### TICK TOCK\n\nToday has been my favourite day yet because I got to let my mind run wild. I designed the most bizarre clocks while making sketches in my sketchbook, and the fact that I was able to make something so simple so quickly was fascinating. I loved how this is something I could do almost every day. My goal, or my vision, is to have a page with all sorts of clocks, all genres and just small things that don't really contribute to the design as such, but make you happy when you make them. I think something that I'm very grateful for is that this course has stopped making me question _'Am I creative enough'?_\n\nThe confusing and shocking thing about today was that I almost understood everything about Astro. **Shocker, right?**\nI think sitting in such close vicinity to sir gives me the chance to ask all random questions that come to my mind.😎\n What I liked about Astro was that the fact that I don't have to keep switching between HTML and CSS anymore, but this made me question how many different types of things are out there. _ What is easier, sticking to what you already know or trying out new things?_But I think we already know the answer to that.\n\n**What am I expecting from week two?** \nWell, honestly, up until now, whatever I've thought of for the course or assignments has been the complete opposite. So I'm not thinking anything, but I just know that they are going to be packed with a lot of fun and excitement because I've liked all the assignments up until now.\n\n**Things I  learned today while using LLMs:**\n1) Timezone Detection with Code: Sir pointed out that I could get Claude to write code so that a person seeing it in their country can see the time in their own timezone. I thought that was very interesting. I learnt that the browser already knows where you are from the device's OS settings, so there is no need for IP lookups or permission prompts. Instead of using a hardcoded location, you just swap it for a script, and it auto-detects where the person is. (I could be wrong about this)\n\n2) When I was trying to edit code written by Claude, I asked myself how to know where everything is. I realised that when writing a prompt, it's very important to specify everything, like asking for items in a category to be aligned together so it's easier to edit later. I used to write prompts very casually, but today I changed that and specified every small thing. A friend always tells me that AI has no inherent understanding of its own, and to think of it like a child you need to explain everything to. It always irritates me when he points that out every time I'm complaing about AI, but today I decided to take his advice and fed the LLM every single thing in my head. Because of that, I got results much quicker than I would have if I were just writing things casually. (I'm not going to tell him that he was right tho)\n\n<img width=\"3024\" height=\"4032\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/26bdf36d-bf2d-4c78-a824-ef850ce8a667\" /> \n\n<img width=\"516\" height=\"293\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/947a0887-481e-4908-87e9-06cc63daccab\" />\n\nLink to Netlify: https://venerable-elf-0794bd.netlify.app/about/\n\n<img width=\"1470\" height=\"956\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d645c94a-00cd-4791-914c-4cb55860cb13\" />\n\n<img width=\"1470\" height=\"317\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1b1f2466-136f-4ae8-9660-93f94ca710b1\" />\n\n<img width=\"1470\" height=\"956\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1c11f840-97c2-48fd-adef-dfb756c5c2df\" />\n\n<img width=\"1470\" height=\"956\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1863a0e8-f1f2-4d1b-a737-4886a6ac8be8\" />\n\n<img width=\"1463\" height=\"950\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/53b39025-398b-4618-b148-d042020aef91\" />\n\nWell, I think that's it for today.\nI'm yet to start with the readings, so I'm gonna go do that.\nGood night!\n",
       "urls": [
         "https://github.com/user-attachments/assets/26bdf36d-bf2d-4c78-a824-ef850ce8a667",
         "https://github.com/user-attachments/assets/947a0887-481e-4908-87e9-06cc63daccab",
+        "https://venerable-elf-0794bd.netlify.app/about/",
         "https://github.com/user-attachments/assets/d645c94a-00cd-4791-914c-4cb55860cb13",
         "https://github.com/user-attachments/assets/1b1f2466-136f-4ae8-9660-93f94ca710b1",
         "https://github.com/user-attachments/assets/1c11f840-97c2-48fd-adef-dfb756c5c2df",
         "https://github.com/user-attachments/assets/1863a0e8-f1f2-4d1b-a737-4886a6ac8be8",
         "https://github.com/user-attachments/assets/53b39025-398b-4618-b148-d042020aef91"
       ],
-      "wordCount": 613,
+      "wordCount": 600,
       "date": {
         "iso": "2026-07-27T18:43:35.000Z",
         "date": "2026-07-27",
@@ -293,21 +294,141 @@
         "formatted": "August 8, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/16#issuecomment-5221480036"
+    },
+    {
+      "id": "dev-notes-17-comment-5244776157",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 17,
+      "issueTitle": "Day 16: [Project Week] The end is in site",
+      "day": 16,
+      "commentId": 5244776157,
+      "content": "Excited for the exhibition!",
+      "urls": [],
+      "wordCount": 4,
+      "date": {
+        "iso": "2026-08-10T19:11:25.000Z",
+        "date": "2026-08-10",
+        "formatted": "August 11, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/17#issuecomment-5244776157"
     }
   ],
   "submissions": [],
   "statistics": {
-    "totalNotes": 14,
+    "totalNotes": 15,
     "totalSubmissions": 0,
-    "totalCommits": 63,
+    "totalCommits": 83,
     "firstActivity": "2026-07-20T10:29:11.000Z",
-    "lastActivity": "2026-08-08T05:58:40.000Z",
+    "lastActivity": "2026-08-10T19:11:25.000Z",
     "mostActiveDay": "2026-08-07",
-    "totalEntries": 14,
-    "averageWordCount": 246
+    "totalEntries": 15,
+    "averageWordCount": 229
   },
   "commitsByDate": {
+    "2026-08-10": [
+      {
+        "message": "size fixed by the stickys",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": ".",
+        "repository": "My-portfolio-website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "postcard placed",
+        "repository": "My-portfolio-website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "added images",
+        "repository": "My-portfolio-website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": ".",
+        "repository": "My-portfolio-website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "some random error fixed",
+        "repository": "My-portfolio-website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "updated css",
+        "repository": "My-portfolio-website",
+        "time": "August 10, 2026"
+      },
+      {
+        "message": "installed three three-html-render",
+        "repository": "My-portfolio-website",
+        "time": "August 10, 2026"
+      }
+    ],
     "2026-08-08": [
+      {
+        "message": "beigh boring display",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "moving off of the display finally",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": ".",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": ".",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "gave display a makeover",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "getting tired of commiting",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": ".",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "window finally minimising and maximising, yay!",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": ".",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "trying to get the window minimise working",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": "neo drag added",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
+      {
+        "message": ".",
+        "repository": "My-portfolio-website",
+        "time": "August 8, 2026"
+      },
       {
         "message": "Merge pull request #11 from aaditisharmaa29-web/feat/window-routing\n\nfeat: window routing and fixes",
         "repository": "My-portfolio-website",
@@ -643,12 +764,17 @@
       }
     ]
   },
-  "generatedAt": "2026-08-08T07:21:17.503Z",
+  "generatedAt": "2026-08-11T05:57:09.575Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",
       "type": "dev-notes",
       "description": "Daily development notes and progress updates"
+    },
+    {
+      "name": "web2026",
+      "type": "submission",
+      "description": "Project gallery submissions"
     }
   ],
   "projectSubmissions": {}

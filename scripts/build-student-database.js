@@ -29,6 +29,13 @@ const ROSTER = {
   'ashishgajjar360-source': { name: 'Ashish', slug: 'ashish' },
 };
 
+// Extra webring members (facilitator, guests). They join the ring via the same
+// "[STUDENT] …" submission issue, but are NOT students in the showcase — they never
+// appear in the contributors grid, cover byline, awards, or get a /slug page.
+const WEBRING_EXTRA = {
+  'thedivtagguy': { name: 'Aman', slug: 'aman' },
+};
+
 // Issue titles look like "Day 4: Fitting to print". Issue #1 is the "Hello World" intro
 // thread (day 0). Never map by issue number.
 function dayFromTitle(title) {
@@ -267,6 +274,8 @@ async function buildStudentDatabase(options = {}) {
   };
 
   let allDates = [];
+  // Ring-only members (WEBRING_EXTRA) collected here, kept out of studentDatabase.students.
+  const ringExtra = {};
 
   for (const repo of repositories) {
     console.log(`\n🔍 Processing ${repo.name}...`);
@@ -290,14 +299,30 @@ async function buildStudentDatabase(options = {}) {
       // issues never create ring entries.
       if (issue.body && issue.body.trim() && repo.type === 'submission') {
         const author = issue.user.login;
-        const labels = (issue.labels || []).map((l) => (typeof l === 'string' ? l : l.name));
+        const studentDetails = parseStudentDetails(issue.body);
+        const extra = WEBRING_EXTRA[author];
 
-        if (!labels.includes('student') || !ROSTER[author]) {
+        // A submission is a roster (or allowlisted ring) member's issue that carries a
+        // Website URL. We don't require the `student` label: GitHub only auto-applies it
+        // when the label already exists in the repo, so depending on it would silently
+        // drop real submissions.
+        if ((!ROSTER[author] && !extra) || !studentDetails?.website) {
+          continue;
+        }
+
+        // Ring-only members never become showcase students — record them separately.
+        if (!ROSTER[author]) {
+          ringExtra[author] = {
+            username: author,
+            name: extra.name || studentDetails.name || author,
+            slug: extra.slug,
+            website: studentDetails.website,
+            socialLinks: studentDetails.socialLinks || []
+          };
           continue;
         }
 
         const urls = extractUrls(issue.body);
-        const studentDetails = parseStudentDetails(issue.body);
 
         if (!studentDatabase.students[author]) {
           studentDatabase.students[author] = {
@@ -538,6 +563,22 @@ async function buildStudentDatabase(options = {}) {
 
     // Commits are already organized by date during fetching
   }
+
+  // Assemble the webring: roster students who submitted a site + ring-only extras.
+  // `isStudent` tells the hub page whether a /slug profile exists to link to.
+  const webring = [];
+  for (const s of Object.values(studentDatabase.students)) {
+    if (s.website) {
+      webring.push({ name: s.name, slug: s.slug, url: s.website, isStudent: true });
+    }
+  }
+  for (const e of Object.values(ringExtra)) {
+    if (e.website) {
+      webring.push({ name: e.name, slug: e.slug, url: e.website, isStudent: false });
+    }
+  }
+  webring.sort((a, b) => a.name.localeCompare(b.name));
+  studentDatabase.webring = webring;
 
   return studentDatabase;
 }
