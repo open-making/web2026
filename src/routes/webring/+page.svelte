@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import { HugeiconsIcon } from '@hugeicons/svelte';
+	import { ArrowLeft01Icon, ArrowRight01Icon, Tick01Icon } from '@hugeicons/core-free-icons';
 	import studentDatabase from '$lib/data/student-database.json';
 
 	type Member = { name: string; slug: string; url: string; isStudent?: boolean };
@@ -37,7 +39,7 @@
 </svelte:head>
 
 <section class="page">
-	<p class="crumb font-hand"><a href="{base}/">← back to the showcase</a></p>
+	<p class="crumb font-hand"><a href="{base}/"><HugeiconsIcon icon={ArrowLeft01Icon} size={13} strokeWidth={2} /> back to the showcase</a></p>
 
 	<h2
 		class="flex flex-col items-center justify-center gap-2 font-display text-3xl font-black misreg"
@@ -103,7 +105,7 @@
 			<div class="embed-head">
 				<span class="font-hand">the bar</span>
 				<button class="copy font-display" onclick={() => copy('bar', barSnippet)}>
-					{copied === 'bar' ? 'copied ✓' : 'copy'}
+					{#if copied === 'bar'}copied <HugeiconsIcon icon={Tick01Icon} size={11} strokeWidth={2.5} />{:else}copy{/if}
 				</button>
 			</div>
 			<pre><code>{barSnippet}</code></pre>
@@ -113,7 +115,7 @@
 			<div class="embed-head">
 				<span class="font-hand">the mini</span>
 				<button class="copy font-display" onclick={() => copy('mini', miniSnippet)}>
-					{copied === 'mini' ? 'copied ✓' : 'copy'}
+					{#if copied === 'mini'}copied <HugeiconsIcon icon={Tick01Icon} size={11} strokeWidth={2.5} />{:else}copy{/if}
 				</button>
 			</div>
 			<pre><code>{miniSnippet}</code></pre>
@@ -122,7 +124,9 @@
 
 	<!-- members -->
 	<h3 class="font-display misreg-blue">
-		in the ring {#if members.length}<span class="count font-hand">{members.length} sites</span>{/if}
+		in the ring {#if members.length}<span class="count font-hand"
+				>{members.length} {members.length === 1 ? 'site' : 'sites'}</span
+			>{/if}
 	</h3>
 
 	{#if members.length}
@@ -131,7 +135,7 @@
 				<li class="member">
 					<a class="m-name font-display" href={m.url} target="_blank" rel="noopener">{m.name}</a>
 					{#if m.isStudent}
-						<a class="m-profile font-hand" href="{base}/{m.slug}">profile →</a>
+						<a class="m-profile font-hand" href="{base}/{m.slug}">profile <HugeiconsIcon icon={ArrowRight01Icon} size={12} strokeWidth={2} /></a>
 					{/if}
 				</li>
 			{/each}
@@ -142,7 +146,7 @@
 
 	<div class="join">
 		<a class="cta cta-pink font-display" href={NEW_ISSUE} target="_blank" rel="noopener">
-			join the ring →
+			join the ring <HugeiconsIcon icon={ArrowRight01Icon} size={15} strokeWidth={2} />
 		</a>
 		<span class="join-note font-hand">submit your final site</span>
 	</div>
@@ -164,6 +168,13 @@
 	}
 	.crumb a:hover {
 		text-decoration: underline;
+	}
+	.crumb a :global(svg),
+	.m-profile :global(svg),
+	.cta :global(svg),
+	.copy :global(svg) {
+		display: inline-block;
+		vertical-align: -0.12em;
 	}
 	.lede {
 		max-width: var(--measure);

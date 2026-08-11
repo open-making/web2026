@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { sections } from '$lib/data/section-titles';
 	import Tape from '$lib/components/Tape.svelte';
+	import { HugeiconsIcon } from '@hugeicons/svelte';
+	import { ArrowRight01Icon } from '@hugeicons/core-free-icons';
 
 	// each contents entry is a scrap pinned to the page — a small paste-up that
 	// echoes the cover collage. tilt / tape / ink are fixed per slot so the board
@@ -62,7 +64,7 @@
 						<span class="title font-display">{e.title}</span>
 						<span class="tag font-hand">{e.tag}</span>
 					</span>
-					<span class="go font-hand" aria-hidden="true">→</span>
+					<span class="go" aria-hidden="true"><HugeiconsIcon icon={ArrowRight01Icon} size={16} strokeWidth={2} /></span>
 				</a>
 			</li>
 		{/each}
@@ -129,13 +131,16 @@
 		position: absolute;
 		right: 0.9rem;
 		bottom: 0.65rem;
-		font-size: 1.1rem;
 		color: var(--color-pink);
 		opacity: 0;
 		transform: translateX(-0.35rem);
 		transition:
 			opacity 0.2s ease,
 			transform 0.2s ease;
+		display: flex;
+	}
+	.go :global(svg) {
+		display: block;
 	}
 
 	/* lift and straighten the scrap, like a pinned card pulled forward to read */
