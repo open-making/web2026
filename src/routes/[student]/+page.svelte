@@ -75,13 +75,18 @@
 		}
 	];
 	const made = $derived(
-		exerciseGroups.flatMap((g) => {
-			const entry = g.entries.find((e) => e.slug === s.slug);
-			if (!entry) return [];
-			const file = g.index[entry.url];
-			const img = file ? Object.entries(g.images).find(([p]) => p.endsWith(file))?.[1] : undefined;
-			return img ? [{ ...g, url: entry.url, img }] : [];
-		})
+		exerciseGroups
+			.flatMap((g) => {
+				const entry = g.entries.find((e) => e.slug === s.slug);
+				if (!entry) return [];
+				const file = g.index[entry.url];
+				const img = file
+					? Object.entries(g.images).find(([p]) => p.endsWith(file))?.[1]
+					: undefined;
+				return img ? [{ ...g, url: entry.url, img }] : [];
+			})
+			// the final project leads as the hero; the exercises follow
+			.sort((a, b) => (a.key === 'final' ? -1 : b.key === 'final' ? 1 : 0))
 	);
 
 	// the commit log: everything they pushed during the course, oldest first
@@ -209,7 +214,7 @@
 			<h2 class="font-display font-bold">showcase</h2>
 			<div class="made-grid">
 				{#each made as m, i (m.key)}
-					<figure class="tile scrap" style="--tilt: {tilt(m.url)}deg">
+					<figure class="tile scrap" class:hero={m.key === 'final'} style="--tilt: {tilt(m.url)}deg">
 						<Tape
 							color={i % 2 ? 'blue' : 'pink'}
 							tilt="{tilt(m.url + 't', 8)}deg"
@@ -413,8 +418,18 @@
 	.made-grid {
 		margin-top: var(--leading);
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+		grid-template-columns: 1fr;
 		gap: 1.75rem 1.5rem;
+	}
+	/* desktop: the final project is a full-width hero, the exercises sit two-up
+	   beneath it. on mobile the single column keeps the hero first. */
+	@media (min-width: 40rem) {
+		.made-grid {
+			grid-template-columns: 1fr 1fr;
+		}
+		.made-grid .hero {
+			grid-column: 1 / -1;
+		}
 	}
 	.tile {
 		position: relative;
