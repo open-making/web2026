@@ -4,16 +4,21 @@
 	let {
 		src,
 		alt,
-		href = undefined
-	}: { src: string; alt: string; href?: string | undefined } = $props();
+		href = undefined,
+		// when set (e.g. "4 / 3"), the image is cropped to a fixed box so a row of
+		// tiles stays uniform regardless of each screenshot's native aspect, with
+		// object-fit: cover anchored to center bottom.
+		ratio = undefined
+	}: { src: string; alt: string; href?: string | undefined; ratio?: string | undefined } =
+		$props();
 </script>
 
 {#if href}
-	<a {href} class="print">
+	<a {href} class="print" class:cover={ratio} style={ratio ? `--ratio: ${ratio}` : undefined}>
 		<img {src} {alt} loading="lazy" />
 	</a>
 {:else}
-	<span class="print">
+	<span class="print" class:cover={ratio} style={ratio ? `--ratio: ${ratio}` : undefined}>
 		<img {src} {alt} loading="lazy" />
 	</span>
 {/if}
@@ -29,6 +34,15 @@
 		width: 100%;
 		height: auto;
 		transition: transform 0.3s ease;
+	}
+	/* uniform tiles: fix the box to --ratio and crop the screenshot into it */
+	.cover {
+		aspect-ratio: var(--ratio);
+	}
+	.cover img {
+		height: 100%;
+		object-fit: cover;
+		object-position: center bottom;
 	}
 	a.print:hover img,
 	a.print:focus-visible img {

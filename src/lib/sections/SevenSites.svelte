@@ -40,7 +40,7 @@
 					tilt="{tilt(site.slug + 't', 7)}deg"
 					style="left: {16 + (i % 3) * 24}%; top: -0.9rem"
 				/>
-				<PrintImage src={site.img!} alt="{site.name}'s website" href={site.url} />
+				<PrintImage src={site.img!} alt="{site.name}'s website" href={site.url} ratio="4 / 3" />
 				<footer>
 					<a class="name font-display" href="{base}/{site.slug}">{site.name}</a>
 					<a class="visit font-hand" href={site.url}

@@ -220,7 +220,7 @@
 							tilt="{tilt(m.url + 't', 8)}deg"
 							style="left: {22 + (i % 3) * 18}%; top: -0.8rem"
 						/>
-						<PrintImage src={m.img} alt="{m.title} — {s.name}" href={m.url} />
+						<PrintImage src={m.img} alt="{m.title} — {s.name}" href={m.url} ratio="4 / 3" />
 						<figcaption>
 							<a class="ex-title" href={m.url}
 								>{m.title} <HugeiconsIcon icon={ArrowUpRight01Icon} size={13} strokeWidth={2} /></a
