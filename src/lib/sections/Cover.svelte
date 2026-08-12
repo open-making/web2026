@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
+	import { HugeiconsIcon } from '@hugeicons/svelte';
+	import { ArrowDown01Icon } from '@hugeicons/core-free-icons';
 	import RansomLine from '$lib/components/RansomLine.svelte';
 	import Tape from '$lib/components/Tape.svelte';
 	import Sticker from '$lib/components/Sticker.svelte';
@@ -153,8 +155,16 @@
 		<div class="stick stick-notes">
 			<Sticker seedKey="cover-notes" tilt="-8deg">{t.notes} dev notes inside</Sticker>
 		</div>
-		
+
 	</div>
+
+	<a href="#sites" class="scroll-cue font-hand" aria-label="Scroll down">
+		<Tape color="pink" tilt="2deg" seedKey="cover-scroll" style="left: calc(50% - 2.9rem); top: -1rem" />
+		<span>keep scrolling</span>
+		<span class="arrow" aria-hidden="true">
+			<HugeiconsIcon icon={ArrowDown01Icon} size={26} strokeWidth={2.5} />
+		</span>
+	</a>
 </section>
 
 <style>
@@ -234,6 +244,48 @@
 		max-width: 36rem;
 		text-wrap: balance;
 		transform: rotate(0.8deg);
+	}
+
+	/* ── scroll cue: fills the clear band under the collage ── */
+	.scroll-cue {
+		position: absolute;
+		left: 50%;
+		bottom: 1.4rem;
+		transform: translateX(-50%);
+		z-index: 6;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.15rem;
+		font-size: 0.8rem;
+		color: var(--color-pink);
+		text-decoration: none;
+		background: #fffcf4;
+		padding: 0.3em 0.7em 0.35em;
+		box-shadow:
+			0 1px 2px rgba(50, 24, 113, 0.16),
+			0 4px 10px rgba(50, 24, 113, 0.1);
+		transform-origin: center;
+		rotate: -1.5deg;
+	}
+	.scroll-cue .arrow {
+		display: flex;
+		line-height: 0;
+		animation: nudge 1.6s ease-in-out infinite;
+	}
+	@keyframes nudge {
+		0%,
+		100% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(4px);
+		}
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.scroll-cue .arrow {
+			animation: none;
+		}
 	}
 
 	/* the stickers hang off the matter block into the surrounding collage */
