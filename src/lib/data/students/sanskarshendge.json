@@ -277,20 +277,104 @@
         "formatted": "August 7, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/15#issuecomment-5208585700"
+    },
+    {
+      "id": "dev-notes-17-comment-5258247582",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 17,
+      "issueTitle": "Day 16: [Project Week] The end is in site",
+      "day": 16,
+      "commentId": 5258247582,
+      "content": "### **Thoda sa kaam hua hain thoda hain baaki**\ndone with almost kafi sara kaam , still need to polish lot of minor things.\nAdded a crazy backup planned animation, but think so it is not getting with the theme , still have a backup for this to. \n\n<img width=\"417\" height=\"498\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a66d87be-1d38-4f52-aa20-e29e77263537\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/a66d87be-1d38-4f52-aa20-e29e77263537"
+      ],
+      "wordCount": 54,
+      "date": {
+        "iso": "2026-08-11T20:06:38.000Z",
+        "date": "2026-08-11",
+        "formatted": "August 12, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/17#issuecomment-5258247582"
     }
   ],
   "submissions": [],
   "statistics": {
-    "totalNotes": 14,
+    "totalNotes": 15,
     "totalSubmissions": 0,
-    "totalCommits": 61,
+    "totalCommits": 73,
     "firstActivity": "2026-07-20T10:29:53.000Z",
-    "lastActivity": "2026-08-10T16:23:03.000Z",
+    "lastActivity": "2026-08-12T06:10:43.000Z",
     "mostActiveDay": "2026-08-10",
-    "totalEntries": 14,
+    "totalEntries": 15,
     "averageWordCount": 54
   },
   "commitsByDate": {
+    "2026-08-12": [
+      {
+        "message": "global css finaled",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "inspo stion done",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "shevti zala ch todka modka",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "sketch book page 3",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "sketchbook , section cover pae",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      }
+    ],
+    "2026-08-11": [
+      {
+        "message": "Revert \"nav bar black 2\"\n\nThis reverts commit 0d076e94c4b3cf7f53e5321008a14edccf77216d.",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "nav bar black 2\n\nismein sketchbook ka bhi thoda fix kiya",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "black nav try",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "herosection done",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "hero animation fixing",
+        "repository": "Portfolio-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "hero animation",
+        "repository": "Portfolio-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "finalizing chizein",
+        "repository": "Portfolio-Website",
+        "time": "August 11, 2026"
+      }
+    ],
     "2026-08-10": [
       {
         "message": "work section finalize",
@@ -623,7 +707,7 @@
       }
     ]
   },
-  "generatedAt": "2026-08-11T05:57:09.575Z",
+  "generatedAt": "2026-08-12T06:50:24.195Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

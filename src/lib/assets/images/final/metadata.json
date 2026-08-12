@@ -1,19 +1,31 @@
 [
   {
-    "url": "https://unrivaled-naiad-69eda6.netlify.app/",
-    "filename": "unrivaled-naiad-69eda6.netlify.app.webp",
-    "originalPath": "src/lib/assets/images/final/original/unrivaled-naiad-69eda6.netlify.app.png",
-    "processedPath": "src/lib/assets/images/final/processed/unrivaled-naiad-69eda6.netlify.app.webp",
-    "fileSize": 20512,
-    "reduction": 90
+    "url": "https://aditi.work",
+    "filename": "aditi.work.webp",
+    "originalPath": "src/lib/assets/images/final/original/aditi.work.png",
+    "processedPath": "src/lib/assets/images/final/processed/aditi.work.webp",
+    "fileSize": 30910,
+    "reduction": 86
   },
   {
     "url": "https://anchitascorner.netlify.app/",
-    "filename": "anchitascorner.netlify.app.webp",
-    "originalPath": "src/lib/assets/images/final/original/anchitascorner.netlify.app.png",
-    "processedPath": "src/lib/assets/images/final/processed/anchitascorner.netlify.app.webp",
-    "fileSize": 50806,
-    "reduction": 90
+    "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://anchitascorner.netlify.app/\", waiting until \"networkidle\"\u001b[22m\n"
+  },
+  {
+    "url": "https://chitrachaalak.art",
+    "filename": "chitrachaalak.art.webp",
+    "originalPath": "src/lib/assets/images/final/original/chitrachaalak.art.png",
+    "processedPath": "src/lib/assets/images/final/processed/chitrachaalak.art.webp",
+    "fileSize": 24158,
+    "reduction": 96
+  },
+  {
+    "url": "https://rushikesh.work",
+    "filename": "rushikesh.work.webp",
+    "originalPath": "src/lib/assets/images/final/original/rushikesh.work.png",
+    "processedPath": "src/lib/assets/images/final/processed/rushikesh.work.webp",
+    "fileSize": 91602,
+    "reduction": 84
   },
   {
     "url": "https://sanskarportfolio2026.netlify.app/",

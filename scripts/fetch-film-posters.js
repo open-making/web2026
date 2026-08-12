@@ -24,7 +24,9 @@ const WIKI_TITLES = {
 	'Project Hail Mary': 'Project Hail Mary',
 	'Tamas (1987)': 'Tamas (film)',
 	'Run Lola Run (1998)': 'Run Lola Run',
-	'The Wind Will Carry Us (1999)': 'The Wind Will Carry Us'
+	'The Wind Will Carry Us (1999)': 'The Wind Will Carry Us',
+	'The Matrix (1999)': 'The Matrix',
+	'Ankhon Dekhi (2013)': 'Ankhon Dekhi'
 };
 
 const slugify = (t) =>

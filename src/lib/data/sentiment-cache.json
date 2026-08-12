@@ -6,7 +6,7 @@
     "day:3": "ee71550a037cb79d",
     "day:4": "a3261617be03b9f7",
     "day:5": "272e26b46b7cf798",
-    "day:6": "80113efd163b0c25",
+    "day:6": "d166b5692efa2456",
     "day:7": "beb7feef5f5975ba",
     "day:8": "36836c2eb24f5aba",
     "day:9": "b04131e5d4e49366",
@@ -20,7 +20,7 @@
     "sd:aaditisharmaa29-web:3": "a7c2c90799549652",
     "sd:aaditisharmaa29-web:4": "808ffad0a8dce2f2",
     "sd:aaditisharmaa29-web:5": "3822caba9456029c",
-    "sd:aaditisharmaa29-web:6": "a163f65e268fb2b1",
+    "sd:aaditisharmaa29-web:6": "b7885441c384b322",
     "sd:aaditisharmaa29-web:7": "fde34844eb01238f",
     "sd:aaditisharmaa29-web:8": "702baa0060d58d92",
     "sd:aaditisharmaa29-web:9": "4412824f9449bf76",
@@ -109,7 +109,13 @@
     "sd:pathakdarshan2705-creator:15": "5e1859a504796077",
     "sd:anchita101:15": "9cb096ac4b035032",
     "sd:aaditisharmaa29-web:15": "5d46746addfe04cc",
-    "sd:rushiatdesign-cmyk:15": "794a4edaee6e6679"
+    "sd:rushiatdesign-cmyk:15": "794a4edaee6e6679",
+    "day:16": "82f62826d02f34c1",
+    "sd:anchita101:16": "dea861e818bfabd8",
+    "sd:rushiatdesign-cmyk:16": "e9e43e6e167b2c6a",
+    "sd:sanskarshendge:16": "ca1c11de0f39f927",
+    "sd:pathakdarshan2705-creator:16": "54298a400704398e",
+    "sd:aaditisharmaa29-web:16": "08dfdb692b3f4f62"
   },
   "byDay": {
     "0": 0.9496,
@@ -118,7 +124,7 @@
     "3": 0.656,
     "4": 0.3808,
     "5": 0.8103,
-    "6": 0.6138,
+    "6": 0.6269,
     "7": 0.1115,
     "8": 0.6098,
     "9": 0.7433,
@@ -126,7 +132,8 @@
     "12": 0.5135,
     "13": 0.5751,
     "14": 0.1183,
-    "15": 0.4459
+    "15": 0.4459,
+    "16": 0.9223
   },
   "byStudentDay": {
     "aaditisharmaa29-web:0": 0.8193,
@@ -135,7 +142,7 @@
     "aaditisharmaa29-web:3": 0.8695,
     "aaditisharmaa29-web:4": 0.8319,
     "aaditisharmaa29-web:5": 0.93,
-    "aaditisharmaa29-web:6": 0.5798,
+    "aaditisharmaa29-web:6": 0.6011,
     "aaditisharmaa29-web:7": 0.5499,
     "aaditisharmaa29-web:8": 0.5496,
     "aaditisharmaa29-web:9": 0.7419,
@@ -223,6 +230,11 @@
     "pathakdarshan2705-creator:15": 0.9157,
     "anchita101:15": -0.3942,
     "aaditisharmaa29-web:15": -0.6027,
-    "rushiatdesign-cmyk:15": 0.8171
+    "rushiatdesign-cmyk:15": 0.8171,
+    "anchita101:16": -0.6847,
+    "rushiatdesign-cmyk:16": 0.9526,
+    "sanskarshendge:16": -0.4031,
+    "pathakdarshan2705-creator:16": 0.9399,
+    "aaditisharmaa29-web:16": 0
   }
 }

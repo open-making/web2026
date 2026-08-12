@@ -2,7 +2,7 @@
   "username": "anchita101",
   "name": "Anchita",
   "slug": "anchita",
-  "website": null,
+  "website": "https://anchitamenon.com",
   "socialLinks": [],
   "devNotes": [
     {
@@ -331,18 +331,53 @@
         "formatted": "August 8, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/16#issuecomment-5221278303"
+    },
+    {
+      "id": "dev-notes-17-comment-5254898179",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 17,
+      "issueTitle": "Day 16: [Project Week] The end is in site",
+      "day": 16,
+      "commentId": 5254898179,
+      "content": "# Didn't want to be late to this, but well anyway\nToday, well yesterday was very stressful (I'm writing this on 11th August but for the 10th, so idk which word to use) \nWell I've felt worse but yesterday I was very demotivated, I wasn't sure if my website was going to finish within the timeframe but I still kept going because I liked what I was doing and that kept me going. Very Sandip Maheswari vibes buttttt itiswhatitisssssssssssss. I didn't feel like throwing my laptop or pull my hair or give up on life so that's a major win guysssss. I quite honestly was having a \"I hate everything ive made so far\" moments but I didn't share that with anyone because it made me sad. WELL NOT TODAY, HA! I finished MORE today because I forgot about those feelings. I FEEL SO PROUD. My baby is almost hereeeeeeeeeeeeeeee\n\n\n\nOK thanks byyyyyieeeeeeeeeeee\n",
+      "urls": [],
+      "wordCount": 154,
+      "date": {
+        "iso": "2026-08-11T15:00:00.000Z",
+        "date": "2026-08-11",
+        "formatted": "August 11, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/17#issuecomment-5254898179"
     }
   ],
-  "submissions": [],
+  "submissions": [
+    {
+      "id": "submission-4-issue",
+      "type": "issue-body",
+      "repository": "web2026",
+      "issueNumber": 4,
+      "issueTitle": "[STUDENT] Anchita Menon",
+      "content": "### Student Name\n\nAnchita Menon\n\n### Website URL\n\nhttps://anchitamenon.com\n\n### Social Link 1 (Optional)\n\n_No response_\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [],
+      "wordCount": 30,
+      "date": {
+        "iso": "2026-08-12T06:20:29.000Z",
+        "date": "2026-08-12",
+        "formatted": "August 12, 2026"
+      },
+      "issueUrl": "https://github.com/open-making/web2026/issues/4"
+    }
+  ],
   "statistics": {
-    "totalNotes": 16,
-    "totalSubmissions": 0,
+    "totalNotes": 17,
+    "totalSubmissions": 1,
     "totalCommits": 30,
     "firstActivity": "2026-07-20T10:27:48.000Z",
-    "lastActivity": "2026-08-07T19:36:56.000Z",
+    "lastActivity": "2026-08-11T15:00:00.000Z",
     "mostActiveDay": "2026-07-22",
-    "totalEntries": 16,
-    "averageWordCount": 199
+    "totalEntries": 18,
+    "averageWordCount": 187
   },
   "commitsByDate": {
     "2026-08-04": [
@@ -508,7 +543,7 @@
       }
     ]
   },
-  "generatedAt": "2026-08-11T05:57:09.575Z",
+  "generatedAt": "2026-08-12T06:50:24.195Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

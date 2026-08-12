@@ -2,7 +2,7 @@
   "username": "pathakdarshan2705-creator",
   "name": "Darshan",
   "slug": "darshan",
-  "website": null,
+  "website": "https://chitrachaalak.art",
   "socialLinks": [],
   "devNotes": [
     {
@@ -339,19 +339,393 @@
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/17#issuecomment-5245390888"
     }
   ],
-  "submissions": [],
+  "submissions": [
+    {
+      "id": "submission-5-issue",
+      "type": "issue-body",
+      "repository": "web2026",
+      "issueNumber": 5,
+      "issueTitle": "[STUDENT] Darshan Pathak",
+      "content": "### Student Name\n\nDarshan Pathak\n\n### Website URL\n\nhttps://chitrachaalak.art\n\n### Social Link 1 (Optional)\n\n_No response_\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [],
+      "wordCount": 30,
+      "date": {
+        "iso": "2026-08-12T06:20:48.000Z",
+        "date": "2026-08-12",
+        "formatted": "August 12, 2026"
+      },
+      "issueUrl": "https://github.com/open-making/web2026/issues/5"
+    }
+  ],
   "statistics": {
     "totalNotes": 16,
-    "totalSubmissions": 0,
-    "totalCommits": 73,
+    "totalSubmissions": 1,
+    "totalCommits": 144,
     "firstActivity": "2026-07-20T10:37:55.000Z",
-    "lastActivity": "2026-08-11T05:54:56.000Z",
-    "mostActiveDay": "2026-07-22",
-    "totalEntries": 16,
-    "averageWordCount": 390
+    "lastActivity": "2026-08-12T06:03:03.000Z",
+    "mostActiveDay": "2026-08-11",
+    "totalEntries": 17,
+    "averageWordCount": 369
   },
   "commitsByDate": {
+    "2026-08-12": [
+      {
+        "message": "Disable live worker polling, hardcode LIVE STATUS",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Pages “about”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Blog “chitra chaalak” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Delete Blog “random” +2",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Films “sholay”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Add About page to CMS and rename portfolio",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Films “sholay” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Delete Films “pyaasa” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Portfolio “photo-fading-topography”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Delete Portfolio “photo-neon-noir” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Tour “new-york” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Delete Tour “paris” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Delete Updates “2026-08-08-first-steps” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Updates “2026-08-09-glassmorphism”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Updates “darshan”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Music “midnight-city” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Small change in md file",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Create Portfolio “abhivyakti-making-an-art-festival-speak” +3",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Portfolio “design-volume” +3",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      }
+    ],
     "2026-08-11": [
+      {
+        "message": "Update Portfolio “design-horizon”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "style: remove hardcoded category column from design portfolio table",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "fix: rename pothole posters to remove spaces and compress large images",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Portfolio “design-modular” +2",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "fix: force git to recognize case change for expressive.jpg",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "chore: compress and resize all large CMS uploads to improve performance",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Update Portfolio “design-horizon” +4",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "feat: use uploaded CMS images for portfolio section backgrounds",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Upload “public/uploads/art.png” +3",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Upload “public/uploads/resume.jpg”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "fix: change resume link to uploads folder",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "feat: add resume button to portfolio index",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "style: fix mobile typography spacing and prevent caption text from getting cut off",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Update Portfolio “art-image-filter” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "style: format tools section as bulleted list in art-canvas-mind",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Update Portfolio “art-canvas-mind”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "feat: format markdown links and open external links in new tab",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "style: make markdown images responsive in project pages",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Update Portfolio “art-canvas-mind” +3",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Delete Portfolio “art-synthetic-nature”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Delete Portfolio “art-glitch”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Create Portfolio “navratri-music-video” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "fix: relocate latest CMS image to public/uploads again",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Create Portfolio “jalso-podcast” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "fix: relocate latest CMS image to public/uploads and rename to prevent conflicts",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Update Portfolio “film-silent-valley” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "fix: relocate newly uploaded thumbnail to public/uploads",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Update Portfolio “film-neon-drift” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "fix: move new portfolio image to uploads and correct frontmatter path",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Update Portfolio “film-neon-drift” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "style: Reduce YouTube video size and adjust hero image crop to prevent cutting heads",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "feat: Make FilterStudio canvas automatically cover the stage frame ratio",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "fix: Move portfolio image to public/uploads and set global media_folder",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "fix: Portfolio project image rendering and YouTube URL regex",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Update Portfolio “film-echoes” +1",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Resolving CMS errors",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Text at portfolio page change",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Portfolio Section Fixed Content",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Collection section",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Visual Tours section",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "For blog page's fixed content",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Film section's fixed content",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Update section fixed content",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Create Updates “darshan”",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Update CMS config and remove poster filter",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Create Films “nishaant” +2",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Bugs fixing continue",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Sound button",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Image resize and format script",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Loading Issue",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Portfolio Animation Done",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Footer Change",
+        "repository": "Chitra-Chaalak-Website",
+        "time": "August 11, 2026"
+      },
       {
         "message": "Mobile View Fix",
         "repository": "Chitra-Chaalak-Website",
@@ -739,7 +1113,7 @@
       }
     ]
   },
-  "generatedAt": "2026-08-11T05:57:09.575Z",
+  "generatedAt": "2026-08-12T06:50:24.195Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

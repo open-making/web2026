@@ -270,7 +270,7 @@
 		<section class="commits">
 			<h2 class="font-display font-bold"> commit log</h2>
 			<p class="commits-lede font-hand">
-				{totalCommits} commits across {repoCount} repos, messages verbatim
+				{totalCommits} commits across {repoCount} repos
 			</p>
 			<div class="receipt scrap" style="--tilt: 0.5deg">
 				<Tape tilt="-4deg" style="left: 12%; top: -0.85rem" />

@@ -2,7 +2,7 @@
   "username": "rushiatdesign-cmyk",
   "name": "Rushikesh",
   "slug": "rushikesh",
-  "website": null,
+  "website": "https://rushikesh.work",
   "socialLinks": [],
   "devNotes": [
     {
@@ -323,20 +323,147 @@
         "formatted": "August 8, 2026"
       },
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/16#issuecomment-5222756877"
+    },
+    {
+      "id": "dev-notes-17-comment-5254928649",
+      "type": "comment",
+      "repository": "web2026-dev-notes",
+      "issueNumber": 17,
+      "issueTitle": "Day 16: [Project Week] The end is in site",
+      "day": 16,
+      "commentId": 5254928649,
+      "content": "# As I always say life's good and live the life.\n\nYeah, I mean today was the day for me with most headache ever, but didn't forgot to live the day, especially while recording the time capsule recordings, ohh I can be another Sandeep Maheshwari for sure. \n\nSo the day was good, I tried to wrap things as fast as possible but ended up not finishing those and today also I am working on the development part of it. \n\n\n<img width=\"900\" height=\"472\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/484c757d-6973-49c3-90ad-0cfdab4f77e9\" />\n\n<img width=\"2880\" height=\"1456\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0ab6c86c-56ba-44ef-8ad0-51be29626e6c\" />",
+      "urls": [
+        "https://github.com/user-attachments/assets/484c757d-6973-49c3-90ad-0cfdab4f77e9",
+        "https://github.com/user-attachments/assets/0ab6c86c-56ba-44ef-8ad0-51be29626e6c"
+      ],
+      "wordCount": 91,
+      "date": {
+        "iso": "2026-08-11T15:02:32.000Z",
+        "date": "2026-08-11",
+        "formatted": "August 11, 2026"
+      },
+      "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/17#issuecomment-5254928649"
     }
   ],
-  "submissions": [],
+  "submissions": [
+    {
+      "id": "submission-3-issue",
+      "type": "issue-body",
+      "repository": "web2026",
+      "issueNumber": 3,
+      "issueTitle": "[STUDENT] Rushikesh Hande",
+      "content": "### Student Name\n\nRushikesh Hande\n\n### Website URL\n\nhttps://rushikesh.work\n\n### Social Link 1 (Optional)\n\n_No response_\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [],
+      "wordCount": 30,
+      "date": {
+        "iso": "2026-08-12T06:20:06.000Z",
+        "date": "2026-08-12",
+        "formatted": "August 12, 2026"
+      },
+      "issueUrl": "https://github.com/open-making/web2026/issues/3"
+    }
+  ],
   "statistics": {
-    "totalNotes": 16,
-    "totalSubmissions": 0,
-    "totalCommits": 56,
+    "totalNotes": 17,
+    "totalSubmissions": 1,
+    "totalCommits": 73,
     "firstActivity": "2026-07-20T10:29:07.000Z",
-    "lastActivity": "2026-08-10T19:49:46.000Z",
-    "mostActiveDay": "2026-07-22",
-    "totalEntries": 16,
-    "averageWordCount": 157
+    "lastActivity": "2026-08-12T06:00:14.000Z",
+    "mostActiveDay": "2026-08-11",
+    "totalEntries": 18,
+    "averageWordCount": 147
   },
   "commitsByDate": {
+    "2026-08-12": [
+      {
+        "message": "updated about page",
+        "repository": "My_Portfolio_Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Updated GIF scooty",
+        "repository": "My_Portfolio_Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Updated the camera view points",
+        "repository": "My_Portfolio_Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Images resized and updated",
+        "repository": "My_Portfolio_Website",
+        "time": "August 12, 2026"
+      }
+    ],
+    "2026-08-11": [
+      {
+        "message": "Updated clouds and scooty",
+        "repository": "My_Portfolio_Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Updated the camera viewpoints locations",
+        "repository": "My_Portfolio_Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "refined hotspots and updated the buildings popup",
+        "repository": "My_Portfolio_Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "Fixed positions for hotspots",
+        "repository": "My_Portfolio_Website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "updated the background",
+        "repository": "My_Portfolio_Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Done with work page",
+        "repository": "My_Portfolio_Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "fix 2 for updating images properlu on live site",
+        "repository": "My_Portfolio_Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "updated the images names",
+        "repository": "My_Portfolio_Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Merge branch 'main' of https://github.com/rushiatdesign-cmyk/My_Portfolio_Website",
+        "repository": "My_Portfolio_Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Updated the image compression",
+        "repository": "My_Portfolio_Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Merge pull request #1 from rushiatdesign-cmyk/fix/image-lag\n\nfix: image scroll issue",
+        "repository": "My_Portfolio_Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "Images updates with Webp format",
+        "repository": "My_Portfolio_Website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "fixing responsiveness",
+        "repository": "My_Portfolio_Website",
+        "time": "August 11, 2026"
+      }
+    ],
     "2026-08-10": [
       {
         "message": "Done with about page v1",
@@ -640,7 +767,7 @@
       }
     ]
   },
-  "generatedAt": "2026-08-11T05:57:09.575Z",
+  "generatedAt": "2026-08-12T06:50:24.195Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

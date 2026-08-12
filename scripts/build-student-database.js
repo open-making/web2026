@@ -241,6 +241,32 @@ function parseStudentDetails(issueBody) {
   return details;
 }
 
+// The "[STUDENT] …" submission issue may be filed by the student OR by a facilitator on
+// their behalf (in this cohort the facilitator filed every one), so the issue author is
+// not a reliable identity. Resolve the person from the "### Student Name" field instead,
+// matching its first name against the roster / ring-extra display names. Falls back to
+// the author when the name can't be matched, preserving the old self-filed behaviour.
+function resolveSubmitter(name, author) {
+  const first = name ? name.trim().split(/\s+/)[0].toLowerCase() : null;
+
+  if (first) {
+    for (const [handle, info] of Object.entries(ROSTER)) {
+      if (info.name.toLowerCase() === first || info.slug.toLowerCase() === first) {
+        return { kind: 'student', handle, ...info };
+      }
+    }
+    for (const [handle, info] of Object.entries(WEBRING_EXTRA)) {
+      if (info.name.toLowerCase() === first || info.slug.toLowerCase() === first) {
+        return { kind: 'extra', handle, ...info };
+      }
+    }
+  }
+
+  if (ROSTER[author]) return { kind: 'student', handle: author, ...ROSTER[author] };
+  if (WEBRING_EXTRA[author]) return { kind: 'extra', handle: author, ...WEBRING_EXTRA[author] };
+  return null;
+}
+
 
 async function buildStudentDatabase(options = {}) {
   const { skipCommits = false, commitWeeks = 4 } = options;
@@ -298,37 +324,39 @@ async function buildStudentDatabase(options = {}) {
       // issue in the submission repo. Only cohort members (ROSTER) count, so drive-by
       // issues never create ring entries.
       if (issue.body && issue.body.trim() && repo.type === 'submission') {
-        const author = issue.user.login;
         const studentDetails = parseStudentDetails(issue.body);
-        const extra = WEBRING_EXTRA[author];
 
-        // A submission is a roster (or allowlisted ring) member's issue that carries a
-        // Website URL. We don't require the `student` label: GitHub only auto-applies it
-        // when the label already exists in the repo, so depending on it would silently
-        // drop real submissions.
-        if ((!ROSTER[author] && !extra) || !studentDetails?.website) {
+        // Figure out whose submission this is from the "### Student Name" field (see
+        // resolveSubmitter — the facilitator files these on students' behalf, so the
+        // issue author is not reliable). A submission must carry a Website URL. We don't
+        // require the `student` label: GitHub only auto-applies it when the label already
+        // exists in the repo, so depending on it would silently drop real submissions.
+        const submitter = resolveSubmitter(studentDetails?.name, issue.user.login);
+        if (!submitter || !studentDetails?.website) {
           continue;
         }
 
-        // Ring-only members never become showcase students — record them separately.
-        if (!ROSTER[author]) {
-          ringExtra[author] = {
-            username: author,
-            name: extra.name || studentDetails.name || author,
-            slug: extra.slug,
+        // Ring-only members never become showcase students — record them separately,
+        // keyed by handle so each extra collapses to one entry.
+        if (submitter.kind === 'extra') {
+          ringExtra[submitter.handle] = {
+            username: submitter.handle,
+            name: submitter.name || studentDetails.name || submitter.handle,
+            slug: submitter.slug,
             website: studentDetails.website,
             socialLinks: studentDetails.socialLinks || []
           };
           continue;
         }
 
+        const author = submitter.handle;
         const urls = extractUrls(issue.body);
 
         if (!studentDatabase.students[author]) {
           studentDatabase.students[author] = {
             username: author,
-            name: ROSTER[author].name || studentDetails?.name || author,
-            slug: ROSTER[author].slug,
+            name: submitter.name || studentDetails?.name || author,
+            slug: submitter.slug,
             website: studentDetails?.website || null,
             socialLinks: studentDetails?.socialLinks || [],
             devNotes: [],

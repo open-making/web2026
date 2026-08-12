@@ -1,9 +1,12 @@
 {
 	"final": [
-		{ "slug": "aditi", "name": "Aditi", "url": "https://unrivaled-naiad-69eda6.netlify.app/" },
+		{ "slug": "aditi", "name": "Aditi", "url": "https://aditi.work" },
 		{ "slug": "anchita", "name": "Anchita", "url": "https://anchitascorner.netlify.app/" },
+		{ "slug": "darshan", "name": "Darshan", "url": "https://chitrachaalak.art" },
+		{ "slug": "rushikesh", "name": "Rushikesh", "url": "https://rushikesh.work" },
 		{ "slug": "sanskar", "name": "Sanskar", "url": "https://sanskarportfolio2026.netlify.app/" },
-		{ "slug": "ashish", "name": "Ashish", "url": "https://ashishgajjar-portfolio.netlify.app/" }
+		{ "slug": "ashish", "name": "Ashish", "url": "https://ashishgajjar-portfolio.netlify.app/" },
+		{ "slug": "prakhar", "name": "Prakhar", "url": "https://prakhardzn-personal-website.pages.dev/" }
 	],
 	"clocks": [
 		{ "slug": "anchita", "name": "Anchita", "url": "https://hydrationclock.netlify.app/" },

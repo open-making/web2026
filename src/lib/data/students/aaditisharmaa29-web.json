@@ -2,7 +2,7 @@
   "username": "aaditisharmaa29-web",
   "name": "Aditi",
   "slug": "aditi",
-  "website": null,
+  "website": "https://aditi.work",
   "socialLinks": [],
   "devNotes": [
     {
@@ -314,19 +314,98 @@
       "commentUrl": "https://github.com/open-making/web2026-dev-notes/issues/17#issuecomment-5244776157"
     }
   ],
-  "submissions": [],
+  "submissions": [
+    {
+      "id": "submission-2-issue",
+      "type": "issue-body",
+      "repository": "web2026",
+      "issueNumber": 2,
+      "issueTitle": "[STUDENT] Aditi Sharma",
+      "content": "### Student Name\n\nAditi Sharma\n\n### Website URL\n\nhttps://aditi.work\n\n### Social Link 1 (Optional)\n\n_No response_\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [],
+      "wordCount": 30,
+      "date": {
+        "iso": "2026-08-12T06:19:42.000Z",
+        "date": "2026-08-12",
+        "formatted": "August 12, 2026"
+      },
+      "issueUrl": "https://github.com/open-making/web2026/issues/2"
+    }
+  ],
   "statistics": {
     "totalNotes": 15,
-    "totalSubmissions": 0,
-    "totalCommits": 83,
+    "totalSubmissions": 1,
+    "totalCommits": 95,
     "firstActivity": "2026-07-20T10:29:11.000Z",
-    "lastActivity": "2026-08-10T19:11:25.000Z",
+    "lastActivity": "2026-08-11T19:30:11.000Z",
     "mostActiveDay": "2026-08-07",
-    "totalEntries": 15,
-    "averageWordCount": 229
+    "totalEntries": 16,
+    "averageWordCount": 217
   },
   "commitsByDate": {
+    "2026-08-11": [
+      {
+        "message": "content uploaded",
+        "repository": "My-portfolio-website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "techno spiritual products added",
+        "repository": "My-portfolio-website",
+        "time": "August 12, 2026"
+      },
+      {
+        "message": "content added in Resume.astro",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "phone done",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "notes and all pages content removed",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "navbar of notes and pages restyled",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "transition applied",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "window transition applied",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "bg updated",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      }
+    ],
     "2026-08-10": [
+      {
+        "message": "finally coffee",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "black board added",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
+      {
+        "message": "set display wallpaper, notes section and etc",
+        "repository": "My-portfolio-website",
+        "time": "August 11, 2026"
+      },
       {
         "message": "size fixed by the stickys",
         "repository": "My-portfolio-website",
@@ -764,7 +843,7 @@
       }
     ]
   },
-  "generatedAt": "2026-08-11T05:57:09.575Z",
+  "generatedAt": "2026-08-12T06:50:24.195Z",
   "repositories": [
     {
       "name": "web2026-dev-notes",

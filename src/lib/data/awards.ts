@@ -37,7 +37,7 @@ const emojiCount = (s: Student) =>
 interface Category {
 	id: string;
 	title: string; // the prize name
-	blurb: string; // one plain line: what it's for
+	blurb: string | ((v: number) => string); // one plain line: what it's for
 	unit: string; // the tiny label under the stamped number
 	dir?: 'max' | 'min'; // default 'max'
 	value: (s: Student) => number;
@@ -62,7 +62,7 @@ const CATEGORIES: Category[] = [
 	{
 		id: 'push',
 		title: 'Big Pusher',
-		blurb: `Was quiet, then shipped ${biggestDay(students[0])} commits in a single day's sitting.`,
+		blurb: (v) => `Was quiet, then shipped ${v} commits in a single day's sitting.`,
 		unit: 'in a day',
 		value: biggestDay
 	},
@@ -108,21 +108,58 @@ export interface Award {
 	winners: { name: string; slug: string }[];
 }
 
-const rank = (cat: Category) =>
-	students
-		.map((s) => ({ name: s.name, slug: s.slug, value: cat.value(s) }))
-		.sort((a, b) => (cat.dir === 'min' ? a.value - b.value : b.value - a.value));
+// One trophy per person. Each award is a race; we hand out the most lopsided race first
+// (its clear leader, judged by relative margin over the next remaining contender) and drop
+// that winner from the races still open. So nobody hoards prizes — a runaway all-rounder
+// takes home only their single most dominant win, and everyone else inherits the award
+// they have the strongest genuine claim to. With 7 awards and 7 students it's a clean
+// bijection where every seal lands on a real 1st- or 2nd-place result.
+function assignWinners(): Record<string, Student> {
+	const openStudents = new Set(students);
+	const openCats = new Set(CATEGORIES);
+	const result: Record<string, Student> = {};
+
+	const leader = (cat: Category) => {
+		const pool = [...openStudents].sort((a, b) =>
+			cat.dir === 'min' ? cat.value(a) - cat.value(b) : cat.value(b) - cat.value(a)
+		);
+		const top = pool[0];
+		const next = pool[1];
+		let margin = 1; // unopposed → maximal claim
+		if (next) {
+			const t = cat.value(top);
+			const denom = cat.dir === 'min' ? Math.abs(cat.value(next)) : Math.abs(t);
+			margin = denom ? Math.abs(t - cat.value(next)) / denom : 0;
+		}
+		return { top, margin };
+	};
+
+	while (openCats.size > 0 && openStudents.size > 0) {
+		let best: { cat: Category; top: Student; margin: number } | null = null;
+		for (const cat of openCats) {
+			const { top, margin } = leader(cat);
+			if (!best || margin > best.margin) best = { cat, top, margin };
+		}
+		if (!best) break;
+		result[best.cat.id] = best.top;
+		openCats.delete(best.cat);
+		openStudents.delete(best.top);
+	}
+	return result;
+}
+
+const winnerByCat = assignWinners();
 
 export const awards: Award[] = CATEGORIES.map((cat) => {
-	const ranked = rank(cat);
-	const top = ranked[0];
+	const winner = winnerByCat[cat.id];
+	const value = winner ? cat.value(winner) : 0;
 	return {
 		id: cat.id,
 		title: cat.title,
-		blurb: cat.blurb,
+		blurb: typeof cat.blurb === 'function' ? cat.blurb(value) : cat.blurb,
 		unit: cat.unit,
-		stamp: cat.stamp ? cat.stamp(top.value) : top.value.toLocaleString(),
-		winners: ranked.filter((r) => r.value === top.value).map(({ name, slug }) => ({ name, slug }))
+		stamp: cat.stamp ? cat.stamp(value) : value.toLocaleString(),
+		winners: winner ? [{ name: winner.name, slug: winner.slug }] : []
 	};
 });
 
