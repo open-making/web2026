@@ -52,7 +52,7 @@
 		{
 			key: 'print',
 			title: 'fit to print',
-			caption: 'day 4: typeset a fairy tale or a historical newspaper page',
+			caption: 'day 4: typeset a fairy tale or a newspaper page',
 			entries: manifest.print,
 			index: printIndex as Record<string, string>,
 			images: printImages
@@ -60,7 +60,7 @@
 		{
 			key: 'clocks',
 			title: 'the clocks',
-			caption: 'day 6: sketch a way to measure time, then build it with an LLM as pair',
+			caption: 'day 6: sketch a way to measure time, then build it with an LLM',
 			entries: manifest.clocks,
 			index: clockIndex as Record<string, string>,
 			images: clockImages
@@ -68,7 +68,7 @@
 		{
 			key: 'final',
 			title: 'their corner of the web',
-			caption: 'the final project: a personal site, built end to end',
+			caption: 'the final project! a personal site built end to end',
 			entries: manifest.final,
 			index: finalIndex as Record<string, string>,
 			images: finalImages
