@@ -13,6 +13,7 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"screenshot": "node scripts/screenshot.js",
+		"shoot": "node scripts/screenshot-students.js",
 		"favicons": "node scripts/favicons.js",
 		"sharecard": "node scripts/sharecard.js",
 		"posters": "node scripts/posters.js",

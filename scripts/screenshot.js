@@ -27,7 +27,9 @@ async function takeScreenshots(urls, options = {}) {
     height = 768,
     quality = 80,
     format = 'webp',
-    metadataFile = null
+    metadataFile = null,
+    waitUntil = 'networkidle',
+    writeMetadata = true
   } = options;
 
   // Load metadata if provided
@@ -83,7 +85,7 @@ async function takeScreenshots(urls, options = {}) {
       console.log(`📷 ${i + 1}/${urls.length}: ${prefix}${url}${authorInfo}`);
 
       await page.goto(url, {
-        waitUntil: 'networkidle',
+        waitUntil,
         timeout: 30000
       });
 
@@ -147,12 +149,14 @@ async function takeScreenshots(urls, options = {}) {
 
   await browser.close();
 
-  // Save results metadata
-  const resultPath = path.join(outputDir, 'metadata.json');
-  await fs.writeFile(resultPath, JSON.stringify(results, null, 2));
+  // Save results metadata (skippable: it's a debug byproduct, not read by the app)
+  if (writeMetadata) {
+    const resultPath = path.join(outputDir, 'metadata.json');
+    await fs.writeFile(resultPath, JSON.stringify(results, null, 2));
+    console.log(`📋 Metadata saved to ${resultPath}`);
+  }
 
   console.log(`\n🎉 Screenshots saved to ${outputDir}/processed/`);
-  console.log(`📋 Metadata saved to ${resultPath}`);
 
   return results;
 }
